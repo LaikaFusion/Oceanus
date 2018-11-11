@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "An API that recollects information of the animals that are in the ocean",
   "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "author": "Luis Alvarez",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.6"
   }
 }
