@@ -1,51 +1,53 @@
+const brachiopodsList = require('./brachiopods/index');
 
 const animals = [
     {
         status: 'success',
         brachiopods: {
-            groupName: 'brachiopods'
+            speciesName: 'brachiopods',
+            animals: brachiopodsList
         },
         coralsAndSeaAnemones: {
-            groupName: 'corals and sea anemones'
+            speciesName: 'corals and sea anemones'
         },
         crustaceans: {
-            groupName: 'crustaceans'
+            speciesName: 'crustaceans'
         },
         fishes: {
-            groupName: 'fishes'
+            speciesName: 'fishes'
         },
         hydrozoans: {
-            groupName: 'hydrozoans'
+            speciesName: 'hydrozoans'
         },
         jellyfishAndRelatedSpecies: {
-            groupName: 'jellyfish and related species'
+            speciesName: 'jellyfish and related species'
         },
         lancelets: {
-            groupName: 'lancelets'
+            speciesName: 'lancelets'
         },
         mammals: {
-            groupName: 'mammals'
+            speciesName: 'mammals'
         },
         molluscs: {
-            groupName: 'molluscs'
+            speciesName: 'molluscs'
         },
         reptiles: {
-            groupName: 'reptiles'
+            speciesName: 'reptiles'
         },
         seaSpiders: {
-            groupName: 'seaSpiders'
+            speciesName: 'seaSpiders'
         },
         sponges: {
-            groupName: 'sponges'
+            speciesName: 'sponges'
         },
         starfishAndOtherEchinoderms: {
-            groupName: 'starfish and other echinoderms'
+            speciesName: 'starfish and other echinoderms'
         },
         turnicates: {
-            groupName: 'turnicates'
+            speciesName: 'turnicates'
         },
         worms: {
-            groupName: 'worms'
+            speciesName: 'worms'
         }
     }
 ];
