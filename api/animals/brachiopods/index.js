@@ -53,6 +53,6 @@ const animals = [{
         habitat: 'It is commonly found attached to the shell of the horse-mussel Modiolus modiolus , as well as on blocks of clinker and boulders, but also to sponges, hydroids and assorted pieces of debris.',
         distribution: 'Scandinavia to Mediterranean.'
     }
-}]
+}];
 
 module.exports = animals;
