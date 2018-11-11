@@ -2,7 +2,7 @@
   "name": "Athena",
   "version": "1.0.0",
   "description": "An API that recollects information of the animals that are in the ocean",
-  "main": "index.js",
+  "main": "server.js",
   "author": "Luis Alvarez",
   "license": "MIT",
   "dependencies": {
