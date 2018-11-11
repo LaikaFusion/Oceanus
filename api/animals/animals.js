@@ -7,8 +7,11 @@ const animals = [
             speciesName: 'brachiopods',
             animals: brachiopodsList
         },
-        coralsAndSeaAnemones: {
-            speciesName: 'corals and sea anemones'
+        corals: {
+            speciesName: 'corals'
+        },
+        seaAnemones: {
+            speciesName: 'Sea anemones'
         },
         crustaceans: {
             speciesName: 'crustaceans'
