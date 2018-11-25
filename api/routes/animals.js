@@ -10,9 +10,16 @@ router.get('/', (req, res, next) => {
 router.get('/:species', (req, res, next) => {
     const species = req.params.species;
 
-    res.status(200).json({
-        message: `this is the species ${species}`
-    });
+    if(animals[0][species] === undefined) {
+        res.status(404).json({
+            status: '404: Not Found'
+        });
+    } else {
+        res.status(200).json({
+            status: animals[0].status,
+            species: animals[0][species]
+        });
+    }
 });
 
 module.exports = router;
