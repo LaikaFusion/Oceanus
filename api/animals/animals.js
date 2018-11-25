@@ -2,6 +2,7 @@ const brachiopodsList = require('./brachiopods/index');
 const coralsList = require('./corals/index');
 const seaAnemonesList = require('./seaAnemones/index');
 const amphipodsList = require('./crustaceans/amphipods/index');
+const barnaclesList = require('./crustaceans/barnacles/index');
 
 const animals = [
     {
@@ -23,6 +24,10 @@ const animals = [
             amphipods: {
                 speciesName: 'Amphipods',
                 animals: amphipodsList
+            },
+            barnacles: {
+                speciesName: 'Barnacles',
+                animals: barnaclesList
             }
         },
         fishes: {
