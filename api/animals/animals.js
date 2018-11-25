@@ -1,5 +1,6 @@
 const brachiopodsList = require('./brachiopods/index');
 const coralsList = require('./corals/index');
+const seaAnemonesList = require('./seaAnemones/index');
 
 const animals = [
     {
@@ -13,7 +14,8 @@ const animals = [
             animals: coralsList
         },
         seaAnemones: {
-            speciesName: 'Sea anemones'
+            speciesName: 'Sea anemones',
+            animals: seaAnemonesList
         },
         crustaceans: {
             speciesName: 'crustaceans'
