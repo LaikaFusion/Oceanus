@@ -123,9 +123,127 @@ const animals = [{
         color: 'Purplish gray; polyps brownish.',
         habitat: 'Inhabit most reef environments, especially shallow fringing, patch and back reefs areas, to about 30 meters depth.',
         distribution: 'Abundant to common South Florida, Bahamas and Caribbean.'
-    }
+    },
+    deadMensFingers: {
+        name: `Dead men's fingers (Alcyonium digitatum)`,
+        description: `This species is often aptly referred to as "Dead men's fingers". Mature colonies form thick, fleshy masses of irregular shape, typically produced into stout, finger-like lobes which usually exceed 20 mm diameter; rarely more than 10 lobes per colony. Young, developing colonies form encrustations about 5-10 mm thick (A. digitata encrusting). Height and breadth of colonies up to 200 mm.`,
+        color: `Several colour varieties occur: white, orange, yellow or brownish, the colour being due to the sclerites; anthocodia translucent white. Ripe gonads, occurring in autumn and winter, are pink and may influence the overall colour.`,
+        habitat: `Attached to rocks with little algal cover, shells, stones, and occasionally on living crabs or gastropods. Generally found in situations where strong water movement- currents or wave turbulence-prevails. Frequent on the lower shore but more common sublittorally, down to about 50 m, exceptionally deeper`,
+        distribution: `Common and widespread around all coasts of the British Isles and western Europe in general, from about 41°N to Iceland; records from the east coast of North America may apply to a different species.`
+    },
+    devilsSeaWhip: {
+        name: `Devil's sea whip (Ellisella barbadensis)`,
+        description: `Unbranched, flagelliform colonies reaching a size up to 2.4 meter. Stalks taper slightly from the base to the tip. Calyces upturned, prominent, biserial or in multiple lateral bands.`,
+        color: `Stem and calices orange-red to red; polyps white.`,
+        habitat: `Inhabit deep, clear water environments, especially on steep slopes and walls. Attached to rocky substrates.`,
+        distribution: `Common to occasional Florida, Bahamas and Caribbean.`
+    },
+    diffuseIvoryBushCoral: {
+        name: `Diffuse ivory bush coral (Oculina diffusa)`,
+        description: `Colonies form densely branched, thicket-like clumps, up to 30 cm. Branches tend to be short, are often crooked and bear numerous raised corallites. Branches less than 1.5 cm in diameter.`,
+        color: `Yellow-brown, but often encrusted with organisms of different color. Colonies without zooxanthellae are cream to white.`,
+        corallites: `Corallites 3-4 mm in diameter, without costae. Columella well-developed, trabecular.`,
+        habitat: `Generally inhabit shallow water areas of high sedimentation, down to 25 m.`,
+        distribution: `Common to occasional in Florida and the Bahamas; occasional to rare in the Caribbean.`
+    },
+    doubleForkedPlexaurella: {
+        name: `Double-forked Plexaurella (Plexaurella dichotoma)`,
+        description: `Colonies are dichotomously branched and bushy, up to 80 cm in height. The end branches are rigid and blunt, sometimes club-shaped at their ends; 10-15 mm in diameter. Depending on the habitat, the branches may be short and crooked or long and straight. Apertures, 1-1.5 mm in diameter, are usually slightly raised but may also be flush with the surface; narrow and slit like.`,
+        color: `Yellowish brown.`,
+        habitat: `Common on the outer reefs and patch reefs, and to a lesser extent inshore.`,
+        distribution: `Florida to Brazilian reefs.`
+    },
+    doughnutSeaRod: {
+        name: `Doughnut sea rod (Eunicea fusca)`,
+        description: `Colony low, bushy, shrub-like, occasionally tall with widely spaced branches, up to 50 cm in height. Calyces low, circular, somewhat swollen, with round, central apertures.`,
+        color: `Rods light to dark gray; polyps yellow-brown to brown.`,
+        habitat: `Inhabit shallow, hard bottoms and patch reefs.`,
+        distribution: `Common to occasional Florida, Bahamas and Caribbean.`
+    },
+    dwarfCupCoral: {
+        name: `Dwarf cup coral (Astrangia solitaria)`,
+        description: `Colonies are composed of relatively few (usually less than 20) cylindrical corallites, budded extratentacularly from narrow, thin, stolons. A continuous coenosteum between or among the corallites is rarely present, and the stoloniferous connection is usually encrusted or abraded, resulting in the apparent or actual isolation of individual corallites. Most corallites 4 to 6 mm in diameter and 4 to 8 mm in height. The corallites bear broad, flat, granular costae, separated from one another by thin, shallow intercostal striae. Costal granules low and rounded. Septa hexamerally arranged in four cycles, a full complement of 48 septa is rarely achieved, 36 septa being the most common number.`,
+        color: `Corallites usually uniformly light brown or light brown in the distal half, grading to white on the lower half. Occasionally the corallites are entirely white.`,
+        habitat: `It is commonly attached to dead coral rubble and the undersides of platy corals, down to 40 m.`,
+        distribution: `It is one of the most common azooxanthellate corals in the western Atlantic. Occasional in Florida, Bahamas and Caribbean.`
+    },
+    eightRayFingerCoral: {
+        name: `Eight-ray finger coral (Madracis formosa)`,
+        description: `Colonies form densely packed clumps of thick, relatively short branches with blunt and occasionally expanded and double-lobed tips. Colony up to 1.5 m in diameter`,
+        color: `Tan to yellow-brown, yellow-green, green and brown; polyp's mouth yellow.`,
+        corallites: `Corallites separated, up to 1.0-1.3 mm in diameter, usually with eight septa. Columella massive, styliform.`,
+        habitat: `Corallites separated, up to 1.0-1.3 mm in diameter, usually with eight septa. Columella massive, styliform. `,
+        remarks: `Some other species of the genus occur on Curacao: Madracis decactis , Madracis mirabilis , Madracis pharensis , Madracis senaria and a recent described species, Madracis carmabi . Recent investigations suggest that M. senaria and M. mirablis form monophyletic groups, while M. formosa , M. pharensis and M. decactis form a species-complex. It seems that hybridization occurs between the M. pharensis / M. decactis -complex and M. formosa and polyphenism within the M. pharensis / M. decactis -complex.`
+    },
+    elkhornCoral: {
+        name: `Elkhorn coral (Acropora palmata)`,
+        description: `Colonies with thick rounded or flat branches, without distinct axial corallites. Colony diameter up to 3.5 meter, and more than 1 meter in height. Branch diameter between 5 and 25 cm, and 1-3 cm thick .`,
+        color: `Golden-brown with light rims.`,
+        corallites: `Corallites are porous protruding tubes, less than 5 mm long and 0.5-0.8 mm in diameter. They are densely packed, with 1-2 mm in between. A columella is absent.`,
+        habitat: `On the reef at a higher level than Acropora cervicornis and Acropora prolifera up to within the reach of waves. Not in inner bays.`,
+        distribution: `Abundant to common Bahamas and Caribbean; common to occasional South Florida.`
+    },
+    ellipticalStarCoral: {
+        name: `Elliptical star coral (Dichocoenia stokesi)`,
+        description: `Colonies form rounded heads, domes or flattened plates. Rounded colonies may reach 40 cm in diameter. The corallites protrude and are irregular, elliptical, circular or Y-shaped.`,
+        color: `Cream to yellow and brown.`,
+        corallites: `Corallites 3.5-4.5 mm in diameter. Columella trabecular and weak.`,
+        habitat: `Inhabit most reef environments, down to 70 m.`,
+        distribution: `Occasional Florida, common in the Bahamas and Caribbean.`,
+        remarks: `The flattened plate form is also known as the Pancake star coral (Dichocoenia stellaris ).`
+    },
+    featherBlackCoral: {
+        name: `Feather black coral (Antipathes pennacea)`,
+        description: `Profuse primary and secondary branches extend from a holdfast in nearly a single plane; reaching over 1.5 m in both height and width. Young specimens may display a spiral colony form. Branches lined with characteristic pinnate branchlets, giving the colony a feather-like appearance.`,
+        color: `Primary and secondary branches golden-brown to brown, gray and black, may be tinted red, green or blue. Branchlets often of lighter color.`,
+        habitat: `The species is most common at depths of 25 to 60 m, but has been taken as deep as 330 m. In shallow waters, it inhabits caves and is found under large overhangs.`,
+        distribution: `Rare Florida; common to uncommon Bahamas and Caribbean.`
+    },
+    flagellateFalsePlexaura: {
+        name: `Flagellate false Plexaura (Pseudoplexaura flagellosa)`,
+        description: `Colonies large, branching dichotomously, more or less in one plane, up to 1 m in height. End branches long and slender, 2-3 mm in diameter. Apertures small, 0.5-1.0 mm in diameter, ellipsoid, elongated in the axis of the branch, and arranged in poorly defined vertical rows on the branch.`,
+        color: `Purple`,
+        habitat: `A reef dweller, from 3-30 m.`,
+        distribution: `Florida and Caribbean.`
+    },
+    floridaCorallimorph: {
+        name: `Florida corallimorph (Ricordea florida)`,
+        description: `Corallimorph with spherical, knob-like tentacles covering the oral disc and elongated tentacles around the edge. Tentacles in a radial arrangement. Disc of solitary polyps up to 5 cm.`,
+        color: `Usually overall green, sometimes with shades of yellow, orange, brown or blue.`,
+        habitat: `Solitary, or in small groups, occasionally forming mat-like groups so that individual polyps are difficult to distinguished (R. florida mat-like colony).`,
+        distribution: `Occasional Florida, Bahamas and Caribbean.`
+    },
+    fragileSaucerCoral: {
+        name: `Fragile saucer coral (Agaricia fragilis)`,
+        description: `Colonies form small plates or thin saucer-like bowls, of 10-15 cm in diameter. Low rounded ridges and long continuous valleys form an uneven pattern of concentric circles radiating from the center of the colony. Polyps are only present in the valleys on the upper surface, the underside is nearly smooth. Towards increasing depth, the ridges become lower and less conspicuous.`,
+        color: `Shades of purplish brown, chocolate, yellow-brown, tan and greenish tan.`,
+        corallites: `Corallite diameter 1.9-2.5 mm, with 17-36 septa per corallite. Columella present, trabecular and discontinuous.`,
+        habitat: `Inhabit sloping reef faces, under ledge overhangs and along walls, till depths of 60 meters.`,
+        distribution: `Occasional Florida, Bahamas, Caribbean and Brazil.`
+    },
+    fusedStaghornCoral: {
+        name: `Fused staghorn coral (Acropora prolifera)`,
+        description: `Colony branched, but the branches fused at crossings or parallel branches sometimes fused at considerable distance. Tips of branches with strong axial corallites; radial corallites orientated upwards, in rows. Colony up to 1.2 meter; branch diameter between 0.5 and 2 cm.`,
+        color: `Brown to yellow-brown, with a white axial corallite.`,
+        corallites: `Corallites are porous protruding tubes, less than 5 mm long, and 0.8-1.0 mm in diameter. They are densely packed, with 2-3 mm in between. A columella is absent.`,
+        habitat: `Occurring well below the surface, but not deeper than about 10 meters. In shallow water only in quiet bays and the lee side of islands. Generally not in inner bays.`,
+        distribution: `Uncommon South Florida, Bahamas and Caribbean.`,
+        remarks: `Recent DNA sequence analyses suggested that Acropora prolifera is a hybrid between Acropora cervicornis and Acropora palmata , which backcrosses with the parental species at low frequency.`
+    },
+    giantSlitPoreSeaRod: {
+        name: `Giant slit-pore sea rod (Plexaurella nutans)`,
+        description: `Colonies very tall with thick stalks and sparse, dichotomous branching; up to 1.3 m in height. End branches thick, 10-15 mm in diameter, and can be very long, up to 1 m. The ends of the branches are usually club-shaped. Apertures widely spaced and each is usually elevated on a small mound. The apertures are 2-2.5 mm in diameter and range from nearly circular to slit like in shape.`,
+        color: `Pale gray to tan or light brown.`,
+        habitat: `Inhabit patch and fore reefs in clear waters.`,
+        distribution: `Common to occasional Florida, Bahamas and Caribbean.`
+    },
+    goldenZoanthid: {
+        name: `Golden zoanthid (Parazoanthus swiftii)`,
+        description: `This colonial zoanthid is symbiotic and grows in band-like rows, often winding around the branches of the host sponge. The oral disc is up to 0.6 cm in diameter and is fringed by up to 26 long and thinly tentacles.`,
+        color: `Body brilliant gold to yellow; tentacles pale yellow.`,
+        habitat: `Symbiotic on a wide variety of sponges, including the Brown tube sponge (Agelas conifera ), the Green finger sponge (Iotrochota birotulata ) and Topsentia ophiraphidites (P. swifti on T. ophiraphidites). The zoanthids are toxic to fish and may discourage sponge-eating fishes from sampling their hosts; the distinctive color of the zoanthid on the sponges may serve to advertise their presence.`,
+        distribution: `Common Bahamas and Caribbean.`
+    } 
 }];
-
-//continue on page 2
 
 module.exports = animals;
