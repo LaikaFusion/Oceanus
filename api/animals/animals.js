@@ -4,6 +4,7 @@ const seaAnemonesList = require('./seaAnemones/index');
 const amphipodsList = require('./crustaceans/amphipods/index');
 const barnaclesList = require('./crustaceans/barnacles/index');
 const crabsAndLobstersList = require('./crustaceans/crabsAndLobsters/index');
+const hoodedShrimpList = require('./crustaceans/hoodedShrimp/index');
 
 const animals = {
         status: 'success',
@@ -36,6 +37,10 @@ const animals = {
             crabsAndLobsters: {
                 speciesName: 'Crabs and Lobsters',
                 animals: crabsAndLobstersList
+            },
+            hoodedShrimpList: {
+                speciesName: 'Hooded Shrimp',
+                animals: hoodedShrimpList
             }
         },
         fishes: {
