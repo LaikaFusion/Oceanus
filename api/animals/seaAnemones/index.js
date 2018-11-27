@@ -1,4 +1,4 @@
-const animals = [{
+const animals = {
     beadletAnemone: {
         name: `Beadlet anemone (Actinia equina)`,
         description: `Beadlet anemone (Actinia equina)`,
@@ -122,6 +122,6 @@ const animals = [{
         habitat: `Usually found in association with the hermit crab Pagurus bernhardus (Linnaeus), often with more than one anemone on the gastropod shell inhabited by the crab. May also occur on other substrata such as other crabs (e.g. Maia) or on stones, etc. Typically a sublittoral species occurring down to about 60 m but occasionally found on the shore in sheltered localities, or washed up by storms.`,
         distribution: `Common in the English Channel but not extending much further north than the Bristol Channel or southern Ireland; records from the southern part of the North Sea are very dubious. Common around south-west Europe and in the Mediterranean, where it may be associated with other species of hermit crab.`
     }
-}];
+};
 
 module.exports = animals;

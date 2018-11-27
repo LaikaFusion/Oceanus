@@ -1,4 +1,4 @@
-const animals = [{
+const animals = {
     acanthoscinaAcanthodes: {
         name: `Acanthoscina acanthodes`,
         description: `Length 4-6 mm (Acanthoscina acanthodes 1). Lobes of maxillae II fused proximally. Dactyls of P I and II in 5-6 times as short as ART 6. ART 2 of P V in 1.5 times as long as ART 2 of P IV. ART 5 and 6 of P VI subequal. Coxae V sharp both anteriorly and posteriorly (Acanthoscina acanthodes 3). UR straight, very long, thin.`
@@ -63,6 +63,6 @@ const animals = [{
         name: `Cystisoma magna`,
         description: `Length to 140 (females, Cystisoma magna 1) - 70 (males) mm. Head with 10-14 marginal denticles on each side, 5-6 pairs of ventral denticles (Cystisoma magna 3). Pereon with especially strong dorsal carina. MD with only one central denticle (Cystisoma magna 2). Posterodistal process of ART 5 of P II strongly serrate. Distal parts of ART 6 of P III-VII not glandular in adult females. Urosoma combined with UR not longer than pleon.`
     }
-}];
+};
 
 module.exports = animals;

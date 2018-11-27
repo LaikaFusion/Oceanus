@@ -10,14 +10,14 @@ router.get('/', (req, res, next) => {
 router.get('/:species', (req, res, next) => {
     const species = req.params.species;
 
-    if(animals[0][species] === undefined) {
+    if(animals[species] === undefined) {
         res.status(404).json({
             status: '404: Not Found'
         });
     } else {
         res.status(200).json({
-            status: animals[0].status,
-            species: animals[0][species]
+            status: animals.status,
+            species: animals[species]
         });
     }
 });

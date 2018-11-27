@@ -1,4 +1,4 @@
-const animals = [{
+const animals = {
     argyrothecaCistellula: {
         name: 'Argyrotheca cistellula',
         description: 'Shell sub-rectangular in outline, as wide or wider than long. It is slightly bilobed anteriorly and reaches a maximum length of 2 x 3 mm. It has a wide straight hinge-line. The external surfaces are smooth, save for faint concentric growth lines. The shell is endopunctate. Dorsal valve D-shaped, with the posterior margin straight; moderately convex. Ventral valve deeper, with a straight umbo. The foramen is large and incomplete; the deltidial plates do not join medianly. It is white, yellow or grey in colour. ',
@@ -53,6 +53,6 @@ const animals = [{
         habitat: 'It is commonly found attached to the shell of the horse-mussel Modiolus modiolus , as well as on blocks of clinker and boulders, but also to sponges, hydroids and assorted pieces of debris.',
         distribution: 'Scandinavia to Mediterranean.'
     }
-}];
+};
 
 module.exports = animals;

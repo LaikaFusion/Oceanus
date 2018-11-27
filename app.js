@@ -6,7 +6,7 @@ const animalRoutes = require('./api/routes/animals');
 
 app.use(morgan('dev'));
 
-app.use('/api/animals', animalRoutes);
+app.use('/api/v1/animals', animalRoutes);
 
 app.use((req, res, next) => {
     const error = new Error('404: Not found');

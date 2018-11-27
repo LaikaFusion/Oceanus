@@ -1,4 +1,4 @@
-const animals = [{
+const animals = {
     bandedTubeDwellingAnemone: {
         name: 'Banded tube-dwelling anemone (Arachnanthus nocturnus)',
         description: 'Anemone living inside parchment-like tubes. Oral disc with a ring of long, pointed outer tentacles on the edge of the disc, and a tuft of shorter tentacles around the mouth. Disc up to 3 cm in diameter, tentacles 5 cm long.',
@@ -244,6 +244,6 @@ const animals = [{
         habitat: `Symbiotic on a wide variety of sponges, including the Brown tube sponge (Agelas conifera ), the Green finger sponge (Iotrochota birotulata ) and Topsentia ophiraphidites (P. swifti on T. ophiraphidites). The zoanthids are toxic to fish and may discourage sponge-eating fishes from sampling their hosts; the distinctive color of the zoanthid on the sponges may serve to advertise their presence.`,
         distribution: `Common Bahamas and Caribbean.`
     } 
-}];
+};
 
 module.exports = animals;

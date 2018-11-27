@@ -1,4 +1,4 @@
-const animals = [{
+const animals = {
     aesopSlipperLobster: {
         name: `Aesop slipper lobster (Scyllarides haanii)`,
         description: `Carpus of first pereiopod with a distinct dorsal groove, and without a conspicuous basal swelling. First abdominal somite with 2 distinct but rather small lateral spots and a large, less dark and irregular median spot. Outline of posterior margin of pleura of second abdominal somite concave in middle through presence of strong tooth. Fourth abdominal somite in adult specimens produced into very strong median hump which is about twice as high as those on second and third somite.`,
@@ -142,6 +142,6 @@ const animals = [{
         size: `Total body length to 40 cm, carapace length to 12 cm.`,
         interestToFisheries: `Used as food throughout its range. Fished with traps or nets. Also taken by hand, in daytime by diving, at night with lights and spears. Sold fresh in local markets. The 1971 USA fishery statistics indicate a total of 5 725 pounds ( = 2 600 kg) of lobsters caught in the Hawaiian Islands, of which 5 371 pounds in Oahu, 263 pounds in Maui, 70 pounds in Hawaii and 21 pounds in Lanai. Of these slightly more were caught in gill nets (3253 pounds) than in traps (2113 pounds) and 339 pounds were registered as fished by hand. These figures include the catches of P. penicillatus.`
     } 
-}];
+};
 
 module.exports = animals;

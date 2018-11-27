@@ -1,4 +1,4 @@
-const animals = [{
+const animals = {
     ribbedBarnacle: {
         name: `Ribbed barnacle (Tetraclita stalactifera)`,
         description: `The ribbed barnacle chosen here as a representative of several genera of barnacle-like animals. They all live near the low water mark, although some may occur to great depths. The shape of the animals is conical to tubular, with calcareous plates. The color may vary from white to brown. Size: up to 3 cm.`,
@@ -12,6 +12,6 @@ const animals = [{
         distribution: `Common`,
         remarks: `Two more species of Lepas occur in the region, Lepas anserifa, with whiter shell plates which are radially grooved, and Lepas pectinata, with scaly or even spiny protrusions on the plates.`
     }
-}];
+};
 
 module.exports = animals;
