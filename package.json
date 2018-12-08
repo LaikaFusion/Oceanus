@@ -2,9 +2,9 @@
   "name": "Athena",
   "version": "1.0.0",
   "description": "An API that recollects information of the animals that are in the ocean",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon"
   },
   "author": "Luis Alvarez",
   "license": "MIT",

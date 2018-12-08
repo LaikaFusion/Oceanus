@@ -4,6 +4,8 @@ const morgan = require('morgan');
 
 const animalRoutes = require('./api/routes/animals');
 
+const PORT = process.env.PORT || 3000;
+
 app.use(morgan('dev'));
 
 app.use('/api/v1/animals', animalRoutes);
@@ -23,4 +25,6 @@ app.use((error, req, res, next) => {
     });
 });
 
-module.exports = app;
+app.listen(PORT, err => {
+    console.log(`Server listening on port ${PORT}`);
+});
