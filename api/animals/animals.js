@@ -7,6 +7,7 @@ const crabsAndLobstersList = require('./crustaceans/crabsAndLobsters/index');
 const hoodedShrimpList = require('./crustaceans/hoodedShrimp/index');
 const isopodsList = require('./crustaceans/isopods/index');
 const opossumShrimpList = require('./crustaceans/opossumShrimp/index');
+const ostracodsList = require('./crustaceans/ostracods/index');
 
 const animals = {
         status: 'success',
@@ -51,6 +52,10 @@ const animals = {
             opossumShrimp: {
                 speciesName: 'Opossum Shrimp',
                 animals: opossumShrimpList
+            },
+            ostracods: {
+                speciesName: 'Ostracods',
+                animals: ostracodsList
             }
         },
         fishes: {
