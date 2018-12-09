@@ -4,11 +4,10 @@ const morgan = require('morgan');
 const cors = require('cors');
 
 const animalRoutes = require('./api/routes/animals');
-
 const PORT = process.env.PORT || 3000;
 
 app.use(cors());
-
+app.use('/img', express.static('public'));
 app.use(morgan('dev'));
 
 app.use('/api/v1/animals', animalRoutes);
