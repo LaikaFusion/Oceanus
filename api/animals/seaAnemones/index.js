@@ -107,6 +107,7 @@ const animals = {
         distribution: `Locally abundant on west coasts of British Isles, as far north as Shetland but more common in the south. Southern limits of its range are uncertain; it occurs at least to Biscay but is apparently absent from the Mediterranean.`
     },
     boloceraTuediae: {
+        id: 1,
         name: `Bolocera tuediae`,
         description: `One of the largest of the North Sea anemones, up to 250 mm across the base. Base lightly adherent. Column cylindrical, variable in height, sometimes taller than wide but often kept short and hidden by the tentacles; smooth and soft in texture, never with verrucae or acrorhagi, occasionally with a slight rim at the top, suggestive of a parapet, in some states of contraction. Disc wide.`,
         tentacles: `Tentacles stout, long and rather graceful in full extension, not readily retracted; they are hexamerously arranged, up to about 200. In most states of contraction the tentacles are longitudinally fluted and at the base of each is a slight circular constriction indicating the position of the basal sphincter muscle. The reason for the tentacles being deciduous is unknown, nevertheless they are readily shed on occasion and isolated tentacles remain alive for many days, although they cannot regenerate into new anemones as occurs in some species with deciduous tentacles`,
@@ -115,6 +116,7 @@ const animals = {
         distribution: `Occurs around all coasts of the British Isles but is rare in the south. Generally distributed throughout the North Atlantic to the Arctic circle and eastern North America.`
     },
     calliactisParasitica: {
+        id: 2,
         name: `Calliactis parasitica`,
         description: `Diameter of base up to 80 mm, height to 100 mm. Base a little wider than the column, capable of firm adhesion. Column not divided into regions and without tubercles, its surface rough and leathery, with a grainy appearance. Sometimes patches of thin periderm are present. Cinclides fairly prominent, occurring on small mounds in a zone just above the limbus, one on each endocoel; acontia are readily emitted from them when the anemone is disturbed. Disc concave, fairly wide when fully expanded.`,
         tentacles: `Tentacles moderate in length and very numerous, hexamerously arranged, up to at least 700 in a large specimen.`,

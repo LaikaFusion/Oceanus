@@ -1,5 +1,6 @@
 const animals = {
     bandedTubeDwellingAnemone: {
+        id: 1,
         name: 'Banded tube-dwelling anemone (Arachnanthus nocturnus)',
         description: 'Anemone living inside parchment-like tubes. Oral disc with a ring of long, pointed outer tentacles on the edge of the disc, and a tuft of shorter tentacles around the mouth. Disc up to 3 cm in diameter, tentacles 5 cm long.',
         color: 'Outer tentacles translucent brown and white banded; oral disc and inner tentacles whitish.',
@@ -7,6 +8,7 @@ const animals = {
         distribution: 'Occasional Florida, Bahamas and Caribbean.'
     },
     bentSeaRod: {
+        id: 2,
         name: 'Bent sea rod (Plexaura flexuosa)',
         description: 'A very common species with a variable outward appearance: small colonies are profusely and dichotomously branched; larger colonies are bushy, but tend to spread in one plane. Colonies up to 40 cm. Diameter of end branches 2.5-4.5 mm. Rim of apertures only slightly raised, sometimes forming a small lip below the aperture.',
         color: 'Color variable ranging from white through yellow, brown, purple to reddish purple; polyps occasionally lighter than the stalk.',
@@ -14,6 +16,7 @@ const animals = {
         distribution: 'Common Florida, Bahamas and Caribbean.'
     },
     bipinnateSeaPlume: {
+        id: 3,
         name: 'Bipinnate sea plume (Pseudopterogorgia bipinnata)',
         description: 'Colonies up to 57 cm and nearly as broad, usually growing in a single plane. Primary and secondary branches bear short, stiff branchlets about 2.5-4.0 cm long and 1-1.5 mm in diameter. These paired branchlets extend from the branches at regularly spaced intervals, 4-10 mm. Apertures quite small and slit like, arranged in a single or staggered double row on each side of the branches.',
         color: 'Purple to violet, occasional bright yellow to whitish.',
@@ -21,6 +24,7 @@ const animals = {
         distribution: 'Common Florida, Bahamas and Caribbean.'
     },
     blackSeaRod: {
+        id: 4,
         name: 'Black sea rod (Plexaura homomalla)',
         description: 'Colonies are bushy but compressed in vertical planes. Tend to branch laterally, with only occasional dichotomous branching. Mature colonies are up to 35 cm in height. It occurs in two forms: forma homomalla is broad with end branches of 4-5 mm in diameter; forma kuekenthali is taller with terminal branches of 2.5 mm in diameter. End branches are about 10 cm long. The tissue surrounding the apertures may be completely flat or only slightly raised.',
         color: 'Stalks brown to black; polyps contrasting light yellow brown to brown.',
@@ -29,6 +33,7 @@ const animals = {
         remarks: 'A very powerful drug, called a prostaglandin, has been found in significant quantities in Plexaura homomalla . It has the ability to induce labor and therapeutic abortion, speed the healing of stomach ulcers, and reverse the effect of cyanotic congenital heart disease.'
     },
     bladeFireCoral: {
+        id: 5,
         name: 'Blade fire coral (Millepora complanata)',
         description: 'Colonies form thin, upright blades or plates that extend from an encrusting base. Colonies up to 50 cm. Outer edge of blades uneven with multiple extensions or short branches. The surface is smooth, covered with minute pores within which the polyps live. When the tiny polyps protrude, they appear as short, fine hairs.',
         color: 'Brown to light creamy yellow, with white branch tips.',
@@ -37,6 +42,7 @@ const animals = {
         remarks: 'Contact with a live colony may cause severe burning sensations due to toxins injected by the nematocysts.'
     },
     blueCrustCoral: {
+        id: 6,
         name: 'Blue crust coral (Porites branneri)',
         description: 'Colonies form thick encrustations, of 15 cm in diameter, with knobby projections of 2.5 cm in diameter. Extended polyps give the colony a soft, fuzzy appearance. When the polyps are retracted, small, pitted, polygonal corallites give the colony a porous appearance.',
         color: 'Bluish to pale lilac and purple.',
@@ -45,6 +51,7 @@ const animals = {
         distribution: 'Rare South Florida, occasional to uncommon Bahamas and Caribbean.'
     },
     blushingStarCoral: {
+        id: 7,
         name: 'Blushing star coral (Stephanocoenia michelinii)',
         description: 'This species forms small to moderately large heads (15-75 cm) and is often simply encrusting.',
         color: 'Brownish. On approaching this coral, the polyps withdraw giving the colony a blushing appearance.',
@@ -53,6 +60,7 @@ const animals = {
         distribution: 'Throughout the Caribbean.'
     },
     boulderBrainCoral: {
+        id: 8,
         name: 'Boulder brain coral (Colpophyllia natans)',
         description: 'Generally, the colonies form large rounded domes of up to 2 m in diameter, but also large rounded plates can be formed. The surface is covered with a curved system of ridges and valleys. The ridge tops have a thin, but distinct groove and a second line is located halfway down the ridge, where the slope decreases in angle and slants to form the valley. The costae between adjacent corallites are discontinuous, and all costae are equal in thickness. The valleys are long, wide and meandering, containing several polyps. Polyps are extended only at night, their tentacles forming long meandering rows along the ridges.',
         color: 'Typically the ridges are brown and the valleys green, tan or whitish.',
@@ -62,6 +70,7 @@ const animals = {
         remarks: 'In the related Closed-valley brain coral (Colpophyllia breviserialis ), the valleys are closed and hold only one or two polyps.'
     },
     boulderStarCoral: {
+        id: 9,
         name: 'Boulder star coral (Montastrea annularis)',
         description: 'The colonies grow in several morphotypes, that were originally described as separate species. The species occurs as long, thick columns with enlarged, dome-like tops; large, massive mounds; sheets with skirt-like edges; irregularly bumpy mounds and plates or as smooth plates. Colonies up to 3 meter in diameter. The surface is covered with distinctive, often somewhat raised, corallites.',
         color: 'Shades of green to brown, yellow-brown and gray.',
@@ -71,6 +80,7 @@ const animals = {
         remarks: 'Recent investigations suggest that this species consists of three or more separate species: Montastrea annularis , corallite diameter 2.1-2.7 mm, with 24 septa, 1-1.2 mm between neighboring corallites, raised septa and theca and moderately well developed costae. Grows mostly in clusters of long, thick columns with enlarged, dome-like tops. Montastrea faveolata , corallite diameter 2.1-2.7 mm, with 24 septa, 0.6-0.9 mm between neighboring corallites and poorly developed costae. Grows mostly in large, massive mounds and sheets with skirt-like edges. Montastrea franksi , corallite diameter 2.5-3.5 mm, with 24-26 septa, 1-1.2 mm between neighboring corallites and well developed costae. Grows mostly in irregularly bumpy mounds and plates.'
     },
     boxFireCoral: {
+        id: 10,
         name: 'Box fire coral (Millepora squarrosa)',
         description: 'Colonies form open-ended, thick-walled, box-like structures that extend upward from an encrusting base; up to 5 cm in height. Often join to form a honeycomb pattern or encrust in a ripple wave-like pattern. The surface is smooth, covered with minute pores within which the polyps live. When the tiny polyps protrude, they appear as short, fine hairs.',
         color: 'Tan to mustard or brown, with reddish or lavender tints; open ends of boxes whitish.',
@@ -79,6 +89,7 @@ const animals = {
         remarks: 'Not considered toxic, although may sting sensitive bare skin.'
     },
     branchingFireCoral: {
+        id: 11,
         name: 'Branching fire coral (Millepora alcicornis)',
         description: 'Colonies form multiple branched structures. Branches generally cylindrical. Most commonly branched in a single plane, but occasionally in all directions. Often encrust and overgrow gorgonian colonies, taking on their shape. Colony up to 50 cm. The surface is smooth, covered with minute pores within which the polyps live. When the tiny polyps protrude, they appear as short, fine hairs.',
         color: 'Brown to light creamy yellow, with white branch tips.',
@@ -87,6 +98,7 @@ const animals = {
         remarks: 'Contact with a live colony may cause severe burning sensations due to toxins injected by the nematocysts.'
     },
     buttonCupCorals: {
+        id: 12,
         name: 'Button cup corals (Caryophyllia spp.)',
         description: 'Corallum ceratoid, straight and firmly attached through a robust pedicel about half the diameter of the corallite. About 1 cm in diameter and 12 mm in height. Theca covered with porcelaneous granules; costae usually inconspicuous; corallum white. Septa arranged in 3 cycles: 10:10:20 (=40 septa). Septa of each cycle progressively narrower and less exsert. Columella fascicular.',
         color: 'Upper half of corallite in shades of brown; basal deposits creamy white.',
@@ -95,6 +107,7 @@ const animals = {
         remarks: 'Two species of this genus are recorded from the Leeward Island group: Caryophyllia maculata and Caryophyllia antillarum.'
     },
     cactusCoral: {
+        id: 13,
         name: 'Cactus coral (Mycetophyllia spp.)',
         description: 'Colonies form flat plates, mounds and hemispherical domes. The upper surfaces of M. aliciae and M. ferox are covered with ridges that often run towards the colonies center. The colony, and especially their ridges, appear fleshy (Mycetophyllia spp.).M. aliciae has open valleys and sometimes even independent ridges, while in M. ferox , the valleys are closed. M. reesi lacks ridges, and the fleshy surface is covered with rounded bumps with the polyps located at the center. The polyps lack tentacles. Colonies of M. aliciae can reach 45 cm in diameter, while these of M. ferox and M. reesi are somewhat larger and can reach 60 cm in diameter.',
         color: 'The ridges and corallites of M. aliciae are often of light colors, contrasting with darker valleys in shades of green, brown or gray. The ridges of M. ferox often contrast with darker valleys in shades of green, red-brown, brown or gray. M. reesi is found in shades of green, brown, gray, blue-gray and may have iridescent tints.',
@@ -103,6 +116,7 @@ const animals = {
         distribution: 'M. aliciae and M. ferox are found occasionally in Florida, Bahamas and Caribbean, while M. reesi is only found in the Caribbean.',
     },
     colorfulSeaWhip: {
+        id: 14,
         name: 'Colorful sea whip (Leptogorgia virgulata)',
         description: 'Colonies form long, straight, stiff, moderately branched, whip-like stalks. Colonies can reach a length of 45 cm. Polyps in multiple rows along two sides. Calyces do not protrude when the polyps are retracted.',
         color: 'Stalks highly variable in color, including shades of lavender, violet, purple, red, orange and yellow. Polyps translucent white.',
@@ -110,6 +124,7 @@ const animals = {
         distribution: 'Common Florida, rare Caribbean.'
     },
     commonSeaFan: {
+        id: 15,
         name: 'Common sea fan (Gorgonia ventalina)',
         description: 'Colonies are large, in a single plane, and fan shaped. The outline of the colony is an interconnected network of thin branches which enclose irregular, triangular or rectangular spaces. The branches are round or slightly compressed in the plane of the fan. The apertures are very small pores located in two rows along the edges of the branches. The fans can be large, 1.5-1.8 m high and 1.2-1.5 m broad.',
         color: 'The fans are purple, yellow or brownish in color.',
@@ -118,6 +133,7 @@ const animals = {
         remarks: 'Two other sea fans occur in the region, but are less common. The Venus sea fan (Gorgonia flabellum ) can be distinguished by the flattening of the branches. In G. ventalina the branches are round or slightly flattened in the plane of the fan, while in G. flabellum the branches are flattened at right angles to the plane of the fan. Colonies can be 1 m in height and can be almost as broad. The Wide-mesh sea fan (Gorgonia mariae ) is much smaller (up to 30 cm) and the secondary branches do not always unite or interconnect, giving a widely meshed appearance.'
     },
     corkySeaFingers: {
+        id: 16,
         name: 'Corky sea finger (Briarium asbestinum)',
         description: 'The colony is composed of upright, cylindrical branches of about 1 cm in diameter, which are jointed only at the common incrusting base and lower parts of the colony. The long, brown tentacles of the polyps give the species a hairy appearance. If touched, the tentacles will slowly retract, exposing a smooth to nodular surface with numerous small apertures, or openings, all over the branch. The branches can be 60 cm tall.',
         color: 'Purplish gray; polyps brownish.',
@@ -125,6 +141,7 @@ const animals = {
         distribution: 'Abundant to common South Florida, Bahamas and Caribbean.'
     },
     deadMensFingers: {
+        id: 17,
         name: `Dead men's fingers (Alcyonium digitatum)`,
         description: `This species is often aptly referred to as "Dead men's fingers". Mature colonies form thick, fleshy masses of irregular shape, typically produced into stout, finger-like lobes which usually exceed 20 mm diameter; rarely more than 10 lobes per colony. Young, developing colonies form encrustations about 5-10 mm thick (A. digitata encrusting). Height and breadth of colonies up to 200 mm.`,
         color: `Several colour varieties occur: white, orange, yellow or brownish, the colour being due to the sclerites; anthocodia translucent white. Ripe gonads, occurring in autumn and winter, are pink and may influence the overall colour.`,
@@ -132,6 +149,7 @@ const animals = {
         distribution: `Common and widespread around all coasts of the British Isles and western Europe in general, from about 41°N to Iceland; records from the east coast of North America may apply to a different species.`
     },
     devilsSeaWhip: {
+        id: 18,
         name: `Devil's sea whip (Ellisella barbadensis)`,
         description: `Unbranched, flagelliform colonies reaching a size up to 2.4 meter. Stalks taper slightly from the base to the tip. Calyces upturned, prominent, biserial or in multiple lateral bands.`,
         color: `Stem and calices orange-red to red; polyps white.`,
@@ -139,6 +157,7 @@ const animals = {
         distribution: `Common to occasional Florida, Bahamas and Caribbean.`
     },
     diffuseIvoryBushCoral: {
+        id: 19,
         name: `Diffuse ivory bush coral (Oculina diffusa)`,
         description: `Colonies form densely branched, thicket-like clumps, up to 30 cm. Branches tend to be short, are often crooked and bear numerous raised corallites. Branches less than 1.5 cm in diameter.`,
         color: `Yellow-brown, but often encrusted with organisms of different color. Colonies without zooxanthellae are cream to white.`,
@@ -147,6 +166,7 @@ const animals = {
         distribution: `Common to occasional in Florida and the Bahamas; occasional to rare in the Caribbean.`
     },
     doubleForkedPlexaurella: {
+        id: 20,
         name: `Double-forked Plexaurella (Plexaurella dichotoma)`,
         description: `Colonies are dichotomously branched and bushy, up to 80 cm in height. The end branches are rigid and blunt, sometimes club-shaped at their ends; 10-15 mm in diameter. Depending on the habitat, the branches may be short and crooked or long and straight. Apertures, 1-1.5 mm in diameter, are usually slightly raised but may also be flush with the surface; narrow and slit like.`,
         color: `Yellowish brown.`,
@@ -154,6 +174,7 @@ const animals = {
         distribution: `Florida to Brazilian reefs.`
     },
     doughnutSeaRod: {
+        id: 21,
         name: `Doughnut sea rod (Eunicea fusca)`,
         description: `Colony low, bushy, shrub-like, occasionally tall with widely spaced branches, up to 50 cm in height. Calyces low, circular, somewhat swollen, with round, central apertures.`,
         color: `Rods light to dark gray; polyps yellow-brown to brown.`,
@@ -161,6 +182,7 @@ const animals = {
         distribution: `Common to occasional Florida, Bahamas and Caribbean.`
     },
     dwarfCupCoral: {
+        id: 22,
         name: `Dwarf cup coral (Astrangia solitaria)`,
         description: `Colonies are composed of relatively few (usually less than 20) cylindrical corallites, budded extratentacularly from narrow, thin, stolons. A continuous coenosteum between or among the corallites is rarely present, and the stoloniferous connection is usually encrusted or abraded, resulting in the apparent or actual isolation of individual corallites. Most corallites 4 to 6 mm in diameter and 4 to 8 mm in height. The corallites bear broad, flat, granular costae, separated from one another by thin, shallow intercostal striae. Costal granules low and rounded. Septa hexamerally arranged in four cycles, a full complement of 48 septa is rarely achieved, 36 septa being the most common number.`,
         color: `Corallites usually uniformly light brown or light brown in the distal half, grading to white on the lower half. Occasionally the corallites are entirely white.`,
@@ -168,6 +190,7 @@ const animals = {
         distribution: `It is one of the most common azooxanthellate corals in the western Atlantic. Occasional in Florida, Bahamas and Caribbean.`
     },
     eightRayFingerCoral: {
+        id: 23,
         name: `Eight-ray finger coral (Madracis formosa)`,
         description: `Colonies form densely packed clumps of thick, relatively short branches with blunt and occasionally expanded and double-lobed tips. Colony up to 1.5 m in diameter`,
         color: `Tan to yellow-brown, yellow-green, green and brown; polyp's mouth yellow.`,
@@ -176,6 +199,7 @@ const animals = {
         remarks: `Some other species of the genus occur on Curacao: Madracis decactis , Madracis mirabilis , Madracis pharensis , Madracis senaria and a recent described species, Madracis carmabi . Recent investigations suggest that M. senaria and M. mirablis form monophyletic groups, while M. formosa , M. pharensis and M. decactis form a species-complex. It seems that hybridization occurs between the M. pharensis / M. decactis -complex and M. formosa and polyphenism within the M. pharensis / M. decactis -complex.`
     },
     elkhornCoral: {
+        id: 24,
         name: `Elkhorn coral (Acropora palmata)`,
         description: `Colonies with thick rounded or flat branches, without distinct axial corallites. Colony diameter up to 3.5 meter, and more than 1 meter in height. Branch diameter between 5 and 25 cm, and 1-3 cm thick .`,
         color: `Golden-brown with light rims.`,
@@ -184,6 +208,7 @@ const animals = {
         distribution: `Abundant to common Bahamas and Caribbean; common to occasional South Florida.`
     },
     ellipticalStarCoral: {
+        id: 25,
         name: `Elliptical star coral (Dichocoenia stokesi)`,
         description: `Colonies form rounded heads, domes or flattened plates. Rounded colonies may reach 40 cm in diameter. The corallites protrude and are irregular, elliptical, circular or Y-shaped.`,
         color: `Cream to yellow and brown.`,
@@ -193,6 +218,7 @@ const animals = {
         remarks: `The flattened plate form is also known as the Pancake star coral (Dichocoenia stellaris ).`
     },
     featherBlackCoral: {
+        id: 26,
         name: `Feather black coral (Antipathes pennacea)`,
         description: `Profuse primary and secondary branches extend from a holdfast in nearly a single plane; reaching over 1.5 m in both height and width. Young specimens may display a spiral colony form. Branches lined with characteristic pinnate branchlets, giving the colony a feather-like appearance.`,
         color: `Primary and secondary branches golden-brown to brown, gray and black, may be tinted red, green or blue. Branchlets often of lighter color.`,
@@ -200,6 +226,7 @@ const animals = {
         distribution: `Rare Florida; common to uncommon Bahamas and Caribbean.`
     },
     flagellateFalsePlexaura: {
+        id: 27,
         name: `Flagellate false Plexaura (Pseudoplexaura flagellosa)`,
         description: `Colonies large, branching dichotomously, more or less in one plane, up to 1 m in height. End branches long and slender, 2-3 mm in diameter. Apertures small, 0.5-1.0 mm in diameter, ellipsoid, elongated in the axis of the branch, and arranged in poorly defined vertical rows on the branch.`,
         color: `Purple`,
@@ -207,6 +234,7 @@ const animals = {
         distribution: `Florida and Caribbean.`
     },
     floridaCorallimorph: {
+        id: 28,
         name: `Florida corallimorph (Ricordea florida)`,
         description: `Corallimorph with spherical, knob-like tentacles covering the oral disc and elongated tentacles around the edge. Tentacles in a radial arrangement. Disc of solitary polyps up to 5 cm.`,
         color: `Usually overall green, sometimes with shades of yellow, orange, brown or blue.`,
@@ -214,6 +242,7 @@ const animals = {
         distribution: `Occasional Florida, Bahamas and Caribbean.`
     },
     fragileSaucerCoral: {
+        id: 29,
         name: `Fragile saucer coral (Agaricia fragilis)`,
         description: `Colonies form small plates or thin saucer-like bowls, of 10-15 cm in diameter. Low rounded ridges and long continuous valleys form an uneven pattern of concentric circles radiating from the center of the colony. Polyps are only present in the valleys on the upper surface, the underside is nearly smooth. Towards increasing depth, the ridges become lower and less conspicuous.`,
         color: `Shades of purplish brown, chocolate, yellow-brown, tan and greenish tan.`,
@@ -222,6 +251,7 @@ const animals = {
         distribution: `Occasional Florida, Bahamas, Caribbean and Brazil.`
     },
     fusedStaghornCoral: {
+        id: 30,
         name: `Fused staghorn coral (Acropora prolifera)`,
         description: `Colony branched, but the branches fused at crossings or parallel branches sometimes fused at considerable distance. Tips of branches with strong axial corallites; radial corallites orientated upwards, in rows. Colony up to 1.2 meter; branch diameter between 0.5 and 2 cm.`,
         color: `Brown to yellow-brown, with a white axial corallite.`,
@@ -231,6 +261,7 @@ const animals = {
         remarks: `Recent DNA sequence analyses suggested that Acropora prolifera is a hybrid between Acropora cervicornis and Acropora palmata , which backcrosses with the parental species at low frequency.`
     },
     giantSlitPoreSeaRod: {
+        id: 31,
         name: `Giant slit-pore sea rod (Plexaurella nutans)`,
         description: `Colonies very tall with thick stalks and sparse, dichotomous branching; up to 1.3 m in height. End branches thick, 10-15 mm in diameter, and can be very long, up to 1 m. The ends of the branches are usually club-shaped. Apertures widely spaced and each is usually elevated on a small mound. The apertures are 2-2.5 mm in diameter and range from nearly circular to slit like in shape.`,
         color: `Pale gray to tan or light brown.`,
@@ -238,6 +269,7 @@ const animals = {
         distribution: `Common to occasional Florida, Bahamas and Caribbean.`
     },
     goldenZoanthid: {
+        id: 32,
         name: `Golden zoanthid (Parazoanthus swiftii)`,
         description: `This colonial zoanthid is symbiotic and grows in band-like rows, often winding around the branches of the host sponge. The oral disc is up to 0.6 cm in diameter and is fringed by up to 26 long and thinly tentacles.`,
         color: `Body brilliant gold to yellow; tentacles pale yellow.`,

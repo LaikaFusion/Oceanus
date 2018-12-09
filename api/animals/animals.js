@@ -30,30 +30,37 @@ const animals = {
             id: 4,
             speciesName: 'crustaceans',
             amphipods: {
+                id: 1,
                 speciesName: 'Amphipods',
                 animals: amphipodsList
             },
             barnacles: {
+                id: 2,
                 speciesName: 'Barnacles',
                 animals: barnaclesList
             },
             crabsAndLobsters: {
+                id: 3,
                 speciesName: 'Crabs and Lobsters',
                 animals: crabsAndLobstersList
             },
             hoodedShrimp: {
+                id: 4,
                 speciesName: 'Hooded Shrimp',
                 animals: hoodedShrimpList
             },
             isopods: {
+                id: 5,
                 speciesName: 'Isopods',
                 animals: isopodsList
             },
             opossumShrimp: {
+                id: 6,
                 speciesName: 'Opossum Shrimp',
                 animals: opossumShrimpList
             },
             ostracods: {
+                id: 7,
                 speciesName: 'Ostracods',
                 animals: ostracodsList
             }
