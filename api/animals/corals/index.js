@@ -1,3 +1,5 @@
+const baseURL = require('../../baseURL');
+
 const animals = {
     bandedTubeDwellingAnemone: {
         id: 1,
@@ -5,7 +7,8 @@ const animals = {
         description: 'Anemone living inside parchment-like tubes. Oral disc with a ring of long, pointed outer tentacles on the edge of the disc, and a tuft of shorter tentacles around the mouth. Disc up to 3 cm in diameter, tentacles 5 cm long.',
         color: 'Outer tentacles translucent brown and white banded; oral disc and inner tentacles whitish.',
         habitat: 'Anemone living inside tubes buried in mud, sand or fine gravel in areas of sand and coral rubble, down to 25 m. Retracts immediately by disturbance.',
-        distribution: 'Occasional Florida, Bahamas and Caribbean.'
+        distribution: 'Occasional Florida, Bahamas and Caribbean.',
+        img: `${baseURL}/img/corals/img/bandedTubeDwellingAnemone/banded-tube-dwelling-anemone.jpg`
     },
     bentSeaRod: {
         id: 2,
@@ -13,7 +16,8 @@ const animals = {
         description: 'A very common species with a variable outward appearance: small colonies are profusely and dichotomously branched; larger colonies are bushy, but tend to spread in one plane. Colonies up to 40 cm. Diameter of end branches 2.5-4.5 mm. Rim of apertures only slightly raised, sometimes forming a small lip below the aperture.',
         color: 'Color variable ranging from white through yellow, brown, purple to reddish purple; polyps occasionally lighter than the stalk.',
         habitat: 'Inhabit clear water patch reefs, down to 50 m.',
-        distribution: 'Common Florida, Bahamas and Caribbean.'
+        distribution: 'Common Florida, Bahamas and Caribbean.',
+        img: `${baseURL}/img/corals/img/bentSeaRod/bent-sea-rod.jpg`
     },
     bipinnateSeaPlume: {
         id: 3,
@@ -21,7 +25,8 @@ const animals = {
         description: 'Colonies up to 57 cm and nearly as broad, usually growing in a single plane. Primary and secondary branches bear short, stiff branchlets about 2.5-4.0 cm long and 1-1.5 mm in diameter. These paired branchlets extend from the branches at regularly spaced intervals, 4-10 mm. Apertures quite small and slit like, arranged in a single or staggered double row on each side of the branches.',
         color: 'Purple to violet, occasional bright yellow to whitish.',
         habitat: 'Inhabit moderate to deep, clear water patch reefs.',
-        distribution: 'Common Florida, Bahamas and Caribbean.'
+        distribution: 'Common Florida, Bahamas and Caribbean.',
+        img: `${baseURL}/img/corals/img/bipinnateSeaPlume/bipinnate-sea-plume.jpg`
     },
     blackSeaRod: {
         id: 4,
@@ -30,7 +35,8 @@ const animals = {
         color: 'Stalks brown to black; polyps contrasting light yellow brown to brown.',
         habitat: 'Inhabit clear water patch reefs, to 55 meters depth. In shallow waters forma homomalla is more abundant, while in deeper waters especially forma kuekenthali is found.',
         distribution: 'Common Florida, Bahamas and Caribbean.',
-        remarks: 'A very powerful drug, called a prostaglandin, has been found in significant quantities in Plexaura homomalla . It has the ability to induce labor and therapeutic abortion, speed the healing of stomach ulcers, and reverse the effect of cyanotic congenital heart disease.'
+        remarks: 'A very powerful drug, called a prostaglandin, has been found in significant quantities in Plexaura homomalla . It has the ability to induce labor and therapeutic abortion, speed the healing of stomach ulcers, and reverse the effect of cyanotic congenital heart disease.',
+        img: `${baseURL}/img/corals/img/blackSeaRod/black-sea-rod.jpg`
     },
     bladeFireCoral: {
         id: 5,
@@ -39,7 +45,8 @@ const animals = {
         color: 'Brown to light creamy yellow, with white branch tips.',
         habitat: 'Inhabit shallow water reef tops, covering rock and dead corals. Usually in areas with some water movements, down to 15 m depth.',
         distribution: 'Abundant to common Florida, Bahamas and Caribbean.',
-        remarks: 'Contact with a live colony may cause severe burning sensations due to toxins injected by the nematocysts.'
+        remarks: 'Contact with a live colony may cause severe burning sensations due to toxins injected by the nematocysts.',
+        img: `${baseURL}/img/corals/img/bladeFireCoral/blade-fire-coral.jpg`
     },
     blueCrustCoral: {
         id: 6,
@@ -48,7 +55,8 @@ const animals = {
         color: 'Bluish to pale lilac and purple.',
         corallites: 'Calices narrowly spaced with a poorly developed wall. Corallites with 12 septa, 1.6-1.8 mm in diameter. Columella trabecular and discontinuous.',
         habitat: 'Inhabit shallow, dead areas of older reefs, down to 12 m. ',
-        distribution: 'Rare South Florida, occasional to uncommon Bahamas and Caribbean.'
+        distribution: 'Rare South Florida, occasional to uncommon Bahamas and Caribbean.',
+        img: `${baseURL}/img/corals/img/blueCrustCoral/blue-crust-coral.jpg`
     },
     blushingStarCoral: {
         id: 7,
@@ -57,7 +65,8 @@ const animals = {
         color: 'Brownish. On approaching this coral, the polyps withdraw giving the colony a blushing appearance.',
         corallites: 'Columella massive, more or less laterally compressed. Septa in three cycles, the first two with pali or with paliform lobes attached to the columella.',
         habitat: 'Probably generally present in exposed waters; not very common. From 1 to nearly 100 m, but most common between 3 and 50 m.',
-        distribution: 'Throughout the Caribbean.'
+        distribution: 'Throughout the Caribbean.',
+        img: `${baseURL}/img/corals/img/blushingStarCoral/blushing-star-coral.jpg`
     },
     boulderBrainCoral: {
         id: 8,
@@ -67,7 +76,8 @@ const animals = {
         corallites: 'The septa are equal in thickness, and there are less than 12 septa per cm. The columella is discontinuous and thin, less than a quarter of the valley width.',
         habitat: 'Inhabit reef tops and reef slopes, down to 50 meters.',
         distribution: 'Common in Florida, Bahamas and Caribbean.',
-        remarks: 'In the related Closed-valley brain coral (Colpophyllia breviserialis ), the valleys are closed and hold only one or two polyps.'
+        remarks: 'In the related Closed-valley brain coral (Colpophyllia breviserialis ), the valleys are closed and hold only one or two polyps.',
+        img: `${baseURL}/img/corals/img/boulderBrainCoral/boulder-brain-coral.jpg`
     },
     boulderStarCoral: {
         id: 9,
@@ -77,7 +87,8 @@ const animals = {
         corallites: 'Corallites 2.1-3.5 mm in diameter, with 24-26 septa. The distance between neighboring corallites is between 0.6 and 1.2 mm. Septa and theca raised (M. annularis-corallite). Septa with small teeth. Columella trabecular.',
         habitat: 'Inhabit most reef environments and the species is often the predominant coral between 7 and 25 m. The flattened plates are most common at deeper reefs, down to 50 m.',
         distribution: 'Common to abundant Florida, Bahamas and Caribbean.',
-        remarks: 'Recent investigations suggest that this species consists of three or more separate species: Montastrea annularis , corallite diameter 2.1-2.7 mm, with 24 septa, 1-1.2 mm between neighboring corallites, raised septa and theca and moderately well developed costae. Grows mostly in clusters of long, thick columns with enlarged, dome-like tops. Montastrea faveolata , corallite diameter 2.1-2.7 mm, with 24 septa, 0.6-0.9 mm between neighboring corallites and poorly developed costae. Grows mostly in large, massive mounds and sheets with skirt-like edges. Montastrea franksi , corallite diameter 2.5-3.5 mm, with 24-26 septa, 1-1.2 mm between neighboring corallites and well developed costae. Grows mostly in irregularly bumpy mounds and plates.'
+        remarks: 'Recent investigations suggest that this species consists of three or more separate species: Montastrea annularis , corallite diameter 2.1-2.7 mm, with 24 septa, 1-1.2 mm between neighboring corallites, raised septa and theca and moderately well developed costae. Grows mostly in clusters of long, thick columns with enlarged, dome-like tops. Montastrea faveolata , corallite diameter 2.1-2.7 mm, with 24 septa, 0.6-0.9 mm between neighboring corallites and poorly developed costae. Grows mostly in large, massive mounds and sheets with skirt-like edges. Montastrea franksi , corallite diameter 2.5-3.5 mm, with 24-26 septa, 1-1.2 mm between neighboring corallites and well developed costae. Grows mostly in irregularly bumpy mounds and plates.',
+        img: `${baseURL}/img/corals/img/boulderStarCoral/boulder-star-coral.jpg`
     },
     boxFireCoral: {
         id: 10,
@@ -86,7 +97,8 @@ const animals = {
         color: 'Tan to mustard or brown, with reddish or lavender tints; open ends of boxes whitish.',
         habitat: 'Inhabit shallow water reef tops, covering rock and dead corals. Usually in areas with a heavy surf. May be exposed to the air in troughs of the sea.',
         distribution: 'This species has a discontinuous distribution in the Caribbean, strtching from the Dominican Republic, Puerto Rico, the Lesser Antilles arc to Grenada as its southern limit, with a disjunct distribution in Brazil.',
-        remarks: 'Not considered toxic, although may sting sensitive bare skin.'
+        remarks: 'Not considered toxic, although may sting sensitive bare skin.',
+        img: `${baseURL}/img/corals/img/boxFireCoral/box-fire-coral.jpg`
     },
     branchingFireCoral: {
         id: 11,
@@ -95,7 +107,8 @@ const animals = {
         color: 'Brown to light creamy yellow, with white branch tips.',
         habitat: 'Inhabit all marine environments and is the only fire coral that commonly grows deeper than 10 m. Distributed from 1 to 40 m depth.',
         distribution: 'Abundant to common Florida, Bahamas and Caribbean.',
-        remarks: 'Contact with a live colony may cause severe burning sensations due to toxins injected by the nematocysts.'
+        remarks: 'Contact with a live colony may cause severe burning sensations due to toxins injected by the nematocysts.',
+        img: `${baseURL}/img/corals/img/branchingFireCoral/branching-fire-coral.jpg`
     },
     buttonCupCorals: {
         id: 12,
@@ -104,7 +117,8 @@ const animals = {
         color: 'Upper half of corallite in shades of brown; basal deposits creamy white.',
         habitat: 'Attached to hard substrate on the underside of ledge overhangs and cave ceilings. Occasionally in the recesses of small cavities.',
         distribution: 'Most species have an Antillean distribution.',
-        remarks: 'Two species of this genus are recorded from the Leeward Island group: Caryophyllia maculata and Caryophyllia antillarum.'
+        remarks: 'Two species of this genus are recorded from the Leeward Island group: Caryophyllia maculata and Caryophyllia antillarum.',
+        img: `${baseURL}/img/corals/img/buttonCupCorals/button-cup-corals.png`
     },
     cactusCoral: {
         id: 13,
@@ -114,6 +128,7 @@ const animals = {
         corallites: 'The corallite size varies between 1 and 2 cm. The columella is trabecular and discontinuous between the corallite centers, although there is a lamellar linkage.',
         habitat: 'M. aliciae and M. reesi inhabit most moderate to deep reefs environments, down to 70 m, while M. ferox tends to inhabit shaded areas of midrange reefs, down to 40 m.',
         distribution: 'M. aliciae and M. ferox are found occasionally in Florida, Bahamas and Caribbean, while M. reesi is only found in the Caribbean.',
+        img: `${baseURL}/img/corals/img/cactusCorals/cactus-coral.jpg`
     },
     colorfulSeaWhip: {
         id: 14,
@@ -121,7 +136,8 @@ const animals = {
         description: 'Colonies form long, straight, stiff, moderately branched, whip-like stalks. Colonies can reach a length of 45 cm. Polyps in multiple rows along two sides. Calyces do not protrude when the polyps are retracted.',
         color: 'Stalks highly variable in color, including shades of lavender, violet, purple, red, orange and yellow. Polyps translucent white.',
         habitat: 'Inhabit most environments, especially in areas with hard substrate and some sand, down to 40 m.',
-        distribution: 'Common Florida, rare Caribbean.'
+        distribution: 'Common Florida, rare Caribbean.',
+        img: `${baseURL}/img/corals/img/colorfulSeaWhip/colorful-sea-whip.jpg`
     },
     commonSeaFan: {
         id: 15,
@@ -130,7 +146,8 @@ const animals = {
         color: 'The fans are purple, yellow or brownish in color.',
         habitat: 'Restricted to the outer reefs and patch reefs to 30 m.',
         distribution: 'Very widespread from Bermuda south to Curacao.',
-        remarks: 'Two other sea fans occur in the region, but are less common. The Venus sea fan (Gorgonia flabellum ) can be distinguished by the flattening of the branches. In G. ventalina the branches are round or slightly flattened in the plane of the fan, while in G. flabellum the branches are flattened at right angles to the plane of the fan. Colonies can be 1 m in height and can be almost as broad. The Wide-mesh sea fan (Gorgonia mariae ) is much smaller (up to 30 cm) and the secondary branches do not always unite or interconnect, giving a widely meshed appearance.'
+        remarks: 'Two other sea fans occur in the region, but are less common. The Venus sea fan (Gorgonia flabellum ) can be distinguished by the flattening of the branches. In G. ventalina the branches are round or slightly flattened in the plane of the fan, while in G. flabellum the branches are flattened at right angles to the plane of the fan. Colonies can be 1 m in height and can be almost as broad. The Wide-mesh sea fan (Gorgonia mariae ) is much smaller (up to 30 cm) and the secondary branches do not always unite or interconnect, giving a widely meshed appearance.',
+        img: `${baseURL}/img/corals/img/commonSeaFan/common-sea-fan.jpg`
     },
     corkySeaFingers: {
         id: 16,
@@ -138,7 +155,8 @@ const animals = {
         description: 'The colony is composed of upright, cylindrical branches of about 1 cm in diameter, which are jointed only at the common incrusting base and lower parts of the colony. The long, brown tentacles of the polyps give the species a hairy appearance. If touched, the tentacles will slowly retract, exposing a smooth to nodular surface with numerous small apertures, or openings, all over the branch. The branches can be 60 cm tall.',
         color: 'Purplish gray; polyps brownish.',
         habitat: 'Inhabit most reef environments, especially shallow fringing, patch and back reefs areas, to about 30 meters depth.',
-        distribution: 'Abundant to common South Florida, Bahamas and Caribbean.'
+        distribution: 'Abundant to common South Florida, Bahamas and Caribbean.',
+        img: `${baseURL}/img/corals/img/corkySeaFingers/corky-sea-fingers.jpg`
     },
     deadMensFingers: {
         id: 17,
@@ -146,7 +164,8 @@ const animals = {
         description: `This species is often aptly referred to as "Dead men's fingers". Mature colonies form thick, fleshy masses of irregular shape, typically produced into stout, finger-like lobes which usually exceed 20 mm diameter; rarely more than 10 lobes per colony. Young, developing colonies form encrustations about 5-10 mm thick (A. digitata encrusting). Height and breadth of colonies up to 200 mm.`,
         color: `Several colour varieties occur: white, orange, yellow or brownish, the colour being due to the sclerites; anthocodia translucent white. Ripe gonads, occurring in autumn and winter, are pink and may influence the overall colour.`,
         habitat: `Attached to rocks with little algal cover, shells, stones, and occasionally on living crabs or gastropods. Generally found in situations where strong water movement- currents or wave turbulence-prevails. Frequent on the lower shore but more common sublittorally, down to about 50 m, exceptionally deeper`,
-        distribution: `Common and widespread around all coasts of the British Isles and western Europe in general, from about 41°N to Iceland; records from the east coast of North America may apply to a different species.`
+        distribution: `Common and widespread around all coasts of the British Isles and western Europe in general, from about 41°N to Iceland; records from the east coast of North America may apply to a different species.`,
+        img: `${baseURL}/img/corals/img/deadMensFingers/dead-mens-fingers.jpg`
     },
     devilsSeaWhip: {
         id: 18,
@@ -154,7 +173,8 @@ const animals = {
         description: `Unbranched, flagelliform colonies reaching a size up to 2.4 meter. Stalks taper slightly from the base to the tip. Calyces upturned, prominent, biserial or in multiple lateral bands.`,
         color: `Stem and calices orange-red to red; polyps white.`,
         habitat: `Inhabit deep, clear water environments, especially on steep slopes and walls. Attached to rocky substrates.`,
-        distribution: `Common to occasional Florida, Bahamas and Caribbean.`
+        distribution: `Common to occasional Florida, Bahamas and Caribbean.`,
+        img: `${baseURL}/img/corals/img/devilSeaWhip/devil-sea-whip.jpg`
     },
     diffuseIvoryBushCoral: {
         id: 19,
@@ -163,7 +183,8 @@ const animals = {
         color: `Yellow-brown, but often encrusted with organisms of different color. Colonies without zooxanthellae are cream to white.`,
         corallites: `Corallites 3-4 mm in diameter, without costae. Columella well-developed, trabecular.`,
         habitat: `Generally inhabit shallow water areas of high sedimentation, down to 25 m.`,
-        distribution: `Common to occasional in Florida and the Bahamas; occasional to rare in the Caribbean.`
+        distribution: `Common to occasional in Florida and the Bahamas; occasional to rare in the Caribbean.`,
+        img: `${baseURL}/img/corals/img/diffuseIvoryBushCoral/diffuse-ivory-bush-coral.jpg`
     },
     doubleForkedPlexaurella: {
         id: 20,
@@ -171,7 +192,8 @@ const animals = {
         description: `Colonies are dichotomously branched and bushy, up to 80 cm in height. The end branches are rigid and blunt, sometimes club-shaped at their ends; 10-15 mm in diameter. Depending on the habitat, the branches may be short and crooked or long and straight. Apertures, 1-1.5 mm in diameter, are usually slightly raised but may also be flush with the surface; narrow and slit like.`,
         color: `Yellowish brown.`,
         habitat: `Common on the outer reefs and patch reefs, and to a lesser extent inshore.`,
-        distribution: `Florida to Brazilian reefs.`
+        distribution: `Florida to Brazilian reefs.`,
+        img: `${baseURL}/img/corals/img/doubleForkedPlexaurella/double-forked-plexaurella.jpg`
     },
     doughnutSeaRod: {
         id: 21,
@@ -179,7 +201,8 @@ const animals = {
         description: `Colony low, bushy, shrub-like, occasionally tall with widely spaced branches, up to 50 cm in height. Calyces low, circular, somewhat swollen, with round, central apertures.`,
         color: `Rods light to dark gray; polyps yellow-brown to brown.`,
         habitat: `Inhabit shallow, hard bottoms and patch reefs.`,
-        distribution: `Common to occasional Florida, Bahamas and Caribbean.`
+        distribution: `Common to occasional Florida, Bahamas and Caribbean.`,
+        img: `${baseURL}/img/corals/img/doughnutSeaRod/doughnut-sea-rod.jpg`
     },
     dwarfCupCoral: {
         id: 22,
@@ -187,7 +210,8 @@ const animals = {
         description: `Colonies are composed of relatively few (usually less than 20) cylindrical corallites, budded extratentacularly from narrow, thin, stolons. A continuous coenosteum between or among the corallites is rarely present, and the stoloniferous connection is usually encrusted or abraded, resulting in the apparent or actual isolation of individual corallites. Most corallites 4 to 6 mm in diameter and 4 to 8 mm in height. The corallites bear broad, flat, granular costae, separated from one another by thin, shallow intercostal striae. Costal granules low and rounded. Septa hexamerally arranged in four cycles, a full complement of 48 septa is rarely achieved, 36 septa being the most common number.`,
         color: `Corallites usually uniformly light brown or light brown in the distal half, grading to white on the lower half. Occasionally the corallites are entirely white.`,
         habitat: `It is commonly attached to dead coral rubble and the undersides of platy corals, down to 40 m.`,
-        distribution: `It is one of the most common azooxanthellate corals in the western Atlantic. Occasional in Florida, Bahamas and Caribbean.`
+        distribution: `It is one of the most common azooxanthellate corals in the western Atlantic. Occasional in Florida, Bahamas and Caribbean.`,
+        img: `${baseURL}/img/corals/img/dwarfCupCoral/dwarf-cup-coral.jpg`
     },
     eightRayFingerCoral: {
         id: 23,
@@ -196,7 +220,8 @@ const animals = {
         color: `Tan to yellow-brown, yellow-green, green and brown; polyp's mouth yellow.`,
         corallites: `Corallites separated, up to 1.0-1.3 mm in diameter, usually with eight septa. Columella massive, styliform.`,
         habitat: `Corallites separated, up to 1.0-1.3 mm in diameter, usually with eight septa. Columella massive, styliform. `,
-        remarks: `Some other species of the genus occur on Curacao: Madracis decactis , Madracis mirabilis , Madracis pharensis , Madracis senaria and a recent described species, Madracis carmabi . Recent investigations suggest that M. senaria and M. mirablis form monophyletic groups, while M. formosa , M. pharensis and M. decactis form a species-complex. It seems that hybridization occurs between the M. pharensis / M. decactis -complex and M. formosa and polyphenism within the M. pharensis / M. decactis -complex.`
+        remarks: `Some other species of the genus occur on Curacao: Madracis decactis , Madracis mirabilis , Madracis pharensis , Madracis senaria and a recent described species, Madracis carmabi . Recent investigations suggest that M. senaria and M. mirablis form monophyletic groups, while M. formosa , M. pharensis and M. decactis form a species-complex. It seems that hybridization occurs between the M. pharensis / M. decactis -complex and M. formosa and polyphenism within the M. pharensis / M. decactis -complex.`,
+        img: `${baseURL}/img/corals/img/eightRayFingerCoral/eight-ray-finger-coral.jpg`
     },
     elkhornCoral: {
         id: 24,
@@ -205,7 +230,8 @@ const animals = {
         color: `Golden-brown with light rims.`,
         corallites: `Corallites are porous protruding tubes, less than 5 mm long and 0.5-0.8 mm in diameter. They are densely packed, with 1-2 mm in between. A columella is absent.`,
         habitat: `On the reef at a higher level than Acropora cervicornis and Acropora prolifera up to within the reach of waves. Not in inner bays.`,
-        distribution: `Abundant to common Bahamas and Caribbean; common to occasional South Florida.`
+        distribution: `Abundant to common Bahamas and Caribbean; common to occasional South Florida.`,
+        img: `${baseURL}/img/corals/img/elkhornCoral/elkhorn-coral.jpg`
     },
     ellipticalStarCoral: {
         id: 25,
@@ -215,7 +241,8 @@ const animals = {
         corallites: `Corallites 3.5-4.5 mm in diameter. Columella trabecular and weak.`,
         habitat: `Inhabit most reef environments, down to 70 m.`,
         distribution: `Occasional Florida, common in the Bahamas and Caribbean.`,
-        remarks: `The flattened plate form is also known as the Pancake star coral (Dichocoenia stellaris ).`
+        remarks: `The flattened plate form is also known as the Pancake star coral (Dichocoenia stellaris ).`,
+        img: `${baseURL}/img/corals/img/ellipticalStarCoral/elliptical-star-coral.jpg`
     },
     featherBlackCoral: {
         id: 26,
@@ -223,7 +250,8 @@ const animals = {
         description: `Profuse primary and secondary branches extend from a holdfast in nearly a single plane; reaching over 1.5 m in both height and width. Young specimens may display a spiral colony form. Branches lined with characteristic pinnate branchlets, giving the colony a feather-like appearance.`,
         color: `Primary and secondary branches golden-brown to brown, gray and black, may be tinted red, green or blue. Branchlets often of lighter color.`,
         habitat: `The species is most common at depths of 25 to 60 m, but has been taken as deep as 330 m. In shallow waters, it inhabits caves and is found under large overhangs.`,
-        distribution: `Rare Florida; common to uncommon Bahamas and Caribbean.`
+        distribution: `Rare Florida; common to uncommon Bahamas and Caribbean.`,
+        img: `${baseURL}/img/corals/img/featherBlackCoral/feather-black-coral.jpg`
     },
     flagellateFalsePlexaura: {
         id: 27,
@@ -231,7 +259,8 @@ const animals = {
         description: `Colonies large, branching dichotomously, more or less in one plane, up to 1 m in height. End branches long and slender, 2-3 mm in diameter. Apertures small, 0.5-1.0 mm in diameter, ellipsoid, elongated in the axis of the branch, and arranged in poorly defined vertical rows on the branch.`,
         color: `Purple`,
         habitat: `A reef dweller, from 3-30 m.`,
-        distribution: `Florida and Caribbean.`
+        distribution: `Florida and Caribbean.`,
+        img: `${baseURL}/img/corals/img/flagellateFalsePlexaura/flagellate-false-plexaura.jpg`
     },
     floridaCorallimorph: {
         id: 28,
@@ -239,7 +268,8 @@ const animals = {
         description: `Corallimorph with spherical, knob-like tentacles covering the oral disc and elongated tentacles around the edge. Tentacles in a radial arrangement. Disc of solitary polyps up to 5 cm.`,
         color: `Usually overall green, sometimes with shades of yellow, orange, brown or blue.`,
         habitat: `Solitary, or in small groups, occasionally forming mat-like groups so that individual polyps are difficult to distinguished (R. florida mat-like colony).`,
-        distribution: `Occasional Florida, Bahamas and Caribbean.`
+        distribution: `Occasional Florida, Bahamas and Caribbean.`,
+        img: `${baseURL}/img/corals/img/floridaCorallimorph/florida-corallimorph.jpg`
     },
     fragileSaucerCoral: {
         id: 29,
@@ -248,7 +278,8 @@ const animals = {
         color: `Shades of purplish brown, chocolate, yellow-brown, tan and greenish tan.`,
         corallites: `Corallite diameter 1.9-2.5 mm, with 17-36 septa per corallite. Columella present, trabecular and discontinuous.`,
         habitat: `Inhabit sloping reef faces, under ledge overhangs and along walls, till depths of 60 meters.`,
-        distribution: `Occasional Florida, Bahamas, Caribbean and Brazil.`
+        distribution: `Occasional Florida, Bahamas, Caribbean and Brazil.`,
+        img: `${baseURL}/img/corals/img/fragileSaucerCoral/fragile-saucer-coral.jpg`
     },
     fusedStaghornCoral: {
         id: 30,
@@ -258,7 +289,8 @@ const animals = {
         corallites: `Corallites are porous protruding tubes, less than 5 mm long, and 0.8-1.0 mm in diameter. They are densely packed, with 2-3 mm in between. A columella is absent.`,
         habitat: `Occurring well below the surface, but not deeper than about 10 meters. In shallow water only in quiet bays and the lee side of islands. Generally not in inner bays.`,
         distribution: `Uncommon South Florida, Bahamas and Caribbean.`,
-        remarks: `Recent DNA sequence analyses suggested that Acropora prolifera is a hybrid between Acropora cervicornis and Acropora palmata , which backcrosses with the parental species at low frequency.`
+        remarks: `Recent DNA sequence analyses suggested that Acropora prolifera is a hybrid between Acropora cervicornis and Acropora palmata , which backcrosses with the parental species at low frequency.`,
+        img: `${baseURL}/img/corals/img/fusedStaghornCoral/fused-staghorn-coral.jpg`
     },
     giantSlitPoreSeaRod: {
         id: 31,
@@ -266,7 +298,8 @@ const animals = {
         description: `Colonies very tall with thick stalks and sparse, dichotomous branching; up to 1.3 m in height. End branches thick, 10-15 mm in diameter, and can be very long, up to 1 m. The ends of the branches are usually club-shaped. Apertures widely spaced and each is usually elevated on a small mound. The apertures are 2-2.5 mm in diameter and range from nearly circular to slit like in shape.`,
         color: `Pale gray to tan or light brown.`,
         habitat: `Inhabit patch and fore reefs in clear waters.`,
-        distribution: `Common to occasional Florida, Bahamas and Caribbean.`
+        distribution: `Common to occasional Florida, Bahamas and Caribbean.`,
+        img: `${baseURL}/img/corals/img/giantSlitPoreSeaRod/giant-slit-pore-sea-rod.jpg`
     },
     goldenZoanthid: {
         id: 32,
@@ -274,7 +307,8 @@ const animals = {
         description: `This colonial zoanthid is symbiotic and grows in band-like rows, often winding around the branches of the host sponge. The oral disc is up to 0.6 cm in diameter and is fringed by up to 26 long and thinly tentacles.`,
         color: `Body brilliant gold to yellow; tentacles pale yellow.`,
         habitat: `Symbiotic on a wide variety of sponges, including the Brown tube sponge (Agelas conifera ), the Green finger sponge (Iotrochota birotulata ) and Topsentia ophiraphidites (P. swifti on T. ophiraphidites). The zoanthids are toxic to fish and may discourage sponge-eating fishes from sampling their hosts; the distinctive color of the zoanthid on the sponges may serve to advertise their presence.`,
-        distribution: `Common Bahamas and Caribbean.`
+        distribution: `Common Bahamas and Caribbean.`,
+        img: `${baseURL}/img/corals/img/goldenZoanthid/golden-zoanthid.jpg`
     } 
 };
 
