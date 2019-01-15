@@ -1,3 +1,5 @@
+const baseURL = require('../../../baseURL');
+
 const animals = {
     aesopSlipperLobster: {
         id: 1,
@@ -7,7 +9,8 @@ const animals = {
         geographicalDistribution: `Indo-West Pacific region: from the Red Sea and the western Indian Ocean (Mauritius) to Japan (Sagami Bay and south), Korea, China (southeast coast and Taiwan Island), Indonesia, Australia, and Hawaii.`,
         habitatAndBiology: `Known from depths between 10 and 135 m. Probably on rocky bottom.`,
         size: `Total body length up to 50 cm. The carapace lengths reported vary between 4.5 and 17 cm`,
-        interestToFisheries: `The species as a rule is only incidentally caught, but it is used for food and offered for sale fresh at local markets (e.g., in Korea, Japan and Hawaii). It is usually taken with lobster pots.`
+        interestToFisheries: `The species as a rule is only incidentally caught, but it is used for food and offered for sale fresh at local markets (e.g., in Korea, Japan and Hawaii). It is usually taken with lobster pots.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/aesopSlipperLobster/aesop-slipper-lobster.jpg`
     },
     africanSpearLobster: {
         id: 2,
@@ -17,7 +20,8 @@ const animals = {
         geographicalDistribution: `Off the east coast of Africa from Kenya to Natal, South Africa.`,
         habitatAndBiology: `Depth range from 216 to 375; on rough substrate with sand and mud.`,
         size: `Maximum total bodylength about 35 cm, carapace length14 cm; average carapace length about 10 cm.`,
-        interestToFisheries: `At present very minor. The species is not fished commercially in most of its range, but according to Ivanov and Krylov (1980: 286) it supports a commercial fishery in Tanzanian waters, where, off Zanzibar, catches of over 10 kg/h were taken by bottom trawls. The animals are mostly marketed fresh`
+        interestToFisheries: `At present very minor. The species is not fished commercially in most of its range, but according to Ivanov and Krylov (1980: 286) it supports a commercial fishery in Tanzanian waters, where, off Zanzibar, catches of over 10 kg/h were taken by bottom trawls. The animals are mostly marketed fresh`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/africanSpearLobster/african-spear-lobster.png`
     },
     americanBlunthornLobster: {
         id: 3,
@@ -27,7 +31,8 @@ const animals = {
         geographicalDistribution: `Western Atlantic: from Carriacou Island, Grenadines, to off the mouth of the Amazon River, Amapá and Pará States, Brazil.`,
         habitatAndBiology: `The species has been taken in depths between 120 and 298 m, but there is a record from the littoral zone, and one from 4111-4122 m. The bottom is variously described as "sand and coral", "sandy calcarenite", and "smooth, consisting of brown mud ".`,
         size: `Carapace lengths of 1.6 to 3.2 cm have been reported, the known maximum body length is 10 cm.`,
-        interestToFisheries: `So far none. The species is evidently rare, and perhaps has a restricted range. Better knowledge of its occurrence and habits is required for deciding whether a future fishery will prove feasible.`
+        interestToFisheries: `So far none. The species is evidently rare, and perhaps has a restricted range. Better knowledge of its occurrence and habits is required for deciding whether a future fishery will prove feasible.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/americanBlunthornLobster/american-blunthorn-lobster.jpg`
     },
     americanLobster: {
         id: 4,
@@ -37,13 +42,15 @@ const animals = {
         geographicalDistribution: `Western Atlantic: Atlantic coast of North America betweenNewfoundland (Canada) and North Carolina (USA).`,
         habitatAndBiology: `Sublittoral to 480 m depth, most common between 4 and 50 m Hard bottom (hard mud, rocks). As the females carry their eggs for 10 to 11 months, ovigerous females are found throughout the year. Migration does not occur" or only on a limited scale.`,
         size: `Maximum total body length 64 cm, usually around 25 cm or less. This probably is, with Jasus verreauxi, the largest known Decapod species as far as body length is concerned.`,
-        interestToFisheries: `The species is the subject of one of the most important Crustacea fisheries in the northwest Atlantic. According to FAO statistics" the catches in 1987 and 1988 amounted to 60 096 and 62 457 tons" respectively. Theanimals are mostly caught with traps" but in recent years trawling proved to be commercially feasible, especially in the southern part of the range of the species. These lobsters are sold fresh or frozen. The meat is also canned`
+        interestToFisheries: `The species is the subject of one of the most important Crustacea fisheries in the northwest Atlantic. According to FAO statistics" the catches in 1987 and 1988 amounted to 60 096 and 62 457 tons" respectively. Theanimals are mostly caught with traps" but in recent years trawling proved to be commercially feasible, especially in the southern part of the range of the species. These lobsters are sold fresh or frozen. The meat is also canned`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/americanLobster/american-lobster.jpg`
     },
     americanSpiderCrab: {
         id: 5,
         name: `American Spider crab (Pyromaia tuberculata)`,
         description: `The entire animal is covered with short hairs, but in full-grown specimens, the carapace and chelipeds are naked and their surfaces glossy. The carapace is pyriform, rounded in its posterior half and narrowed in its anterior half. The rostrum is projecting into a single process and its tip rounded. The gastric region is convex, marked with a tubercle of a good size in the middle portion, around which several smaller tubercles are found. This median large tubercle is sometimes divided into two. The cardiac region is also convex, marked with a large tubercle in the middle portion, around which a few smaller tubercles are found. The intestinal region is not much convex, with a large tubercle in its posterior portion. In the female, this intestinal tubercle is usually wanting. The hepatic region is small, no dorsal tubercles besides a few tiny ones; its lateral margin is marked with three or four tubercles, anterior one of which is a little larger. The branchial region is dorsally marked with about 30 tubercles, on the upper inner surface, the tubercles form a group forming obscurely oblique rows. The margin of this region is marked with a series of eight or nine tubercles, three or four of which are larger. The number and arrangement of the tubercles on these regions are individually variable. No specific differences between Japanese and California specimens can be seen in regard to the feature of carapace as well as in the number and arrangement of tubercles. The supraorbital eave is well defined, marked with a tubercle of a good size at its anterior end; this large tubercle is obliterated in female or younger specimens. The basal antennal segment is armed with a strong tooth at its antero-external angle, the form and size of this tooth are almost the same in both Japanese and California forms. The male abdomen is consisted of six segments, the penultimate and terminal segments being fused together. The female abdomen is consisted of five segments, the fifth to seventh segments being fused together. According to Dr. Garth, the male abdomen of Japanese form is narrower and its lateral borders concave, but in most of the specimens before the author, such features are not so remarkable. The female abdomen is more thickly covered with tubercles than in the male. The form of apex of the anterior male pleopod is rather complicated, the outlet of the spermatophore being encircled with thin membrane and edged wall on both outer and inner margins. The appendage of the California specimen was already drawn by Garth (1958 1. c., pl. E, fig. 7). In his figure, however, such thin membrane and edged wall were overlooked. In regard to the form of the anterior pleopod of male, Japanese specimens seem to differ from California forms, while, that of the male from California sent by Dr. Garth is almost agreeing with that of the Japanese specimen, as shown in Text-fig. 3 a, b. The discrepancy seen between Garth's figure and those of the present author probably due to the difference of angle when the pleopod was examined by microscope, and also partly to the difference of growth (?). It is wonderful that the pleopod of Erileptus spinosus Rathbun, figured by Garth in his Pl. E, fig. 8 (loc. cit.) is somewhat resembling that of P. tuberculata from Japan and also from California figured in the present opportunity. The chelipeds are robust. The merus and carpus are marked with a few tubercles on the inner and outer borders. The propodus is thick and its surface smooth; there are a few tubercles, which are arranged in a median longitudinal row on the outer proximal surface, and also a few others near the proximal outer and inner surfaces. The prehensile edges of both fingers are finely denticulated, one or two proximal teeth are a little larger than the others. The ambulatory legs are slender, the first pair is the longest, nearly thrice the entire length of carapace; the last pair is the shortest, half as long as the first pair. The main segments of these legs are distally thickened; no distal or proximal spines or teeth on each segment. The posterior edge of the dactylus is armed with ten to twelve denticles, but in full-grown specimens, these denticles are obliterated. (Sakai, 1971: 144)`,
-        geographicalDistribution: ` San Diego Bay, California; Japan - Sagami Bay and Tokyo Bay, Tokyo Bay, Miura Peninsula, Sagami Bay and Yokkaichi, Osaka Bay, Seto-naikai; Western Australia - Cockburn Sound, south of Perth; from California to Bay of Panama - San Diego Bay, Lower California, Gulf of California.`
+        geographicalDistribution: ` San Diego Bay, California; Japan - Sagami Bay and Tokyo Bay, Tokyo Bay, Miura Peninsula, Sagami Bay and Yokkaichi, Osaka Bay, Seto-naikai; Western Australia - Cockburn Sound, south of Perth; from California to Bay of Panama - San Diego Bay, Lower California, Gulf of California.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/americanSpiderCrab/american-spider-crab.jpg`
     },
     andamanLobster: {
         id: 6,
@@ -53,7 +60,8 @@ const animals = {
         geographicalDistribution: `Indo-West Pacific region: East Africa, the Andaman Sea, the South China Sea, and Indonesia. Records of M. andamanicus from S.E. Africa and Madagascar pertain to M. mozambicus, those from Australia to M. velutinus. A record from Madang, Papua New Guinea (King,1988: 109) needs verification.`,
         habitatAndBiology: `Depth range from 250 to 750 m, but mostly between 300 and 450 m. Substrate of hard mud; the species possibly lives in burrows`,
         size: `Total body length up to 20 cm, most common between 15 and 18 cm; carapace length about 4.5 to 6 cm.`,
-        interestToFisheries: `Longhurst (1970: 286) mentioned the species as a potential fishery resource off Hong Kong. It is well possible that the same is true in other parts of its range. Its size and the fact that the species lives on trawlable bottoms are in favour of this supposition. Records of commercial catches of M. andamanicus off S.E. Africa and Madagascar refer to M. mozambicus; such records from Australia are actually based on material of M. velutinus.`
+        interestToFisheries: `Longhurst (1970: 286) mentioned the species as a potential fishery resource off Hong Kong. It is well possible that the same is true in other parts of its range. Its size and the fact that the species lives on trawlable bottoms are in favour of this supposition. Records of commercial catches of M. andamanicus off S.E. Africa and Madagascar refer to M. mozambicus; such records from Australia are actually based on material of M. velutinus.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/andamanLobster/andaman-lobster.png`
     },
     arabianWhipLobster: {
         id: 7,
@@ -63,7 +71,8 @@ const animals = {
         geographicalDistribution: `Western Indian Ocean: Somalia, Gulf of Aden, off Pakistan, southwest and south India, Gulf of Mannar.`,
         habitatAndBiology: `Known from depths between 180 and 1300 m, most common between 180 and 300 m; on a substrate of coarse sand, hard mud and shells.`,
         size: `Maximum total body length about 20 cm, maximum carapace length about 8 cm. Average total length about 15 cm.`,
-        interestToFisheries: `Between 1974 and 1977, the species was commercially fished off the east coast of Somalia. In the Gulf of Aden, experimental trawling was carried out with average catches of 10 to 129 kg/hour. Off S.W. India, rich grounds were found, where the fishery for this species might become commercially rewarding. The annual sustainable yield in that area was estimated at 6700 tons. The operations were carried out by deep-sea trawlers. The lobster tails were sold deep-frozen.`
+        interestToFisheries: `Between 1974 and 1977, the species was commercially fished off the east coast of Somalia. In the Gulf of Aden, experimental trawling was carried out with average catches of 10 to 129 kg/hour. Off S.W. India, rich grounds were found, where the fishery for this species might become commercially rewarding. The annual sustainable yield in that area was estimated at 6700 tons. The operations were carried out by deep-sea trawlers. The lobster tails were sold deep-frozen.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/arabianWhipLobster/arabian-whip-lobster.jpg`
     },
     arafuraLobster: {
         id: 8,
@@ -73,7 +82,8 @@ const animals = {
         geographicalDistribution: `Indo-West Pacific region: Indonesia; only known from type locality.`,
         habitatAndBiology: `Found at 560 m depth; bottom solid bluish grey mud overlaid by softer brown mud.`,
         size: `Carapace length; including rostrum, 5.5 cm; total body length about 12 cm.`,
-        interestToFisheries: `As the species is known only from a single specimen, nothing can be said about its potential commercial value.`
+        interestToFisheries: `As the species is known only from a single specimen, nothing can be said about its potential commercial value.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/arafuraLobster/arafura-lobster.png`
     },
     armouredLobster: {
         id: 9,
@@ -84,7 +94,8 @@ const animals = {
         habitatAndBiology: `At depths of 200 to 450 m, mostly more than 300 m. On a more rocky bottom than the other Taiwan lobsters.`,
         size: `Carapace length 1.7-5.7 cm (males), 1.4-4.8 cm (females), 3.9-4.4 cm (ovigerous females).`,
         interestToFisheries: `The species is sold on the Taiwan markets and fetches better prices than the other Taiwan lobsters as the specimens are larger. However, it is less common in the markets than the other species.`,
-        remarks: `Before 1991 specimens of this species were considered to belong to M. japonicus.`
+        remarks: `Before 1991 specimens of this species were considered to belong to M. japonicus.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/armouredLobster/armoured-lobster.jpg`
     },
     atlanticDeepSeaLobster: {
         id: 10,
@@ -94,7 +105,8 @@ const animals = {
         geographicalDistribution: `Gulf of Mexico, Caribbean Sea, Straits of Florida.`,
         habitatAndBiology: `A deep-sea species from 293 to 878 m depth (mostly between 550 and 825 m). Lives on soft mud bottoms in burrows.`,
         size: `Maximum total length 40 cm; carapace length 2 to 17 cm.`,
-        interestToFisheries: `Not actually fished for at present. Exploratory deep-sea trawlingshowed the species to be present in quantities that might be of commercial interest; also interesting because of its relatively large size.`
+        interestToFisheries: `Not actually fished for at present. Exploratory deep-sea trawlingshowed the species to be present in quantities that might be of commercial interest; also interesting because of its relatively large size.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/atlanticDeepSeaLobster/atlantic-deep-sea-lobster.png`
     },
     atlanticPincerLobster: {
         id: 11,
@@ -104,7 +116,8 @@ const animals = {
         geographicalDistribution: `West Indian region (Straits of Florida, off Yucatan, east of Nicaragua, off Sombrero Island, and off Grenada).`,
         habitatAndBiology: `Deep-sea species from 640 to 1054 m depth. Bottom very flat, of soft mud (ooze). Possibly a burrowing species.`,
         size: `Total length l0 to l6 cm.`,
-        interestToFisheries: `So far none. Only 7 specimens have so far been taken, there are no indications that they ever could be caught in commercially interesting quantities.`
+        interestToFisheries: `So far none. Only 7 specimens have so far been taken, there are no indications that they ever could be caught in commercially interesting quantities.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/atlanticPincerLobster/atlantic-pincer-lobster.jpg`
     },
     australianGhostShrimp: {
         id: 12,
@@ -114,7 +127,8 @@ const animals = {
         geographicalDistribution: `E. and S.E. Australia, from Townsville (N. Queensland) to Port Phillip Bay (Victoria). The most abundant Callianassid in E. Australia.`,
         habitatAndBiology: `On intertidal sand- or mud-flats, often in or near estuaries. The animals burrow in the soft substratum.`,
         size: `Total body length 1.5 to 6 cm.`,
-        interestToFisheries: `In E. Australia the species is extensively used as bait for fishing. The so-called yabbie- pumps received their name from the Australia bait collectors, who were the first to use this suction pump for collecting these burrowing animals. As described by Hailstone (1962: 29-30) there are 3 types of yabbie-pumps (also called slurp guns). Two of these types are manual and are "essentially coring tubes, which, when pushed into the sand and extracted, remove a core of about 2 ft. [= about 60 cm] in length and from 2 in. to 4 in. [= 5 to 10 cm] in diameter. Either pump is then reinserted in the hole so formed and suction is applied (with the aid of a plunger in one model or by closing off all air outlets and withdrawal of the pump in the other model). As a results of this suction, water, sand and yabbies are drawn into the hole and removed " (Hailstone, 1962: 30). The third type is motor-driven and "works on the reverse principle, i.e., water under pressure is driven deeply into the sand and yabbies are flooded to the surface". The pump with the plunger is now used extensively in many parts of the world for collecting burrowing Crustacea from sandy or muddy substrates in the intertidal and subtidal zones as described by Manning (1975: 318-319).`
+        interestToFisheries: `In E. Australia the species is extensively used as bait for fishing. The so-called yabbie- pumps received their name from the Australia bait collectors, who were the first to use this suction pump for collecting these burrowing animals. As described by Hailstone (1962: 29-30) there are 3 types of yabbie-pumps (also called slurp guns). Two of these types are manual and are "essentially coring tubes, which, when pushed into the sand and extracted, remove a core of about 2 ft. [= about 60 cm] in length and from 2 in. to 4 in. [= 5 to 10 cm] in diameter. Either pump is then reinserted in the hole so formed and suction is applied (with the aid of a plunger in one model or by closing off all air outlets and withdrawal of the pump in the other model). As a results of this suction, water, sand and yabbies are drawn into the hole and removed " (Hailstone, 1962: 30). The third type is motor-driven and "works on the reverse principle, i.e., water under pressure is driven deeply into the sand and yabbies are flooded to the surface". The pump with the plunger is now used extensively in many parts of the world for collecting burrowing Crustacea from sandy or muddy substrates in the intertidal and subtidal zones as described by Manning (1975: 318-319).`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/australianGhostShrimp/australian-ghost-shrimp.jpg`
     },
     australianPincerLobster: {
         id: 13,
@@ -124,7 +138,8 @@ const animals = {
         geographicalDistribution: `NE Australia. Only known from the type locality.`,
         habitatAndBiology: `Taken at a depth of 425 m.`,
         size: `Total length approximately 7.7 cm (female), 5.7 cm (male); carapace length 2.5 cm (female), 1.9 cm (male).`,
-        interestToFisheries: `Inasmuch as only two specimens are known of this species nothing can be stated on this aspect, but it is not likely that the species ever will become of commercial interest.`
+        interestToFisheries: `Inasmuch as only two specimens are known of this species nothing can be stated on this aspect, but it is not likely that the species ever will become of commercial interest.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/australianPincerLobster/australian-pincer-lobster.jpg`
     },
     australianSpinyLobster: {
         id: 14,
@@ -135,7 +150,8 @@ const animals = {
         geographicalDistribution: `Indo-West Pacific region: restricted to Western Australia, namely on the west coast between Northwest Cape (21°48'S) and Hamelin Harbour (34°30'S) and at the offshore islands.`,
         habitatAndBiology: `Found in depths between 0 and 90 m, rarely as deep as 120 m. The animals are nocturnal and shelter in the daytime in rock crevices and among coral. They undertake limited migrations. The species is omnivorous.`,
         size: `Maximum carapace length 14 cm, corresponding to a total body length of about 40 cm. Average between 8 and 10 cm carapace length. The carapace length of ovigerous females or those with spermatophores is 9 to 11 cm.`,
-        interestToFisheries: `The fishery of this species is of major importance in Australia. According to FAO Yearbook of Fisheries Statistics the annual catches were 11 025 metric tons in 1987 and in 1988. The season used to extend from 15 November to 14 August, butwas reduced in 1978 from 15 November to 30 June. At the beginning of the season (November and December) the fishery takes the freshly moulted animals (the so-called "whites") which then leave the shallow reef areas. During the remaining part of the season, the "coastal red" lobsters are fished. The Abrolhos Islands are exceptional as the season starts there on 15 March. The fishing activities are concentrated between 24° and 35°S, and the largest yields are obtained between 28° and 32°S. The fishery operates lobster traps of various design and divers take specimens by hand. Apart from the closed season there are several protective measures: a minimum size limit (cl. 7.5 cm), bag limit for sports fishermen, restriction of the size of the lobster pots, etc. The species marketed fresh, but the greatest percentage is exported as frozen tails.`
+        interestToFisheries: `The fishery of this species is of major importance in Australia. According to FAO Yearbook of Fisheries Statistics the annual catches were 11 025 metric tons in 1987 and in 1988. The season used to extend from 15 November to 14 August, butwas reduced in 1978 from 15 November to 30 June. At the beginning of the season (November and December) the fishery takes the freshly moulted animals (the so-called "whites") which then leave the shallow reef areas. During the remaining part of the season, the "coastal red" lobsters are fished. The Abrolhos Islands are exceptional as the season starts there on 15 March. The fishing activities are concentrated between 24° and 35°S, and the largest yields are obtained between 28° and 32°S. The fishery operates lobster traps of various design and divers take specimens by hand. Apart from the closed season there are several protective measures: a minimum size limit (cl. 7.5 cm), bag limit for sports fishermen, restriction of the size of the lobster pots, etc. The species marketed fresh, but the greatest percentage is exported as frozen tails.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/australianSpinyLobster/australian-spiny-lobster.jpg`
     },
     bandedLobster: {
         id: 15,
@@ -145,7 +161,8 @@ const animals = {
         geographicalDistribution: `Western Atlantic: Florida Straits and northwest of Anguilla.`,
         habitatAndBiology: `Depth range between (393-) 451 and 550 m Substrate: mud.`,
         size: `Maximum total body length about 15 cm, carapace length 4 to 7 cm.`,
-        interestToFisheries: `Since so far only three specimens of this species are known, nothing concrete can be said about its fisheries potential. Its size is attractive, but the depth range and low abundance are negative factors.`
+        interestToFisheries: `Since so far only three specimens of this species are known, nothing concrete can be said about its fisheries potential. Its size is attractive, but the depth range and low abundance are negative factors.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/bandedLobster/banded-lobster.jpg`
     },
     bandedSpinyLobster: {
         id: 16,
@@ -156,7 +173,8 @@ const animals = {
         geographicalDistribution: `Only known from the Hawaiian Islands, including Pearl and Hermes Reef, and Laysan Island.`,
         habitatAndBiology: `The species has been reported from depths down to 143 m, but usually in shallow water, in well protected places on a rocky substrate, under rocks and in rock crevices. The animals are nocturnal.`,
         size: `Total body length to 40 cm, carapace length to 12 cm.`,
-        interestToFisheries: `Used as food throughout its range. Fished with traps or nets. Also taken by hand, in daytime by diving, at night with lights and spears. Sold fresh in local markets. The 1971 USA fishery statistics indicate a total of 5 725 pounds ( = 2 600 kg) of lobsters caught in the Hawaiian Islands, of which 5 371 pounds in Oahu, 263 pounds in Maui, 70 pounds in Hawaii and 21 pounds in Lanai. Of these slightly more were caught in gill nets (3253 pounds) than in traps (2113 pounds) and 339 pounds were registered as fished by hand. These figures include the catches of P. penicillatus.`
+        interestToFisheries: `Used as food throughout its range. Fished with traps or nets. Also taken by hand, in daytime by diving, at night with lights and spears. Sold fresh in local markets. The 1971 USA fishery statistics indicate a total of 5 725 pounds ( = 2 600 kg) of lobsters caught in the Hawaiian Islands, of which 5 371 pounds in Oahu, 263 pounds in Maui, 70 pounds in Hawaii and 21 pounds in Lanai. Of these slightly more were caught in gill nets (3253 pounds) than in traps (2113 pounds) and 339 pounds were registered as fished by hand. These figures include the catches of P. penicillatus.`,
+        img: `${baseURL}/img/crustaceans/img/crabsAndLobsters/bandedSpinyLobster/banded-spiny-lobster.jpg`
     } 
 };
 
