@@ -1,3 +1,5 @@
+const baseURL = require('../../../baseURL');
+
 const animals = {
     bodotriaArenosa: {
         id: 1,
@@ -7,7 +9,8 @@ const animals = {
         ecology: `Generally inhabits rather coarser sand than Bodotria scorpioides. `,
         depthRange: `Down to about 120 m.`,
         distributionInTheNorthSea: `Recorded from SW Norway to Brittany.`,
-        worldDistribution: `SW Norway to Brittany.`
+        worldDistribution: `SW Norway to Brittany.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/bodotriaArenosa/bodotria-arenosa.png`
     },
     bodotriaPulchella: {
         id: 2,
@@ -17,7 +20,8 @@ const animals = {
         ecology: `Recorded from shallow water.`,
         depthRange: `Down to 70 m.`,
         distributionInTheNorthSea: `Southern and northern North Sea, Skagerrak, also Kattegat.`,
-        worldDistribution: `Recorded from west coast of Britain, Mediterranean Sea and Sénégal.`
+        worldDistribution: `Recorded from west coast of Britain, Mediterranean Sea and Sénégal.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/bodotriaPulchella/bodotria-pulchella.png`
     },
     bodotriaScorpioides: {
         id: 3,
@@ -27,7 +31,8 @@ const animals = {
         ecology: `Generally inhabits rather coarser sand than Bodotria scorpioides.`,
         depthRange: `Down to about 100 m depth, usually much less.`,
         distributionInTheNorthSea: `Southern and northern North Sea, Skagerrak.`,
-        worldDistribution: `NW Europe, from Norway to France, Mediterranean Sea and Black Sea, W Africa.`
+        worldDistribution: `NW Europe, from Norway to France, Mediterranean Sea and Black Sea, W Africa.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/bodotriaScorpioides/bodotria-scorpioides.jpg`
     },
     brachydiastylisResima: {
         id: 4,
@@ -37,7 +42,8 @@ const animals = {
         ecology: `Shelf to bathyal.`,
         depthRange: `Down from 5 to 350 m.`,
         distributionInTheNorthSea: `Northern North Sea, Skagerrak.`,
-        worldDistribution: `An Arctic-Boreal species mainly from the upper shelf, recorded from the North Sea northwards to the Arctic and from the north-western Pacific.`
+        worldDistribution: `An Arctic-Boreal species mainly from the upper shelf, recorded from the North Sea northwards to the Arctic and from the north-western Pacific.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/brachydiastylisResima/brachydiastylis-resima.png`
     },
     campylaspisCostata: {
         id: 5,
@@ -48,7 +54,8 @@ const animals = {
         ecology: `Boreal, found on muddy sand and mud.`,
         depthRange: `Down from 40 to 500 m (once from 1500 m in North-West Atlantic).`,
         distributionInTheNorthSea: `Northern North Sea, Skagerrak.`,
-        worldDistribution: `An Arctic-Boreal species mainly from the upper shelf, recorded from the North Sea northwards to the Arctic and from the north-western Pacific.`
+        worldDistribution: `An Arctic-Boreal species mainly from the upper shelf, recorded from the North Sea northwards to the Arctic and from the north-western Pacific.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/campylaspisCostata/campylaspis-costata.jpg`
     },
     campylaspisGlabra: {
         id: 6,
@@ -58,7 +65,8 @@ const animals = {
         ecology: `Probably occurs on muddy sand or mud substrates.`,
         depthRange: `Down from 5 to 3000 m.`,
         distributionInTheNorthSea: `Northern North Sea, Skagerrak.`,
-        worldDistribution: `Northern Norway to North-West Africa, from the Mediterranean and from the North-West Atlantic, and also doubtfully from South Vietnam.`
+        worldDistribution: `Northern Norway to North-West Africa, from the Mediterranean and from the North-West Atlantic, and also doubtfully from South Vietnam.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/campylaspisGlabra/campylaspis-glabra.jpg`
     },
     campylaspisHorrida: {
         id: 7,
@@ -69,7 +77,8 @@ const animals = {
         ecology: `Is found on a soft muddy bottom.`,
         depthRange: `Down from 200 to 600 m.`,
         distributionInTheNorthSea: `Norway, western Skagerrak.`,
-        worldDistribution: `N Atlantic and Arctic Oceans`
+        worldDistribution: `N Atlantic and Arctic Oceans`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/campylaspisHorrida/campylaspis-horrida.jpg`
     },
     campylaspisRubicunda: {
         id: 8,
@@ -80,7 +89,8 @@ const animals = {
         ecology: `Shelf and slope, on muddy sand.`,
         depthRange: `Down from 10 to 2200 m.`,
         distributionInTheNorthSea: `Southern and northern North Sea, Skagerrak.`,
-        worldDistribution: `Arctic Boreal; Irish Sea and northwards on both sides of the North Atlantic, extending into the Arctic, as well as in the north-western Pacific.`
+        worldDistribution: `Arctic Boreal; Irish Sea and northwards on both sides of the North Atlantic, extending into the Arctic, as well as in the north-western Pacific.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/campylaspisRubicunda/campylaspis-rubicunda.jpg`
     },
     campylaspisSulcata: {
         id: 9,
@@ -90,7 +100,8 @@ const animals = {
         ecology: `Deeper shelf and slope.`,
         depthRange: `Down from about 130 to 650 m.`,
         distributionInTheNorthSea: `Northern North Sea, Skagerrak.`,
-        worldDistribution: `A Mediterranean-Boreal species. Recorded from the west coast of Ireland and from Norway to the Mediterranean.`
+        worldDistribution: `A Mediterranean-Boreal species. Recorded from the west coast of Ireland and from Norway to the Mediterranean.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/campylaspisSulcata/campylaspis-sulcata.jpg`
     },
     campylaspisVerrucosa: {
         id: 10,
@@ -101,7 +112,8 @@ const animals = {
         ecology: `Deeper shelf and slope on muddy clay.`,
         depthRange: `Down from 100 to 200 m.`,
         distributionInTheNorthSea: `Norway, Skagerrak`,
-        worldDistribution: `NW Europe, Mediteranean.`
+        worldDistribution: `NW Europe, Mediteranean.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/campylaspisVerrucosa/campylaspis-verrucosa.png`
     },
     cumellaPygmaea: {
         id: 11,
@@ -111,7 +123,8 @@ const animals = {
         ecology: `Shallow water in coarse sands and shelly substrates.`,
         depthRange: `Down to 120 m but usually less than 50 m depth.`,
         distributionInTheNorthSea: `Southern and northern North Sea.`,
-        worldDistribution: `Recorded from Norway to the Bay of Biscay and the Mediterranean and Black Sea.`
+        worldDistribution: `Recorded from Norway to the Bay of Biscay and the Mediterranean and Black Sea.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/cumellaPygmaea/cumella-pygmaea.png`
     },
     cumopsisGoodsiri: {
         id: 12,
@@ -121,7 +134,8 @@ const animals = {
         size: `Length of male up to 5 mm, of female up to 6 mm.`,
         depthRange: `Intertidal, to a depth of a few metres.`,
         distributionInTheNorthSea: `Northern and southern North Sea.`,
-        worldDistribution: `NE Atlantic, along the coasts of NW Europe, to Morocco as well as in the Mediterranean and Black Sea. Also recorded from the coast of South Vietnam.`
+        worldDistribution: `NE Atlantic, along the coasts of NW Europe, to Morocco as well as in the Mediterranean and Black Sea. Also recorded from the coast of South Vietnam.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/cumopsisGoodsiri/cumopsis-goodsiri.jpg`
     },
     cyclaspisLongicaudata: {
         id: 13,
@@ -132,7 +146,8 @@ const animals = {
         ecology: `It is a true deep-water form, only found in depths of more 200 m.`,
         depthRange: `Down from 200 to 2750 m.`,
         distributionInTheNorthSea: `Spanish coast and in the North Atlantic.`,
-        worldDistribution: `N. Atlantic, Mediterranean, Azores.`
+        worldDistribution: `N. Atlantic, Mediterranean, Azores.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/cyclaspisLongicaudata/cyclaspis-longicaudata.png`
     },
     diastylisBradyi: {
         id: 14,
@@ -142,7 +157,8 @@ const animals = {
         ecology: `It occurs on coarser deposits than Diastylis laevis , usually in shallow water.`,
         depthRange: `Between 0 and 30 m depth.`,
         distributionInTheNorthSea: `Southern North Sea, Skagerrak.`,
-        worldDistribution: `This species overlaps the range of Diastylis laevis but extends less far to the south. It has been found from the Skagerrak to the Bay of Biscay and has probably been confused with D. laevis.`
+        worldDistribution: `This species overlaps the range of Diastylis laevis but extends less far to the south. It has been found from the Skagerrak to the Bay of Biscay and has probably been confused with D. laevis.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/diastylisBradyi/diastylis-bradyi.jpg`
     },
     diastylisCornuta: {
         id: 15,
@@ -153,7 +169,8 @@ const animals = {
         depthRange: `Down to 2700 m.`,
         distributionInTheNorthSea: `Northern North Sea, Skagerrak`,
         worldDistribution: `It occurs from N Norway to the Mediterranean, NE England and off Shetland.`,
-        remarks: `It has in some places been confused with the very similar species Diastylis boecki Zimmer, 1930.`
+        remarks: `It has in some places been confused with the very similar species Diastylis boecki Zimmer, 1930.`,
+        img: `${baseURL}/img/crustaceans/img/hoodedShrimp/diastylisCornuta/diastylis-cornuta.jpg`
     }
 };
 
