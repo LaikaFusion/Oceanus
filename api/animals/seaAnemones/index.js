@@ -1,5 +1,8 @@
+const baseURL = require('../../baseURL');
+
 const animals = {
     beadletAnemone: {
+        id: 1,
         name: `Beadlet anemone (Actinia equina)`,
         description: `Beadlet anemone (Actinia equina)`,
         tentacles: `Tentacles moderate in length and hexamerously arranged, those of cycles 1 and 2 virtually equal and not easily distinguished, in six cycles, up to 192.`,
@@ -8,6 +11,7 @@ const animals = {
         distribution: `Very common on all coasts of the British Isles and western Europe, including the Mediterranean, from north Russia (Kola peninsula) to the west coast of Africa, almost to the equator, and possibly further afield.`
     },
     branchingAnemone: {
+        id: 2,
         name: `Branching anemone (Lebrunia danae)`,
         description: `Stubby, branched pseudotentacles with prominent, nematocyst-bearing knobs. Animal with extended pseudotentacles up to 25 cm.`,
         color: `Usually in shades of brown to dark gray, sometimes with lighter colored markings, occasionally in shades of blue-green.`,
@@ -15,6 +19,7 @@ const animals = {
         distribution: `Common Florida, Bahamas and Caribbean.`
     },
     cloakAnemone: {
+        id: 3,
         name: `Cloak anemone (Adamsia carciniopados)`,
         description: `Long axis of base up to 100 mm, span of tentacles to 50 mm. Base and lower part of the column expanded laterally, forming two lobes enveloping a hermit crab and its gastropod shell so that the disc is beneath the crab with the two lobes meeting on its dorsal side. Base capable of secreting a chitinous membrane which effectively increases the capacity of the shell so that as the crab grows it has no need to change its abode. Upper part of column short and cylindrical. Cinclides are present on low mounds on the lower part of the column, from which long acontia are profusely and freely emitted at the slightest provocation.`,
         colouration: `Column, disc and tentacles white, the lower part of the column more or less suffused with chestnut. Column usually spotted with lilac-pink or crimson and a line of the same running around its upper margin; acontia usually pink, rarely white.`,
@@ -22,6 +27,7 @@ const animals = {
         distribution: `Common around all coasts of Britain and western Europe in general, from Norway to the Mediterranean.`
     },
     clubTippedAnemone: {
+        id: 4,
         name: `Club-tipped anemone (Telmatactis americana)`,
         description: `Tentacles with enlarged, 'club-like' tips, surrounding the raised mouth. Oral disc up to 5 cm in diameter. Column large and barrel-shaped, diameter about equal to that of the oral disc.`,
         color: `Tentacles and oral disc whitish, brown or lavender, often mottled and marked with flecks and splotches.`,
@@ -29,6 +35,7 @@ const animals = {
         distribution: `Common to occasional Bahamas, central, eastern and southern Caribean; rare northwestern Caribbean.`
     },
     corkscrewAnemone: {
+        id: 5,
         name: `Corkscrew anemone (Bartholomea annulata)`,
         description: `The column or stalk is rather broad, but short. Oral disc up to 12 cm in diameter. The numerous thin tentacles are long and often drooping.`,
         color: `Tentacles and body in shades of gray, brown or green. The tentacles are translucent and marked with whitish 'corkscrew-like' markings.`,
@@ -36,6 +43,7 @@ const animals = {
         distribution: `Common Florida, Bahamas and Caribbean.`
     },
     giantAnemone: {
+        id: 6,
         name: `Giant anemone (Condylactis gigantea)`,
         description: `This is the largest and showiest anemone in the Caribbean. It may attain a diameter across the tentacles of over 30 cm. The tentacles are long with slightly enlarged tips.`,
         color: `Tentacles and body white, often with tints of gray, brown, yellow or green. Tips of tentacles pink, lavender, yellow, chartreuse, or occasionally, white.`,
@@ -43,6 +51,7 @@ const animals = {
         distribution: `Common Florida, Bahamas and Caribbean.`
     },
     hiddenAnemone: {
+        id: 7,
         name: `Hidden anemone (Lebrunia coralligens)`,
         description: `Long pseudotentacles with slightly enlarged tips extend from fissures. The tips are slightly enlarged and occasionally double lobed. Animal with extended pseudotentacles up to 6 cm.`,
         color: `Pseudotentacles brown to dark gray, to bluish-green with shaded line and ring markings. Tips often darker.`,
@@ -50,6 +59,7 @@ const animals = {
         distribution: `Occasional Bahamas and Caribbean.`
     },
     knobbyAnemone: {
+        id: 8,
         name: `Knobby anemone (Bartholomea lucida)`,
         description: `The column or stalk is rather broad, but short. The numerous thin tentacles are long and often drooping.`,
         color: `Tentacles and body in shades of gray, brown or green. The tentacles are translucent and bear numerous nematocyst-bearing knobs.`,
@@ -57,6 +67,7 @@ const animals = {
         distribution: `Common Florida, Bahamas and Caribbean.`
     },
     orangeStripedAnemone: {
+        id: 9,
         name: `Orange-striped anemone (Haliplanella lineata)`,
         description: `The Orange-striped anemone. Diameter of base up to 25 mm, height to 40 mm, but usually about half this size in British examples. Base moderately adherent, usually a little wider than the column. Column divided into scapus and a long capitulum, with a parapet and fosse which are clearly defined and permanent in all states of expansion. Scapus tall in full extension, with inconspicuous cinclides on the endocoels; acontia fairly readily emitted. Capitulum up to half the length of the scapus in full extension, flaring out to the disc, which is wider than the parapet.`,
         tentacles: `Long, very long in small specimens, hexamerous, or more usually, irregular in arrangement, up to about 100. `,
@@ -67,6 +78,7 @@ const animals = {
         distribution: `Reported from many localities in Britain, on all coasts; elsewhere widely distributed throughout Europe, including the Mediterranean, and the northern hemisphere in general.`
     },
     paleAnemone: {
+        id: 10,
         name: `Pale anemone (Aiptasia tagetes)`,
         description: `These small anemones attain a height of only 5 cm, with slender columns and a few, thin, long, pointed tentacles. Oral disc up to 5 cm in diameter.`,
         color: `Tentacles transparent; oral disc brownish to bluish white.`,
@@ -74,6 +86,7 @@ const animals = {
         distribution: `Common to occasional Florida, Bahamas and Caribbean.`
     },
     snakelocksAnemone: {
+        id: 11,
         name: `Snakelocks anemone (Anemonia viridis)`,
         description: `Size up to about 70 mm across the base with a tentacle span of up to 180 mm. Base lightly but closely adherent, broader than column. Column variable in height, often short and hidden by the tentacles but capable of becoming taller than wide; smooth, with small, roughly conical acrorhagi on the parapet.`,
         tentacles: `Tentacles long, fairly stout and flexuous, irregularly arranged in correlation with habitual reproduction by longitudinal fission, up to about 200 in number. The tentacles are rarely retracted but they can be completely retracted into the column (A. viridis tentacles).`,
@@ -83,6 +96,7 @@ const animals = {
         remarks: `The common name "snakelocked anemone" or "snakelocks" was first applied by Gosse to another species, Sagartiogeton undatus, but has been taken over by popular usage for the present species.`
     },
     sunAnemone: {
+        id: 12,
         name: `Sun anemone (Stichodactyla helianthus)`,
         description: `Flattened oral disc covered with hundreds short, thick tentacles with a rounded tip. Oral disc up to 15 cm.`,
         color: `Tentacles and oral disc green to brown.`,
@@ -90,6 +104,7 @@ const animals = {
         distribution: `Common to occasional Bahamas, eastern and southern Caribbean; rare northwestern Caribbean.`
     },
     actinaugeRichardi: {
+        id: 13,
         name: `Actinauge richardi`,
         description: `Up to 120 mm tall and 80 mm diameter in full expansion. Base typically invaginated into the column, forming a rounded cavity enclosing a ball of mud or sand, but capable of becoming normal in shape and adhering to solid substrata. Column divided into scapus and scapulus, the former with numerous, often large solid tubercles which tend to form 12 longitudinal rows above, ending in a ring of 12 prominent coronal tubercles at the upper edge of the scapus. Scapulus bearing 24 longitudinal ridges which form pairs converging at each coronal tubercle. General texture of column tough and cartilaginous, the mesogloea very thick in contraction (although this anemone is not very contractile), usually with periderm present on the interspaces between tubercles.`,
         tentacles: `moderate or long in extension, hexamerously arranged in five cycles, up to 96 in all. Those of the inner four (endocoelic) cycles with solid basal swellings on their aboral sides, the swellings of cycle 4 being confluent with the scapular ridges.`,
@@ -98,6 +113,7 @@ const animals = {
         distribution: `Generally a deep water north-east Atlantic species, occurring from Norway to Biscay, possibly in the Mediterranean or even further south, occasional in the North Sea.`
     },
     actinothoeSphyrodeta: {
+        id: 14,
         name: `Actinothoe sphyrodeta`,
         description: `Very soft and delicate in texture, which expands its tentacles very readily. Diameter of base up to 20 mm, span of tentacles to 30 mm; specimens occurring on the shore are usually about half this size. Base a little wider than column, lightly adherent. Column usually short but capable of becoming taller than wide in extension. Cinclides visible as dark dots on upper part of column, acontia are emitted through them very readily.`,
         tentacles: `Moderate in length, characteristically stout at the base and tapering to fine points; they are usually irregularly arranged, up to about 120.`,
@@ -107,7 +123,7 @@ const animals = {
         distribution: `Locally abundant on west coasts of British Isles, as far north as Shetland but more common in the south. Southern limits of its range are uncertain; it occurs at least to Biscay but is apparently absent from the Mediterranean.`
     },
     boloceraTuediae: {
-        id: 1,
+        id: 15,
         name: `Bolocera tuediae`,
         description: `One of the largest of the North Sea anemones, up to 250 mm across the base. Base lightly adherent. Column cylindrical, variable in height, sometimes taller than wide but often kept short and hidden by the tentacles; smooth and soft in texture, never with verrucae or acrorhagi, occasionally with a slight rim at the top, suggestive of a parapet, in some states of contraction. Disc wide.`,
         tentacles: `Tentacles stout, long and rather graceful in full extension, not readily retracted; they are hexamerously arranged, up to about 200. In most states of contraction the tentacles are longitudinally fluted and at the base of each is a slight circular constriction indicating the position of the basal sphincter muscle. The reason for the tentacles being deciduous is unknown, nevertheless they are readily shed on occasion and isolated tentacles remain alive for many days, although they cannot regenerate into new anemones as occurs in some species with deciduous tentacles`,
@@ -116,7 +132,7 @@ const animals = {
         distribution: `Occurs around all coasts of the British Isles but is rare in the south. Generally distributed throughout the North Atlantic to the Arctic circle and eastern North America.`
     },
     calliactisParasitica: {
-        id: 2,
+        id: 16,
         name: `Calliactis parasitica`,
         description: `Diameter of base up to 80 mm, height to 100 mm. Base a little wider than the column, capable of firm adhesion. Column not divided into regions and without tubercles, its surface rough and leathery, with a grainy appearance. Sometimes patches of thin periderm are present. Cinclides fairly prominent, occurring on small mounds in a zone just above the limbus, one on each endocoel; acontia are readily emitted from them when the anemone is disturbed. Disc concave, fairly wide when fully expanded.`,
         tentacles: `Tentacles moderate in length and very numerous, hexamerously arranged, up to at least 700 in a large specimen.`,
