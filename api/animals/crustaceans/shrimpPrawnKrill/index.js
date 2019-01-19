@@ -1,3 +1,5 @@
+const baseURL = require('../../../baseURL');
+
 const animals = {
     bandedCoralShrimp: {
         id: 1,
@@ -6,7 +8,8 @@ const animals = {
         habitat: `Inhabits the coral reefs near openings or recesses. The shrimp waves its antennae to attract fish. It will feed on the parasites it removes from the fish's skin. `,
         habitatDepths: `ranges from 2 m down to 40 m.`,
         distribution: `All throughout the Caribbean.`,
-        remarks: `When approached carefully with an extended hand, it may come out of its protection to clean it.`
+        remarks: `When approached carefully with an extended hand, it may come out of its protection to clean it.`,
+        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/bandedCoralShrimp/banded-coral-shrimp.jpg`
     },
     pedersonCleaningShrimp: {
         id: 2,
@@ -15,7 +18,8 @@ const animals = {
         habitat: `It lives in association with a variety of sea anemones, like Lebrunia danae, Bartholomea lucida, Bartholomea annulata and Condylactis gigantea. The shrimp waves its antennae to attract fish. It feeds on parasites that it removes from the fish's skin.`,
         habitatDepths: `ranges from 2 m down to 20 m.`,
         distribution: `All over the Caribbean.`,
-        remarks: `When approached carefully with an extended hand, it may come out of its protection to clean it.`
+        remarks: `When approached carefully with an extended hand, it may come out of its protection to clean it.`,
+        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/pedersonCleaningShrimp/pederson-cleaning-shrimp.jpg`
     },
     redNightShrimp: {
         id: 3,
@@ -25,7 +29,8 @@ const animals = {
         habitat: `Since this is a nocturnal shrimp, it is hidden deep in the reef during the day. At night it is more often visible, though still shy. Its large eyes are easily seen in torchlight.`,
         habitatDepths: `ranges from 6 m down to 30 m.`,
         distribution: `All throughout the Caribbean.`,
-        remarks: `The Red night shrimp Rhinchocinetes rigens also is red with light bands, but its bands run across its body.`
+        remarks: `The Red night shrimp Rhinchocinetes rigens also is red with light bands, but its bands run across its body.`,
+        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/redNightShrimp/red-night-shrimp.jpg`
     },
     scarletStripedCleaningShrimp: {
         id: 4,
@@ -34,7 +39,8 @@ const animals = {
         habitat: `Inhabits the coral reefs near openings or recesses. The shrimp waves its antennae to attract fish. It will feed on the parasites it removes from the fish's skin. `,
         habitatDepths: `ranges from 1 m down to 30 m.`,
         distribution: `Occurs in shallow reef areas al over the Caribbean.`,
-        remarks: `When approached carefully with an extended hand, it may come out of its protection to clean it.`
+        remarks: `When approached carefully with an extended hand, it may come out of its protection to clean it.`,
+        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/scarletStripedCleaningShrimp/scarlet-striped-cleaning-shrimp.jpg`
     }
 };
 
