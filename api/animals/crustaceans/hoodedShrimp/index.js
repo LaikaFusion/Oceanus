@@ -8,8 +8,7 @@ const animals = {
         size: `Length up to 7 mm.`,
         ecology: `Generally inhabits rather coarser sand than Bodotria scorpioides. `,
         depthRange: `Down to about 120 m.`,
-        distributionInTheNorthSea: `Recorded from SW Norway to Brittany.`,
-        worldDistribution: `SW Norway to Brittany.`,
+        distribution: `Recorded from SW Norway to Brittany. SW Norway to Brittany.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/bodotriaArenosa/bodotria-arenosa.png`
     },
     bodotriaPulchella: {
@@ -19,8 +18,7 @@ const animals = {
         size: `Length of the male up to 3.2 mm, of female up to 2.5 mm.`,
         ecology: `Recorded from shallow water.`,
         depthRange: `Down to 70 m.`,
-        distributionInTheNorthSea: `Southern and northern North Sea, Skagerrak, also Kattegat.`,
-        worldDistribution: `Recorded from west coast of Britain, Mediterranean Sea and Sénégal.`,
+        distribution: `Southern and northern North Sea, Skagerrak, also Kattegat. Recorded from west coast of Britain, Mediterranean Sea and Sénégal.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/bodotriaPulchella/bodotria-pulchella.png`
     },
     bodotriaScorpioides: {
@@ -30,8 +28,7 @@ const animals = {
         size: `Length up to 7 mm.`,
         ecology: `Generally inhabits rather coarser sand than Bodotria scorpioides.`,
         depthRange: `Down to about 100 m depth, usually much less.`,
-        distributionInTheNorthSea: `Southern and northern North Sea, Skagerrak.`,
-        worldDistribution: `NW Europe, from Norway to France, Mediterranean Sea and Black Sea, W Africa.`,
+        distribution: `Southern and northern North Sea, Skagerrak. NW Europe, from Norway to France, Mediterranean Sea and Black Sea, W Africa.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/bodotriaScorpioides/bodotria-scorpioides.jpg`
     },
     brachydiastylisResima: {
@@ -41,20 +38,19 @@ const animals = {
         size: `Length up to 6 mm.`,
         ecology: `Shelf to bathyal.`,
         depthRange: `Down from 5 to 350 m.`,
-        distributionInTheNorthSea: `Northern North Sea, Skagerrak.`,
-        worldDistribution: `An Arctic-Boreal species mainly from the upper shelf, recorded from the North Sea northwards to the Arctic and from the north-western Pacific.`,
+        distribution: `Northern North Sea, Skagerrak. An Arctic-Boreal species mainly from the upper shelf, recorded from the North Sea northwards to the Arctic and from the north-western Pacific.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/brachydiastylisResima/brachydiastylis-resima.png`
     },
     campylaspisCostata: {
         id: 5,
         name: `Campylaspis costata`,
         description: `Carapace with dorsal outline arched in the female, less so in the male, sides sculptured with three pairs of oblique folds, the hindermost bifurcating so that a fourth fold nearly reaches the hind margin and then turns forward to rejoin the third near the mid-line. Eye distinct, with lenses. Pereionites 1 and 2 produced dorsally, each with a median point. Pereionite 5 and pleonites 1-4 each with a pair of dorsolateral tubercles. Dactyl of pereiopod 2 not longer than the carpus and propodus combined. No free telson.`,
-        colour: `In life reddish-brown.`,
+        color: `In life reddish-brown.`,
         size: `Length up to 6.5 mm.`,
         ecology: `Boreal, found on muddy sand and mud.`,
         depthRange: `Down from 40 to 500 m (once from 1500 m in North-West Atlantic).`,
-        distributionInTheNorthSea: `Northern North Sea, Skagerrak.`,
-        worldDistribution: `An Arctic-Boreal species mainly from the upper shelf, recorded from the North Sea northwards to the Arctic and from the north-western Pacific.`,
+        distribution: `Northern North Sea, Skagerrak. An Arctic-Boreal species mainly from the upper shelf, recorded from the North Sea northwards to the Arctic and from the north-western Pacific.`,
+        worldDistribution: ``,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/campylaspisCostata/campylaspis-costata.jpg`
     },
     campylaspisGlabra: {
@@ -64,32 +60,29 @@ const animals = {
         size: `Length up to 4 mm.`,
         ecology: `Probably occurs on muddy sand or mud substrates.`,
         depthRange: `Down from 5 to 3000 m.`,
-        distributionInTheNorthSea: `Northern North Sea, Skagerrak.`,
-        worldDistribution: `Northern Norway to North-West Africa, from the Mediterranean and from the North-West Atlantic, and also doubtfully from South Vietnam.`,
+        distribution: `Northern North Sea, Skagerrak. Northern Norway to North-West Africa, from the Mediterranean and from the North-West Atlantic, and also doubtfully from South Vietnam.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/campylaspisGlabra/campylaspis-glabra.jpg`
     },
     campylaspisHorrida: {
         id: 7,
         name: `Campylaspis horrida`,
         description: `Carapace large and tumid, with distinct densely crowded conical protuberances, giving it a very rough appearance. Protuberances especially densely crowded together on the dorsal face, whereas laterally they are arranged in two longitudinal rows, the lower of which forms an almost continuous carina, both series being connected in front by a somewhat irregular transverse prominence continued on the side of the pseudorostral projection, which is rather prominent, subrostral corners small but well defined. No free telson.`,
-        colour: `Dark red.`,
+        color: `Dark red.`,
         size: `Length up to 7 mm.`,
         ecology: `Is found on a soft muddy bottom.`,
         depthRange: `Down from 200 to 600 m.`,
-        distributionInTheNorthSea: `Norway, western Skagerrak.`,
-        worldDistribution: `N Atlantic and Arctic Oceans`,
+        distribution: `Norway, western Skagerrak. N Atlantic and Arctic Oceans`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/campylaspisHorrida/campylaspis-horrida.jpg`
     },
     campylaspisRubicunda: {
         id: 8,
         name: `Campylaspis rubicunda`,
         description: `Carapace large and inflated, dorsal edge arched in the female, less so in the male, smooth, without antennal notch or anterolateral angle. Pereionites 1 and 2 raised dorsally to form forward curving ridges, each with a median point. Eye distinct, fairly prominent. Maxilliped 2 with four strong spines on the dactyl. Pereiopod 2 with the dactyl slender, longer than the carpus and propodus combined. No free telson.`,
-        colour: `Mainly red (in life animals).`,
+        color: `Mainly red (in life animals).`,
         size: `Length up to 6 mm.`,
         ecology: `Shelf and slope, on muddy sand.`,
         depthRange: `Down from 10 to 2200 m.`,
-        distributionInTheNorthSea: `Southern and northern North Sea, Skagerrak.`,
-        worldDistribution: `Arctic Boreal; Irish Sea and northwards on both sides of the North Atlantic, extending into the Arctic, as well as in the north-western Pacific.`,
+        distribution: `Southern and northern North Sea, Skagerrak. Arctic Boreal; Irish Sea and northwards on both sides of the North Atlantic, extending into the Arctic, as well as in the north-western Pacific.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/campylaspisRubicunda/campylaspis-rubicunda.jpg`
     },
     campylaspisSulcata: {
@@ -99,20 +92,18 @@ const animals = {
         size: `Length up to 5 mm.`,
         ecology: `Deeper shelf and slope.`,
         depthRange: `Down from about 130 to 650 m.`,
-        distributionInTheNorthSea: `Northern North Sea, Skagerrak.`,
-        worldDistribution: `A Mediterranean-Boreal species. Recorded from the west coast of Ireland and from Norway to the Mediterranean.`,
+        distribution: `Northern North Sea, Skagerrak. A Mediterranean-Boreal species. Recorded from the west coast of Ireland and from Norway to the Mediterranean.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/campylaspisSulcata/campylaspis-sulcata.jpg`
     },
     campylaspisVerrucosa: {
         id: 10,
         name: `Campylaspis verrucosa`,
         description: `Female, body rather short and stout, with the anterior division greatly tumefied. Carapace large and swollen, evenly vaulted above, and having the anterior part but slightly excerted, surface uneven owing to scattered nodiform protuberances, which laterally have a tendency to arrange themselves in longitudinal rows Male, much more slender than the female, with the carapace shallower, and scarcely at all vaulted above. Appendages exhibiting the usual transformation. No free telson. This species resembles Campylaspis horrida, but may be readily distinguished by the somewhat different form of the carapace and the less numerous and more obtuse protuberances on its surface. Moreover the stem of the uropods is considerably shorter, and the colour of the body very different.`,
-        colour: `Whitish with a faint greenish tinge.`,
+        color: `Whitish with a faint greenish tinge.`,
         size: `Length: female up to 5.5 mm, male up to 6.5 mm.`,
         ecology: `Deeper shelf and slope on muddy clay.`,
         depthRange: `Down from 100 to 200 m.`,
-        distributionInTheNorthSea: `Norway, Skagerrak`,
-        worldDistribution: `NW Europe, Mediteranean.`,
+        distribution: `Norway, Skagerrak. NW Europe, Mediteranean.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/campylaspisVerrucosa/campylaspis-verrucosa.png`
     },
     cumellaPygmaea: {
@@ -122,8 +113,7 @@ const animals = {
         size: `Length up to 3 mm.`,
         ecology: `Shallow water in coarse sands and shelly substrates.`,
         depthRange: `Down to 120 m but usually less than 50 m depth.`,
-        distributionInTheNorthSea: `Southern and northern North Sea.`,
-        worldDistribution: `Recorded from Norway to the Bay of Biscay and the Mediterranean and Black Sea.`,
+        distribution: `Southern and northern North Sea. Recorded from Norway to the Bay of Biscay and the Mediterranean and Black Sea.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/cumellaPygmaea/cumella-pygmaea.png`
     },
     cumopsisGoodsiri: {
@@ -133,8 +123,7 @@ const animals = {
         ecology: `Mainly an intertidal species, burrowing into fine sand from the mid-tide downwards on sheltered beaches but also found subtidally down to a depth of a few metres.`,
         size: `Length of male up to 5 mm, of female up to 6 mm.`,
         depthRange: `Intertidal, to a depth of a few metres.`,
-        distributionInTheNorthSea: `Northern and southern North Sea.`,
-        worldDistribution: `NE Atlantic, along the coasts of NW Europe, to Morocco as well as in the Mediterranean and Black Sea. Also recorded from the coast of South Vietnam.`,
+        distribution: `Northern and southern North Sea. NE Atlantic, along the coasts of NW Europe, to Morocco as well as in the Mediterranean and Black Sea. Also recorded from the coast of South Vietnam.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/cumopsisGoodsiri/cumopsis-goodsiri.jpg`
     },
     cyclaspisLongicaudata: {
@@ -142,11 +131,10 @@ const animals = {
         name: `Cyclaspis longicaudata`,
         description: `Carapace of female very large and tumid, almost globose in form, and perfectly smooth, with the upper margin boldly vaulted, pseudo-rostral projection distinct, though rather short, sub-rostral incisions well marked; that in adult male much less deep and more evenly vaulted above, pseudo-rostral projection less prominent, antero-lateral corners blunted. First pedigerous segment not visible at all; second segment well developed; the three succeeding ones narrowing abruptly. Tail exceedingly slender and elongate, much longer than the anterior division, all the segments contracted in their anterior part; last segment nearly as long as the preceding one, gradually widening distally, and considerably produced behind. Eye wholly absent. Superior antennae with the sensory filaments of the outer flagellum extremely elongate; those in male with an additional bundle of such filaments at the base of the flagellum. Palp of anterior maxillae with a single apical seta. Second pair of maxillipeds with the basal joint unusually large, lamellar, and coarsely denticulated in the distal part of the outer edge. Third pair of maxillipeds with the basal joint strongly developed being more than twice as long as the succeeding joints combined, and angularly bent in tile middle; terminal expansion very large, reaching beyond the meral joint. First pair of legs exceeding the carapace in length, basal joint large and lamellarly expanded in the middle, terminal part very slender, with the propodal joint the longest; second pair longer than the succeeding pairs, and terminating in four diverging spines. Uropods in female scarcely longer than the last segment, basal part very short and perfectly smooth, rami twice the length of the former and sub-equal, both terminating in a sharp point, the inner one without spines or setae; those in adult male considerably more slender, basal part much longer than in female, and carrying inside seven ciliated bristles, inner ramus armed inside with a dense row of small, ciliated spinules. Telson long, postanal part narrowed, with several pairs of lateral spines.`,
         size: `Length of female reaching to 8 mm of male 7 mm.`,
-        colour: `Pure white.`,
+        color: `Pure white.`,
         ecology: `It is a true deep-water form, only found in depths of more 200 m.`,
         depthRange: `Down from 200 to 2750 m.`,
-        distributionInTheNorthSea: `Spanish coast and in the North Atlantic.`,
-        worldDistribution: `N. Atlantic, Mediterranean, Azores.`,
+        distribution: `Spanish coast and in the North Atlantic. N. Atlantic, Mediterranean, Azores.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/cyclaspisLongicaudata/cyclaspis-longicaudata.png`
     },
     diastylisBradyi: {
@@ -156,8 +144,7 @@ const animals = {
         size: `Length up to 12 mm.`,
         ecology: `It occurs on coarser deposits than Diastylis laevis , usually in shallow water.`,
         depthRange: `Between 0 and 30 m depth.`,
-        distributionInTheNorthSea: `Southern North Sea, Skagerrak.`,
-        worldDistribution: `This species overlaps the range of Diastylis laevis but extends less far to the south. It has been found from the Skagerrak to the Bay of Biscay and has probably been confused with D. laevis.`,
+        distribution: `Southern North Sea, Skagerrak. This species overlaps the range of Diastylis laevis but extends less far to the south. It has been found from the Skagerrak to the Bay of Biscay and has probably been confused with D. laevis.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/diastylisBradyi/diastylis-bradyi.jpg`
     },
     diastylisCornuta: {
@@ -167,8 +154,7 @@ const animals = {
         size: `Length up to 14 mm.`,
         ecology: `Deeper shelf and slope.`,
         depthRange: `Down to 2700 m.`,
-        distributionInTheNorthSea: `Northern North Sea, Skagerrak`,
-        worldDistribution: `It occurs from N Norway to the Mediterranean, NE England and off Shetland.`,
+        distribution: `Northern North Sea, Skagerrak. It occurs from N Norway to the Mediterranean, NE England and off Shetland.`,
         remarks: `It has in some places been confused with the very similar species Diastylis boecki Zimmer, 1930.`,
         img: `${baseURL}/img/crustaceans/img/hoodedShrimp/diastylisCornuta/diastylis-cornuta.jpg`
     }

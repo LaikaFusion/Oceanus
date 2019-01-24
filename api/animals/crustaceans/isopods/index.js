@@ -33,7 +33,7 @@ const animals = {
         name: `Arcturella dilatata`,
         description: `Antenna 2 about half the body length. Segment bearing pereiopod 1 fused with the cephalon. Head with three conical tubercles, one medio-frontal and two large, lateral ones behind it. Middle segment of the pereion much broader, nearly quadrate, with lateral projections at its corners; longer than the cephalon and anterior pereional segments together. Pereiopods 1 to 4 relatively sparsely setose; pereiopods 5 to 7 short, stout and adapted for clinging. Female pleonal segments with dorsal tubercles. Anterior pleonal segments with five conical tubercles; middle segment with a pair of very large tubercles in the centre and three smaller ones near the posterior border, posterior pleonal segments with a keel. Pleotelson tapering. Middle pereional segment in male smooth.`,
         size: `Female up to about 6 mm body length; males up to 3 mm`,
-        colour: `brownish, with darker patches.`,
+        color: `brownish, with darker patches.`,
         habitat: `Sublittoral, down to 360 metres.`,
         distribution: `Norway, east to the Kattegat, between Orkney and Shetlands and in the Mediterranean`,
         remarks: `One other species of Arcturella is recorded off the west coasts of the British Isles: Arcturella damnoniensis (Stebbing, 1874). This species has a single large process in the centre of the middle pereional segment.`,

@@ -50,6 +50,7 @@ const animals = {
         img: `${baseURL}/img/brachiopods/img/hemithirisPsittacea/hemithirisPsittacea.jpg`
     },
     macandreviaCranium: {
+        id: 7,
         name: 'Macandrevia cranium',
         description: 'Shell oval in outline; to about 30 mm long. Some of the largest specimens have a truncated anterior. The external surfaces are smooth, save for concentric growth lines. The shell is endopunctate, white, yellowish or grey in colour. Pedicle foramen with small deltidial plates that do not join in the midline.',
         habitat: 'Sublittoral, from shallow water to 1262 metres.',
@@ -57,7 +58,7 @@ const animals = {
         img: `${baseURL}/img/brachiopods/img/macandreviaCranium/macandreviaCranium.jpg`
     },
     platidiaAnomioides: {
-        id: 7,
+        id: 8,
         name: 'Platidia anomioides',
         description: 'The shell is circular to transversely oval in outline, with a maximum length of 5 mm and width of 6 mm. The dorsal valve is almost flat and the external surfaces are smooth except for concentric growth lines. The shell is endopunctate, yellow or white in colour. The pedicle foramen is large and extends into the dorsal valve; narrow deltidial plates are present.',
         habitat: 'It occurs at depths from 80 to 750 metres, sometimes attached to dead regions of corals.',
@@ -65,7 +66,7 @@ const animals = {
         img: `${baseURL}/img/brachiopods/img/platidiaAnomioides/platidiaAnomioides.jpg`
     },
     terebratulinaRetusa: {
-        id: 8,
+        id: 9,
         name: 'Terebratulina retusa',
         description: 'Shell ovate, almost pear-shaped, longer than wide, broadest about the middle; rounded, straight or slightly indented anteriorly. Shell endopunctate, whitish, sometimes tinged with yellow or rust, to 33 x 25 mm. Dorsal valve uniformly convex, tapering posteriorly. Ventral valve somewhat deeper, convex, the beak rather short. Foramen incomplete, margined laterally by two small deltidial plates and anteriorly by the umbo of the dorsal valve. Surface covered with fine, radiating striations.',
         habitat: 'It is commonly found attached to the shell of the horse-mussel Modiolus modiolus , as well as on blocks of clinker and boulders, but also to sponges, hydroids and assorted pieces of debris.',
