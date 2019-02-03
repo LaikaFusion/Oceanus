@@ -11,6 +11,7 @@ const ostracodsList = require('./crustaceans/ostracods/index');
 const shrimpPrawnKrillList = require('./crustaceans/shrimpPrawnKrill/index');
 const waterFleasList = require('./crustaceans/waterFleas/index');
 const otherCrustaceansList = require('./crustaceans/otherCrustaceans/index');
+const bonyFishList = require('./fishes/bonyFish/index');
 
 const animals = {
         status: 'success',
@@ -85,7 +86,12 @@ const animals = {
         },
         fishes: {
             id: 5,
-            speciesName: 'fishes'
+            speciesName: 'fishes',
+            bonyFish: {
+                id: 1,
+                speciesName: 'Bony Fish',
+                animals: bonyFishList
+            }
         },
         hydrozoans: {
             id: 6,
