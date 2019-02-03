@@ -9,6 +9,7 @@ const isopodsList = require('./crustaceans/isopods/index');
 const opossumShrimpList = require('./crustaceans/opossumShrimp/index');
 const ostracodsList = require('./crustaceans/ostracods/index');
 const shrimpPrawnKrillList = require('./crustaceans/shrimpPrawnKrill/index');
+const waterFleasList = require('./crustaceans/waterFleas/index');
 
 const animals = {
         status: 'success',
@@ -69,6 +70,11 @@ const animals = {
                 id: 8,
                 speciesName: 'Shimp, Prawn and Krill',
                 animals: shrimpPrawnKrillList
+            },
+            waterFleas: {
+                id: 9,
+                speciesName: 'Water Fleas',
+                animals: waterFleasList
             }
         },
         fishes: {
