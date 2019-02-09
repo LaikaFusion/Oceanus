@@ -12,6 +12,7 @@ const shrimpPrawnKrillList = require('./crustaceans/shrimpPrawnKrill/index');
 const waterFleasList = require('./crustaceans/waterFleas/index');
 const otherCrustaceansList = require('./crustaceans/otherCrustaceans/index');
 const bonyFishList = require('./fishes/bonyFish/index');
+const lampreysAndHagfishes = require('./fishes/lampreysAndHagFishes/index');
 
 const animals = {
         status: 'success',
@@ -91,7 +92,12 @@ const animals = {
                 id: 1,
                 speciesName: 'Bony Fish',
                 animals: bonyFishList
-            }
+            },
+            lampreysAndHagFishes: {
+                id: 2,
+                speciesName: 'Lampreys and hagfishes',
+                animals: lampreysAndHagfishes
+            },
         },
         hydrozoans: {
             id: 6,
