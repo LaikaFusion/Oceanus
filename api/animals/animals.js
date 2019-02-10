@@ -13,6 +13,7 @@ const waterFleasList = require('./crustaceans/waterFleas/index');
 const otherCrustaceansList = require('./crustaceans/otherCrustaceans/index');
 const bonyFishList = require('./fishes/bonyFish/index');
 const lampreysAndHagfishes = require('./fishes/lampreysAndHagFishes/index');
+const raysSkatesAndSharks = require('./fishes/raysSkatesAndSharks/index');
 
 const animals = {
         status: 'success',
@@ -98,6 +99,11 @@ const animals = {
                 speciesName: 'Lampreys and hagfishes',
                 animals: lampreysAndHagfishes
             },
+            raysSkatesAndSharks: {
+                id: 3,
+                speciesName: 'Rays, skates and sharks',
+                animals: raysSkatesAndSharks
+            }
         },
         hydrozoans: {
             id: 6,
