@@ -4,7 +4,8 @@
   "description": "An API that recollects information of the animals that are in the ocean",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon"
+    "server": "node app.js",
+    "test-server": "nodemon"
   },
   "author": "Luis Alvarez",
   "license": "MIT",
