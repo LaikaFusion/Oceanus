@@ -1,4 +1,3 @@
-const baseURL = require('../../baseURL');
 
 const animals = {
     beadletAnemone: {
@@ -9,7 +8,7 @@ const animals = {
         colouration: `Usually fairly uniform, with no pattern on the disc: various shades of red, from blackish maroon to pale scarlet, various shades of green, orange, or brown. Some individuals, particularly green ones, or young red ones, may have irregular spots or streaks of yellow, greenish, or pale blue on the scapus. The acrorhagi are almost invariably bright blue, occasionally white or pink; a narrow line of blue usually encircles the limbus and a blue spot may be present on each angle of the mouth. Bi-coloured specimens, e.g. green column, tawny orange tentacles, are frequent in some areas. Totally colourless specimens sometimes occur in permanently dark habitats - sea caves or beneath large boulders.`,
         habitat: `Typically a shore form occurring from high up, around HWN, to the lowest levels, and also in shallow water offshore, down to about 20 m. Occurs attached to any convenient hard substratum in exposed or sheltered situations, sometimes attached to rocks below a layer of sand, expanding above the sand. Also found in regions of variable salinity, such as estuaries or in the little rills of fresh water that often occur on beaches at low water.`,
         distribution: `Very common on all coasts of the British Isles and western Europe, including the Mediterranean, from north Russia (Kola peninsula) to the west coast of Africa, almost to the equator, and possibly further afield.`,
-        img: `${baseURL}/img/seaAnemones/img/beadletAnemone/beadlet-anemone.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/beadletAnemone/beadlet-anemone.jpg`
     },
     branchingAnemone: {
         id: 2,
@@ -18,7 +17,7 @@ const animals = {
         color: `Usually in shades of brown to dark gray, sometimes with lighter colored markings, occasionally in shades of blue-green.`,
         habitat: `Body hidden from view in recesses, and concealed by the branch-work bed of pseudotentacles. Long, unbranched, true tentacles are only extended at night.`,
         distribution: `Common Florida, Bahamas and Caribbean.`,
-        img: `${baseURL}/img/seaAnemones/img/branchingAnemone/branching-anemone.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/branchingAnemone/branching-anemone.jpg`
     },
     cloakAnemone: {
         id: 3,
@@ -27,7 +26,7 @@ const animals = {
         colouration: `Column, disc and tentacles white, the lower part of the column more or less suffused with chestnut. Column usually spotted with lilac-pink or crimson and a line of the same running around its upper margin; acontia usually pink, rarely white.`,
         habitat: `Usually found on substrata of sand or gravel, especially where stones or broken shells are present, or near rock outcrops, etc. Typically a sublittoral species occurring down to 200 m or more but occasionally found on the lower shore where it may he washed up after storms. Young specimens, of normal anemone-shape but possessing the characteristic pink spots of the adult, may occur on rocks or shells between tidemarks. It lives almost exclusively on the hermit crab Pagurus prideauxi (Leach) in British waters, although other species may be involved elsewhere.`,
         distribution: `Common around all coasts of Britain and western Europe in general, from Norway to the Mediterranean.`,
-        img: `${baseURL}/img/seaAnemones/img/cloakAnemone/cloak-anemone.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/cloakAnemone/cloak-anemone.jpg`
     },
     clubTippedAnemone: {
         id: 4,
@@ -36,7 +35,7 @@ const animals = {
         color: `Tentacles and oral disc whitish, brown or lavender, often mottled and marked with flecks and splotches.`,
         habitat: `Inhabit caves and other dark recesses, body usually hidden, but occasionally exposed.`,
         distribution: `Common to occasional Bahamas, central, eastern and southern Caribean; rare northwestern Caribbean.`,
-        img: `${baseURL}/img/seaAnemones/img/clubTippedAnemone/club-tipped-anemone.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/clubTippedAnemone/club-tipped-anemone.jpg`
     },
     corkscrewAnemone: {
         id: 5,
@@ -45,7 +44,7 @@ const animals = {
         color: `Tentacles and body in shades of gray, brown or green. The tentacles are translucent and marked with whitish 'corkscrew-like' markings.`,
         habitat: `Inhabit reefs and areas of sand and coral rubble. It grows often under rocks or other hard objects, down to 40 m.`,
         distribution: `Common Florida, Bahamas and Caribbean.`,
-        img: `${baseURL}/img/seaAnemones/img/corkscrewAnemone/corkscrew-anemone.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/corkscrewAnemone/corkscrew-anemone.jpg`
     },
     giantAnemone: {
         id: 6,
@@ -54,7 +53,7 @@ const animals = {
         color: `Tentacles and body white, often with tints of gray, brown, yellow or green. Tips of tentacles pink, lavender, yellow, chartreuse, or occasionally, white.`,
         habitat: `It is common on reefs, down to 30 m, and in shallow grass beds in lagoons.`,
         distribution: `Common Florida, Bahamas and Caribbean.`,
-        img: `${baseURL}/img/seaAnemones/img/giantAnemone/giant-anemone.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/giantAnemone/giant-anemone.jpg`
     },
     hiddenAnemone: {
         id: 7,
@@ -63,7 +62,7 @@ const animals = {
         color: `Pseudotentacles brown to dark gray, to bluish-green with shaded line and ring markings. Tips often darker.`,
         habitat: `Inhabit narrow fissures in coral heads, with only the ends of the pseudotentacles extending from the openings. Long, unbranched true tentacles may be extended during night.`,
         distribution: `Occasional Bahamas and Caribbean.`,
-        img: `${baseURL}/img/seaAnemones/img/hiddenAnemone/hidden-anemone.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/hiddenAnemone/hidden-anemone.jpg`
     },
     knobbyAnemone: {
         id: 8,
@@ -72,7 +71,7 @@ const animals = {
         color: `Tentacles and body in shades of gray, brown or green. The tentacles are translucent and bear numerous nematocyst-bearing knobs.`,
         habitat: `Inhabit reefs and areas of sand and coral rubble. It grows often under rocks or other hard objects, down to 30 m.`,
         distribution: `Common Florida, Bahamas and Caribbean.`,
-        img: `${baseURL}/img/seaAnemones/img/knobbyAnemone/knobby-anemone.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/knobbyAnemone/knobby-anemone.jpg`
     },
     orangeStripedAnemone: {
         id: 9,
@@ -84,7 +83,7 @@ const animals = {
         nematocystsOfAcontia: `Large p-mastigophores 29-48 x 5.0-6.0 öm, small p-mastigophores (amastigophores) 12-20 x 3.0-4.5 öm, b-mastigophores 12-21 x 2.0-3.0 öm.`,
         habitat: `In sheltered bays, harbours, or estuaries, rarely in the open sea; typically an intertidal species but may also occur in the shallow sublittoral. Attaches to any suitable hard substratum - rocks and stones, shellfish, wooden pilings and wharves, etc. Tolerant of extreme temperature and salinity variations, frequently occurring in brackish creeks or lagoons.`,
         distribution: `Reported from many localities in Britain, on all coasts; elsewhere widely distributed throughout Europe, including the Mediterranean, and the northern hemisphere in general.`,
-        img: `${baseURL}/img/seaAnemones/img/orangeStripedAnemone/orange-striped-anemone.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/orangeStripedAnemone/orange-striped-anemone.jpg`
     },
     paleAnemone: {
         id: 10,
@@ -93,7 +92,7 @@ const animals = {
         color: `Tentacles transparent; oral disc brownish to bluish white.`,
         habitat: `They grow on rocks or other hard objects, down to 18 m. Often in groups, but may grow solitary.`,
         distribution: `Common to occasional Florida, Bahamas and Caribbean.`,
-        img: `${baseURL}/img/seaAnemones/img/paleAnemone/pale-anemone.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/paleAnemone/pale-anemone.jpg`
     },
     snakelocksAnemone: {
         id: 11,
@@ -104,7 +103,7 @@ const animals = {
         habitat: `In pools, attached to rocks or various algae, on Zostera leaves etc., usually in well-lit situations. Occurs mainly on the shore, from about mid-tide level downwards, mostly in localities exposed to strong wave action but also in sheltered places, and in the shallow sublittoral down to about 20 m. A conspicuous species and, if present, may well be the first anemone to catch the eye. A. viridis is unable to tolerate prolonged conditions of extreme cold; in the exceptionally cold winter of 1963-64 it disappeared from many localities.`,
         distribution: `Locally abundant on south and west coasts of the British Isles, extending north to mid-Scotland. Common on all south-west coasts of Europe and in the Mediterranean`,
         remarks: `The common name "snakelocked anemone" or "snakelocks" was first applied by Gosse to another species, Sagartiogeton undatus, but has been taken over by popular usage for the present species.`,
-        img: `${baseURL}/img/seaAnemones/img/snakelocksAnemone/snakelocks-anemone.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/snakelocksAnemone/snakelocks-anemone.jpg`
     },
     sunAnemone: {
         id: 12,
@@ -113,7 +112,7 @@ const animals = {
         color: `Tentacles and oral disc green to brown.`,
         habitat: `Inhabit shallow reefs, down to 9 m. Dense clusters may occupy large areas.`,
         distribution: `Common to occasional Bahamas, eastern and southern Caribbean; rare northwestern Caribbean.`,
-        img: `${baseURL}/img/seaAnemones/img/sunAnemone/sun-anemone.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/sunAnemone/sun-anemone.jpg`
     },
     actinaugeRichardi: {
         id: 13,
@@ -123,7 +122,7 @@ const animals = {
         colouration: `Variable and typical of many deep-water anemones: column dirty white, tinged with green or red, disc and tentacles white, brown, red, etc., tentacles often longitudinally striped, with their basal swellings always white.`,
         habitat: `Usually on muddy or sandy bottoms, always offshore, in depths greater than 50 m. This anemone usually lives free with the ball of mud in its base acting as a sea anchor but is also capable of normal attachment, occasionally being found on stones or shells.`,
         distribution: `Generally a deep water north-east Atlantic species, occurring from Norway to Biscay, possibly in the Mediterranean or even further south, occasional in the North Sea.`,
-        img: `${baseURL}/img/seaAnemones/img/actinaugeRichardi/actinauge-richardi.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/actinaugeRichardi/actinauge-richardi.jpg`
     },
     actinothoeSphyrodeta: {
         id: 14,
@@ -134,7 +133,7 @@ const animals = {
         nematocystsOfAcontia: `p-mastigophores 43-86 x 6.0-9.0 öm, b-mastigophores 22-32 x 1.6-2.5 öm`,
         habitat: `Attached to rocks or other hard substrata, usually on flat surfaces rather than in holes or crevices like most other sagartiids; also occurs on various algae, e.g. Laminaria, or Himanthalia buttons. Occasional on the shore in shaded situations, usually on vertical or overhanging surfaces. More common and widespread sublittorally, down to about 40 m. Frequently occurs in the company of Caryophyllia and Corynactis.`,
         distribution: `Locally abundant on west coasts of British Isles, as far north as Shetland but more common in the south. Southern limits of its range are uncertain; it occurs at least to Biscay but is apparently absent from the Mediterranean.`,
-        img: `${baseURL}/img/seaAnemones/img/actinothoeSphyrodeta/actinothoe-sphyrodeta.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/actinothoeSphyrodeta/actinothoe-sphyrodeta.jpg`
     },
     boloceraTuediae: {
         id: 15,
@@ -144,7 +143,7 @@ const animals = {
         colouration: `Fairly uniform - orange, buff, pink or whitish, the disc and tentacles being slightly translucent. Disc sometimes with vague indications of a dark pattern around the tentacle bases.`,
         habitat: `An offshore species occurring on rocks, stones and shells, from about 20 m depth down to at least 2000 m.`,
         distribution: `Occurs around all coasts of the British Isles but is rare in the south. Generally distributed throughout the North Atlantic to the Arctic circle and eastern North America.`,
-        img: `${baseURL}/img/seaAnemones/img/boloceraTuediae/bolocera-tuediae.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/boloceraTuediae/bolocera-tuediae.jpg`
     },
     calliactisParasitica: {
         id: 16,
@@ -154,7 +153,7 @@ const animals = {
         colouration: `Ground colour of column pale buff, yellowish, or light brown. It is more or less densely freckled brown or reddish, the freckles tending to form longitudinal stripes, these being subdivided proximally by short vertical lines of yellowish cream which lie on the endocoels and run upward for a short distance from the limbus. The overall effect is variable; sometimes the dark stripes are indistinct; often irregular blotches and spots of black, brown, purplish or red occur amongst the other colours breaking up the striped effect, sometimes these alone are present. Disc and tentacles translucent cream or yellowish, occasionally orange, usually with a simple pattern of opaque cream on the disc, the tentacles each with two broken longitudinal lines of reddish brown, often with tiny cream spots in the interruptions.`,
         habitat: `Usually found in association with the hermit crab Pagurus bernhardus (Linnaeus), often with more than one anemone on the gastropod shell inhabited by the crab. May also occur on other substrata such as other crabs (e.g. Maia) or on stones, etc. Typically a sublittoral species occurring down to about 60 m but occasionally found on the shore in sheltered localities, or washed up by storms.`,
         distribution: `Common in the English Channel but not extending much further north than the Bristol Channel or southern Ireland; records from the southern part of the North Sea are very dubious. Common around south-west Europe and in the Mediterranean, where it may be associated with other species of hermit crab.`,
-        img: `${baseURL}/img/seaAnemones/img/calliactisParasitica/calliactis-parasitica.jpg`
+        img: `${process.env.BASE_ROUTE}/img/seaAnemones/img/calliactisParasitica/calliactis-parasitica.jpg`
     }
 };
 

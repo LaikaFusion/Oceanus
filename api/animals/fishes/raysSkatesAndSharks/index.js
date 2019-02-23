@@ -1,4 +1,3 @@
-const baseURL = require('../../../baseURL');
 
 const animals = {
     africanAngelshark: {
@@ -9,7 +8,7 @@ const animals = {
         habitat: `A common benthic and epibenthic shark on the continental shelf and uppermost slope, ranging in depth from the surf line close inshore to 494 m depth, with most occurring between 60 and 300 m depth. Development ovoviviparous, number of young probably about 7 to 11 in a litter. Eats bony fishes, squids and octopuses.`,
         size: `Maximum total length size about 108 cm, males maturing at about 75 to 78 cm and reaching over 80 cm, females maturing between 90 and 93 cm and reaching at least 108 cm; size-at birth between 28 and 34 cm.`,
         interestToFisheries: `Limited, often taken by bottom trawlers.`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/africanAngelshark/african-angelshark.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/africanAngelshark/african-angelshark.jpg`
     },
     africanLanternshark: {
         id: 2,
@@ -20,7 +19,7 @@ const animals = {
         habitat: `A lanternshark of the upper continental slopes, on or near bottom at depths of 300 to 1000 m.`,
         size: `Maximum total length about 24 cm; adult males to 23 cm, females to 24 cm. Reports of this species from 30 to 80 cm unverified and possibly based in part on other species of Etmopterus.`,
         interestToFisheries: `In the eastern Atlantic this species (and possibly others reported under its name) are captured offshore in bottom trawls, fixed bottom nets and on hook-and-line gear, and utilized dried salted for human consumption and for fishmeal.`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/africanLanternshark/african-lanternshark.JPG`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/africanLanternshark/african-lanternshark.JPG`
     },
     africanRay: {
         id: 3,
@@ -30,7 +29,7 @@ const animals = {
         size: `to about 70 cm TL`,
         habitat: `benthic at 50-400 m; only 5 specimens known. Food: crustaceans and bony fishes. Reproduction: oviparous, egg-cases unknown`,
         distribution: `south-western Mediterranean (Tunesia); specimens not available, assumed to be this species. Elsewhere, coast of Mauritania (holotype only).`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/africanRay/african-ray.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/africanRay/african-ray.jpg`
     },
     africanRibbontailCatshark: {
         id: 4,
@@ -42,7 +41,7 @@ const animals = {
         food: `A harmless small shark that feeds on small bony fishes, crustaceans, and cephalopods.`,
         size: `Maximum 37 cm, males maturing at about 29 or 30 cm and reaching at least 30 cm, females mature at 37 cm; size at birth between 15 and 17 cm.`,
         interestToFisheries: `Minimal or nil.`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/africanRibbontailCatshark/african-ribbontail-catshark.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/africanRibbontailCatshark/african-ribbontail-catshark.jpg`
     },
     africanSawtailCatshark: {
         id: 5,
@@ -54,7 +53,7 @@ const animals = {
         size: `Maximum about 42 cm, adult males 35 to 39 cm, adult females 41 to 42 cm, size at birth about 12 cm.`,
         interestToFisheries: `Limited, caught in bottom trawls and utilized fresh for human consumption and for fishmeal.`,
         remarks: `Vaillant's (1888) description of his Pristiurus atlanticus from off Cape Spartel, Morocco suggests this species rather than G. melastomus in certain features, including its coloration and narrower internarial space; however, the type locality is somewhat north of the northernmost known occurrence of G. Polli and the holotype of P. atlanticus (a female) is slightly larger (44 cm) than the largest reported G. polli. Garman (1913) synonymized P. atlanticus with G. melastomus, but the validity of this action is questionable pending a reexamination of the type of P. atlanticus, MNHN 84-387.`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/africanSawtailCatshark/african-sawtail-catshark.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/africanSawtailCatshark/african-sawtail-catshark.jpg`
     },
     africanSpottedCatshark: {
         id: 6,
@@ -66,7 +65,7 @@ const animals = {
         size: `Maximum about 34 cm; male adolescent 24 cm, adult males 29 to 34 cm; females immature at 20 cm, adolescent at 22 to:23 cm and adult at 24 to 26 cm. The adult males of this species are considerably larger than females in this species and H. regani,: something unusual among sharks.`,
         interestToFisheries: `None at present, taken in bottom trawlers.`,
         remarks: `See Bass, D'Aubrey and Kistnasamy (1975a) for a discussion of the synonymy of this species. These writers note that although the holotype and three of the four paratypes of Scyliorhinus (Halaelurus) melanostiqma Norman, 1939, collected off Zanzibar and in the British Museum (Natural History) marine fish collection, are based on specimens of H. regani, the fourth paratype (BMNH 1939.5.24.5, a 210 mm female) is punctatus-like. This Zanzibar specimen differs from Natal Dunctatus in having a single narrow dark bar flanked by light lines on its dorsal fins (Natal specimens have twin V-marks on their dorsals). The writer was able to examine two additional specimens of this type from Tanzania, collected by G. Bianchi in1982, and can confirm the colour differences. Additionally, these sharks agree with H. regani and not H. punctatus in having enlarged denticles interspersed with normal smaller ones, but have the shorter anal fin, small size, and general colour pattern of H. punctatus. As suggested by Bass, D'Aubrey and Kistnasamy, these Tanzanian sharks may represent an additional, undescribed species or a geographic variant of H. punctatus, but unfortunately there are no specimens from the intermediate area, northern Mozambique, to determine if the Natal-southern Mozambique and Tanzanian punctatus types intergrade or not. Springer (1979) reported a similar specimen from Tanzania (a 210 mm immature male, possibly not saved).`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/africanSpottedCatshark/african-spotted-catshark.JPG`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/africanSpottedCatshark/african-spotted-catshark.JPG`
     },
     angelshark: {
         id: 7,
@@ -78,7 +77,7 @@ const animals = {
         food: `bottom organisms, mainly fishes, molluscs, crustaceans.`,
         reproduction: ` ovoviviparous; eggs 6-8 cm in diameter; 7-25 embryos, depending on size of female; gestation 10 months, parturition December-February (Mediterranean), perhaps later in northern waters; newly born 20-30 cm.`,
         distribution: `Atlantic coasts from Morocco to British Isles and southern North Sea; also, Mediterranean and Black Sea. Elsewhere, southward to Mauretania.`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/angelshark/angelshark.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/angelshark/angelshark.jpg`
     },
     angularRoughShark: {
         id: 8,
@@ -88,7 +87,7 @@ const animals = {
         habitat: `benthic on continental shelf and upper slope at 60-660 m.`,
         reproduction: `maturing at about 50 cm.`,
         distribution: `Mediterranean and adjacent Atlantic, rarely into northern waters. Elsewhere, southward to Senegal, possibly even to South Africa.`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/angularRoughShark/angular-rough-shark.png`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/angularRoughShark/angular-rough-shark.png`
     },
     arabianCarpetshark: {
         id: 9,
@@ -100,7 +99,7 @@ const animals = {
         size: `Maximum total length 70 cm.`,
         interestToFisheries: `Minimal at present, apparently little utilized in the "Gulf" (Gubanov and Schleib, 1980).`,
         remarks: `This inadequately described species is apparently very close to C. punctatum, but is provisionally recognized here.`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/arabianCarpetshark/arabian-carpetshark.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/arabianCarpetshark/arabian-carpetshark.jpg`
     },
     arabianSmoothHound: {
         id: 10,
@@ -112,7 +111,7 @@ const animals = {
         habitat: `A common bottom-dwelling shark of continental waters, found inshore and offshore, some on coral reefs. Viviparous, number of young 6 to 10 per litter. Eats small bottom fish, molluscs, and crustaceans. Readily lives in captivity.`,
         interestToFisheries: `Apparently regularly fished off Pakistan and India and used for human food.`,
         remarks: `This species was included in synonymy of M. punctulatus by Fowler (1941) and generally confused with M. manazo or M. mustelus by various writers until Heemstra (19733 examined its type and concluded that it was a valid species. The heavy hypercalcification of the skeleton of adults of this species is uniquein its genus and family, although other carcharhinoids have hypercalcified skeletons (see Compagno, 1979). With present evidence (Heemstra, 1973, pers. comm.), there seem to be isolated populations of this species off Natal, South Africa (the Mustelus species of Bass, D'Aubrey and Kistnasamy, 1975a, which Dr P.C. Heemstra identifies as M. mosis and which the writer has examined and skeletonized) in the Red Sea, and in the "Gulf" and Arabian Sea to southern India and Sri Lanka, though this may be an illusion of inadequate collecting. The writer examined a specimen labelled M. manazo in the Zoological Survey of India, illustrated by Day (1878), and found it to be M. mosis. A. Baranes of the Hebrew University of Jerusalem has done a study of the ecology and behaviour of this species in the Red Sea off Elat, Israel. In Israeli waters off Elat it is called the Moses smooth-hound and off South Africa, the hardnose smooth-hound.`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/arabianSmoothHound/arabian-smooth-hound.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/arabianSmoothHound/arabian-smooth-hound.jpg`
     },
     arcticSkate: {
         id: 11,
@@ -125,7 +124,7 @@ const animals = {
         reproduction: `oviparous; egg-cases 81-125 by 54-77 mm (excluding horns).`,
         distribution: `northern Atlantic, from Spitsbergen southward to the Greenland - lceland - Faroe Shetland Ridge and across to northern Norwegian coasts. Elsewhere, Davis Strait.`,
         remarks: `Raja (Amblyraja) spec. of Clofnam suppl. 21.1.9a resembles R. hyperborea but has more tooth rows (50 68), is generally lighter in colour (plain white above and below in extreme cases) and larger (a female to 115 cm TL). Several specimens from mainly very deep polar water in the Denmark Strait (south of the ridge) and near Flemish Cape in the north-western Atlantic are being studied by Stehman.`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/arcticSkate/arctic-skate.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/arcticSkate/arctic-skate.jpg`
     },
     argentineAngelshark: {
         id: 12,
@@ -135,7 +134,7 @@ const animals = {
         habitat: `A common but poorly known temperate and subtropical angelshark of the western South Atlantic continental shelf and slope, on or near the bottom.`,
         size: `Maximum total length 170 cm.`,
         interestToFisheries: `Presumably taken by bottom trawlers.`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/argentineAngelshark/argentine-angelshark.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/argentineAngelshark/argentine-angelshark.jpg`
     },
     arrowheadDogfish: {
         id: 13,
@@ -147,7 +146,7 @@ const animals = {
         size: `Maximum total length about 76 cm, adults males 43 to 67 cm, adults females 70 to 76 cm, size at birth above 31 cm.`,
         interestToFisheries: 'none',
         remarks: `This account follows Bass, d'Aubrey and Kistnasamy (1976) in including Deania cremouxi in tentative synonymy ofD. profundorum, along with D. natalense and D. elegans. However, Cadenat and Blache (1981) considered it a 'form' of D. calcea.`,
-        img: `${baseURL}/img/fishes/img/raysSkatesAndSharks/arrowheadDogfish/arrowhead-dogfish.jpg`,
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/raysSkatesAndSharks/arrowheadDogfish/arrowhead-dogfish.jpg`,
     }
 };
 

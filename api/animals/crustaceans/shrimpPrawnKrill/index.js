@@ -1,4 +1,3 @@
-const baseURL = require('../../../baseURL');
 
 const animals = {
     bandedCoralShrimp: {
@@ -10,7 +9,7 @@ const animals = {
         habitatDepths: `ranges from 2 m down to 40 m.`,
         distribution: `All throughout the Caribbean.`,
         remarks: `When approached carefully with an extended hand, it may come out of its protection to clean it.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/bandedCoralShrimp/banded-coral-shrimp.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/bandedCoralShrimp/banded-coral-shrimp.jpg`
     },
     pedersonCleaningShrimp: {
         id: 2,
@@ -21,7 +20,7 @@ const animals = {
         habitatDepths: `ranges from 2 m down to 20 m.`,
         distribution: `All over the Caribbean.`,
         remarks: `When approached carefully with an extended hand, it may come out of its protection to clean it.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/pedersonCleaningShrimp/pederson-cleaning-shrimp.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/pedersonCleaningShrimp/pederson-cleaning-shrimp.jpg`
     },
     redNightShrimp: {
         id: 3,
@@ -32,7 +31,7 @@ const animals = {
         habitatDepths: `ranges from 6 m down to 30 m.`,
         distribution: `All throughout the Caribbean.`,
         remarks: `The Red night shrimp Rhinchocinetes rigens also is red with light bands, but its bands run across its body.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/redNightShrimp/red-night-shrimp.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/redNightShrimp/red-night-shrimp.jpg`
     },
     scarletStripedCleaningShrimp: {
         id: 4,
@@ -42,7 +41,7 @@ const animals = {
         habitatDepths: `ranges from 1 m down to 30 m.`,
         distribution: `Occurs in shallow reef areas al over the Caribbean.`,
         remarks: `When approached carefully with an extended hand, it may come out of its protection to clean it.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/scarletStripedCleaningShrimp/scarlet-striped-cleaning-shrimp.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/scarletStripedCleaningShrimp/scarlet-striped-cleaning-shrimp.jpg`
     },
     spottedCleanerShrimp: {
         id: 5,
@@ -53,7 +52,7 @@ const animals = {
         habitatDepths: `ranges from 2 m down to 20 m.`,
         distribution: `All over the Caribbean.`,
         remarks: `When approached carefully with an extended hand, it may come out of its protection to clean it.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/spottedCleanerShrimp/spotted-cleaner-shrimp.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/spottedCleanerShrimp/spotted-cleaner-shrimp.jpg`
     },
     squatAnemoneShrimp: {
         id: 6,
@@ -63,7 +62,7 @@ const animals = {
         habitat: `Typical anemone shrimp, often associates with Giant anemone Condylactis gigantea, Sun anemone Stichodactyla helianthus and Elegant anemone Actinoporus elegans.`,
         habitatDepths: `ranges from 2 m down to 20 m.`,
         distribution: `All over the Caribbean.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/squatAnemoneShrimp/squat-anemone-shrimp.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/squatAnemoneShrimp/squat-anemone-shrimp.jpg`
     },
     athanasNitescens: {
         id: 7,
@@ -73,7 +72,7 @@ const animals = {
         color: `Variable. Often green, blue or red-brown, frequently with a longitudinal white dorso-median stripe extending the full length of the animal. May also be almost transparent, speckled with red chromatophores.`,
         habitat: `Down to about 65 metres. Hyperbenthic species, may swim up at night, but mostly confined to the nepheloid layer. Occasionally in rock-pools. May occur under large stones especially where the substrate is gravelly. Often occur in groups of adults and juveniles. Ovigerous females occur from May to August-September.`,
         distribution: `All North Sea. Ranges from S and W Norway and W coast of Sweden southwards to the Cape Verde Islands and into the Mediterranean and Black Sea.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/athanasNitescens/athanas-nitescens.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/athanasNitescens/athanas-nitescens.jpg`
     },
     bentheuphausiaAmblyops: {
         id: 8,
@@ -83,7 +82,7 @@ const animals = {
         habitatDepths: `B. amblyops is a bathypelagic species living in deep water, probably from 500 to >2000 m. No day-night difference is evident in the vertical distribution.`,
         distribution: `This deep sea species is absent from the shallow North Sea. However, regarding the presence of B. amblyops in the adjacent waters of the NE Atlantic, the species is likely to occur in the northern North Sea, in the vicinity of the Orkney and Shetland Islands, as well as in the Norwegian Deep. Indeed, B. amblyops is reported from the entrance of the northern North Sea (S. Hay, pers. com.). B. amblyops is one of the most widely distributed euphausiids; found between 54°N and 54°S in the Pacific, between 64°N and 44°S in the Atlantic and in the tropical Indian Ocean basins.`,
         remarks: `B. amblyops is the only species in the family Bentheuphausiidae.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/bentheuphausiaAmblyops/bentheuphausia-amblyops.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/bentheuphausiaAmblyops/bentheuphausia-amblyops.png`
 
     },
     caridionGordoni: {
@@ -94,7 +93,7 @@ const animals = {
         color: `Carapace and pleon scattered with red chromatophores, darkest on rostrum, otherwise virtually transparent.`,
         habitat: `Down to 10-1,000 metres, usually 20-500 metres. Normally found on rocky, sandy or gravelly substrata. Adults may swim up into the water column. Ovigerous females occur from March to October.`,
         distribution: `All North Sea. Ranges from Iceland and Norway southwards into the Bay of Biscay. In the W Atlantic, this species is known from Newfoundland to Chesapeake Bay.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/caridionGordoni/caridion-gordoni.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/caridionGordoni/caridion-gordoni.jpg`
     },
     caridionSteveni: {
         id: 10,
@@ -105,7 +104,7 @@ const animals = {
         habitat: `Down to about 30 metres. Usually a littoral species, occurring under stones and amongst algae at ELWS. It is not certain whether this species never swims up into the water column. Ovigerous females occur from January to May.`,
         distribution: `Northern North Sea, British NE coasts, Skagerrak. Its full range is unknown, although its southern limit is probably SW England, since Bourdon (1965) records only larval stages at Roscoff and Zariquiey Alvarez (1968) makes no mention of it from Spanish shores. The northern limits are also unknown.`,
         remarks: `Very similar to Caridion gordoni. Any Caridion found on the shore or in shallow water usually proves to be Caridion steveni.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/caridionSteveni/caridion-steveni.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/caridionSteveni/caridion-steveni.jpg`
     },
     crangonAllmani: {
         id: 11,
@@ -116,7 +115,7 @@ const animals = {
         habitat: `Down to about 20-250 metres, occasionally down to 360 metres. Occurs on muddy or sandy substrates. Hyperbenthic species, may swim up at night, mostly confined to the nepheloid layer. Ovigerous females from December to July, although most have stopped breeding by May.`,
         distribution: `All North Sea. Ranges from the White Sea southwards to the Bay of Biscay.`,
         remarks: `This species closely resembles Crangon crangon, but is slightly slimmer and is easily distinguishable by the groove in pleonite 6.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/crangonAllmani/crangon-allmani.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/crangonAllmani/crangon-allmani.jpg`
     },
     crangonCrangon: {
         id: 12,
@@ -127,7 +126,7 @@ const animals = {
         habitat: `Mid-shore-down to 150 metres. Found on sandy and muddy grounds. Penetrates the lower reaches of estuaries and is common in sandy bays. Hyperbenthic species, may swim up at night, mostly confined to the nepheloid layer. Ovigerous females occur at different times in different localities. There are often two or more spawning periods, and in some localities (e.g. Plymouth in S England), a few ovigerous females occur throughout the year. Elsewhere, breeding periods are restricted (e.g. February to June in the Bristol Channel).`,
         distribution: `All North Sea. Ranges from the White Sea southwards into the Baltic and down to the Mediterranean.`,
         remarks: `This is the common shrimp of sandy bays and beaches. Most authors note C. crangon to be a dioecious species, although some evidence suggests that it is a protandrous hermaphrodite. This is still a matter of conjecture (see Tiews, 1970). Important commercial fisheries for this species exist off the coasts of Germany, Holland, Belgium and France. It is also fished on a smaller scale from the east and west coasts of Britain.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/crangonCrangon/crangon-crangon.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/crangonCrangon/crangon-crangon.jpg`
     },
     dichelopandalusBonnieri: {
         id: 13,
@@ -138,7 +137,7 @@ const animals = {
         habitat: `From 20 to 1000 metres deep. Ovigerous females from October to April.`,
         distribution: `Northern North Sea. Ranges from Icelandic and Norwegian coasts southwards to the Bay of Biscay. Not found in Greenland waters.`,
         remarks: `Unlike several other members of the Pandalidae, D. bonnieri is dioecious.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/dichelopandalusBonnieri/dichelopandalus-bonnieri.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/dichelopandalusBonnieri/dichelopandalus-bonnieri.jpg`
     },
     eualusGaimardii: {
         id: 14,
@@ -149,7 +148,7 @@ const animals = {
         habitat: `Down to about 10-200 metres. Hyperbenthic species, may swim up at night, mostly confined to the nepheloid layer. Ovigerous females occur from January to April, although the breeding period may be longer.`,
         distribution: `Adults reported from southwestern and northern North Sea, British NE coasts. A circumpolar species, reaching its southern limits around northern Britain. It ranges from W Greenland, Jan Mayen, Spitzbergen, Franz Josef Land, N and W Norway, White Sea, Barents Sea, Siberia and Alaska southwards to Cape Cod (Massachusetts), the Firth of Forth and the Clyde Sea area.`,
         remarks: `The rostrum of this species varies considerably in shape and armature ? illustrated by Dons (1915). Two forms of E. gaimardii were noted by Holthuis (1947). E. gaimardii forma gaimardii is a southern form with pleonite 3 smooth and rounded in both males and females. E. gaimardii forma belcheri (Bell, 1855) is a northern form, in which the posterior-median part of pleonite 3 in males bears a strong tubercle, which ends in a curved hook. The females have only a blunt, but distinct tubercle.`,
-        img: `${baseURL}/img/crustaceans/img/shrimpPrawnKrill/eualusGaimardii/eualus-gaimardii.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/shrimpPrawnKrill/eualusGaimardii/eualus-gaimardii.jpg`
     }
 };
 

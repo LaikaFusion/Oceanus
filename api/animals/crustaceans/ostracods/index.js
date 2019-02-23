@@ -1,4 +1,3 @@
-const baseURL = require('../../../baseURL');
 
 const animals = {
     angulorostrumSegonzaci: {
@@ -6,7 +5,7 @@ const animals = {
         name: `Angulorostrum segonzaci`,
         description: `Length female 1.36-1.42mm, male unknown. Known from two females taken epibenthically, one from the North Portuguese continental slope the other from the Spanish continental slope in the Bay of Biscay from depths of 700-800m.`,
         remarks: `This is one of the fifteen species within the Cypridinidae which are not keyed-out in this program.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/angulorostrumSegonzaci/angulorostrum-segonzaci.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/angulorostrumSegonzaci/angulorostrum-segonzaci.png`
     },
     archiconchoeciaBispicula: {
         id: 2,
@@ -16,7 +15,7 @@ const animals = {
         distribution: `Only known from 17°-53°N in the North Atlantic. A rare benthopelagic/deep mesopelagic species usually taken at 800-1500m. depth 1, 2 (R.R.S. Discovery Map).`,
         specimen: `Holotype, a female dissected on slide. National Museum of Natural History, Smithsonian Institution (NMNH 171285).`,
         locality: `17°18'N, 85°27'W in western Caribbean. Pillsbury cruise 6803, Station 18; date, 22 April 1968; depth, 2000-Om; vertical haul.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/archiconchoeciaBispicula/archiconchoecia-bispicula.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/archiconchoeciaBispicula/archiconchoecia-bispicula.png`
     },
     archiconchoeciaCucullata: {
         id: 3,
@@ -26,7 +25,7 @@ const animals = {
         distribution: `Occurs in all oceans between 60°N-50°S. 1, 2, 3 (R.R.S. Discovery Map). Where the two forms co-occur, the smaller species has the shallower bathymetric range. In UK waters larger form reasonably abundant at 600-1500m.`,
         specimen: `None designated; status of original material uncertain.`,
         locality: `Original material from three stations close to 52°N 15°W.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/archiconchoeciaCucullata/archiconchoecia-cucullata.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/archiconchoeciaCucullata/archiconchoecia-cucullata.png`
     },
     archiconchoeciaGastrodes: {
         id: 4,
@@ -36,7 +35,7 @@ const animals = {
         distribution: `Discovery Collection material includes species taken over bathymetric ranges of 800-2700m from 30-60°N in the North Atlantic. There appears to be an ontogenetic migration with the juveniles occurring at shallower depths than the adults. 1, 2, 3 (R.R.S. Discovery Map).`,
         specimen: `Holotype, a female dissected on a slide in the National Museum of Natural History, Smithsonian Institution (NMNH 171292)`,
         locality: `32°10'N, 64°30'W, Station "S" in the Sargasso Sea off Bermuda; depth 1000-1500m; date 19th February 1979; a vertical tow.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/archiconchoeciaGastrodes/archiconchoecia-gastrodes.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/archiconchoeciaGastrodes/archiconchoecia-gastrodes.png`
     },
     archiconchoeciaPilosa: {
         id: 5,
@@ -46,7 +45,7 @@ const animals = {
         distribution: `This is a rare bathypelagic species which is only known from the type locality, but Discovery Collection material contains specimens which fit Deevey's description well from 10°-49°N in the North Atlantic Ocean. 1 (R.R.S. Discovery Map).`,
         specimen: `Holotype, a male dissected on a slide. National Museum of Natural History, Smithsonian Institution (NMNH 171282).`,
         locality: `32°10'N, 64°30'W Station "S" in the Sargasso Sea off Bermuda. Depth 1500-2000m; date 25 June 1969; Vertical tow.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/archiconchoeciaPilosa/archiconchoecia-pilosa.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/archiconchoeciaPilosa/archiconchoecia-pilosa.png`
     },
     archiconchoeciaVentricosa: {
         id: 6,
@@ -56,7 +55,7 @@ const animals = {
         distribution: `Widespread, but never common, in the Indian and Atlantic Oceans (0°-49°N) 1 (R.R.S. Discovery Map).`,
         specimen: `None designated; status of original material uncertain.`,
         locality: `The original material was collected in both the Equatorial Atlantic and Indian Oceans (2°-7°N).`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/archiconchoeciaVentricosa/archiconchoecia-ventricosa.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/archiconchoeciaVentricosa/archiconchoecia-ventricosa.png`
     },
     archiconchoeciaVersicula: {
         id: 7,
@@ -66,7 +65,7 @@ const animals = {
         distribution: `Described from the Southern Ocean; taken from the equator to 49°N in the North Atlantic, whenever sampling has been carried out at depths greater than 2000-2500m. 1 (R.R.S. Discovery Map).`,
         specimen: `Holotype, a male dissected on slides. National Museum of Natural History, Smithsonian Institution (NMNH 169061)`,
         locality: `39°56'S, 107°24'W, Eltanin sample 1375; depth 1000-2000m; date 10th December 1965; gear a Bébathypelagic plankton sampler.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/archiconchoeciaVersicula/archiconchoecia-versicula.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/archiconchoeciaVersicula/archiconchoecia-versicula.png`
     },
     archiconchoeciaAffCucullata: {
         id: 8,
@@ -74,21 +73,21 @@ const animals = {
         description: `The general appearance of this species is superficially similar to that of A. cucullata (A. aff. cucullata Habitus 1, A. aff. cucullata Habitus 3). However, rostral edges are not straight, but are curled downwards and inwards (A. aff. cucullata Habitus 2, A. aff. cucullata Habitus 4). The posterior spines are positioned slightly lower on the posterior margin and their bases overlap. Between the end of the hinge and the righthand process the postero-dorsal margin is smooth. The maximum width of the carapace is anterior to mid-length so in ventral aspect it appears spindle-like. The frontal organ is <150% the length of the limb of the first antenna and is down-turned at its tip (A. aff. cucullata 1, A. aff. cucullata 3).`,
         remarks: `This is fragile species, like many other deep-living species, it is difficult to collect in good condition. Another large cucullata - like species has been taken in benthopelagic hauls at depths >4000m at low latitudes in the North Atlantic. These four species will be separated generically from Archiconchoecia species. The name Archiconchoecia should be retained for those species which resemble A. striata , the first species described for the genus, which should be designated the type species for the genus.`,
         distribution: `This 'new' abyssopelagic species requires formal description. It occurs at 20°N-49°N in deep water in the Atlantic. 1 (R.R.S. Discovery Map).`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/archiconchoeciaAffCucullata/archiconchoecia-aff-cucullata.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/archiconchoeciaAffCucullata/archiconchoecia-aff-cucullata.png`
     },
     asteropeAbyssicola: {
         id: 9,
         name: `Asterope abyssicola`,
         description: `Length female 1.63mm, male unknown. Described from off the Lofoten Islands from a depth of 220m and off Bear Island at 345m.`,
         remarks: `This is one of the fifteen species within the Cypridinidae which are superficially keyed-out in this program.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/asteropeAbyssicola/asterope-abyssicola.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/asteropeAbyssicola/asterope-abyssicola.png`
     },
     azygocypridinaImperialis: {
         id: 10,
         name: `Azygocypridina imperialis`,
         description: `Length female 9.5mm, male 7.3mm. Caught in quite large numbers at depths of 1900-3000m in the Northeastern Atlantic (Athersuch, 1980) in epibenthic sledge samples. This is a large conspicuous yellow-orange species associated with regions of foraminiferal ooze.`,
         remarks: `This is one of the fifteen species within the Cypridinidae which are superficially keyed-out in this program.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/azygocypridinaImperialis/azygocypridina-imperialis.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/azygocypridinaImperialis/azygocypridina-imperialis.png`
     },
     bathyconchoeciaDarcythompsoni: {
         id: 11,
@@ -98,7 +97,7 @@ const animals = {
         distribution: `Gulf of Guinea (Poulsen, 1969b) and off the Azores (Poulsen, 1972). Discovery Collections material includes specimens from 4000m off N. W. Africa and the Porcupine Seabight region off S. W. Ireland.`,
         specimen: `None designated; status of original material uncertain.`,
         locality: `Original material came from the Goldseeker station 53; 59°36'N, 7°W; date August 1907; depth 1140m; two males, one female and two juveniles.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/bathyconchoeciaDarcythompsoni/bathyconchoecia-darcythompsoni.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/bathyconchoeciaDarcythompsoni/bathyconchoecia-darcythompsoni.png`
     },
     bathyconchoeciaKornickeri: {
         id: 12,
@@ -108,7 +107,7 @@ const animals = {
         distribution: `Apart from the type locality, this species has only been taken in the N. E. Atlantic, always in nets fished very close to the sea-bed at abyssal depths. 1 (R.R.S. Discovery Map).`,
         specimen: `Holotype male dissected on slide deposited in the Smithsonian Institution (USNM 123214).`,
         locality: `28°15'N 87°02'W from the intestine of a bottom fish, Dicromita agassizii, taken in a midwater trawl which hit the sea-bed at a depth of 1000m, 11 July 1966.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/bathyconchoeciaKornickeri/bathyconchoecia-kornickeri.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/bathyconchoeciaKornickeri/bathyconchoecia-kornickeri.png`
     },
     bathyconchoeciaNodosa: {
         id: 13,
@@ -118,7 +117,7 @@ const animals = {
         distribution: `Originally described from the vicinity of the Azores, it has now been identified from samples collected off N. W. Africa and the Porcupine Seabight region. 1 (R.R.S. Discovery Map).`,
         specimen: `Holotype deposited in the Zoological Museum of Copenhagen.`,
         locality: `37°00'N 25°45'W off Azores; depth 2400-2450m; date 8 July 1969; gear net mounted on the French Bathyscaph Archimede.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/bathyconchoeciaNodosa/bathyconchoecia-nodosa.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/bathyconchoeciaNodosa/bathyconchoecia-nodosa.png`
     },
     conchoeciaAcuticosta: {
         id: 14,
@@ -128,7 +127,7 @@ const animals = {
         distribution: `In the North Atlantic, it is most abundant at higher latitudes at mesopelagic depths 200-500m. It also occurs in equatorial regions; this rather curious biogeographical distribution raises doubts as to whether all these records are conspecific. 1, 2, 3 (R.R.S. Discovery Map).`,
         specimen: `None designated; status of original material uncertain.`,
         locality: `Original material from between 4°N and 35°S in both Atlantic and Indian Oceans.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/conchoeciaAcuticosta/conchoecia-acuticosta.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/conchoeciaAcuticosta/conchoecia-acuticosta.png`
     },
     conchoeciaAcutimarginata: {
         id: 15,
@@ -138,7 +137,7 @@ const animals = {
         distribution: `Known from abyssopelagic depths in the North Pacific and North Atlantic, 20°-49°N. Rarity in collections possibly the result of under collection of the depths >2500m where it lives. 1 (R.R.S. Discovery Map).`,
         specimen: `Holotype male No 1530 Instituta Okeanologii A.N. USSR`,
         locality: `43°47'N 149°56'E, Kuril-Kamchatka Trench, North Pacific; Vityaz Station 5631; date 2nd September 1966; depth 2390m.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/conchoeciaAcutimarginata/conchoecia-acutimarginata.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/conchoeciaAcutimarginata/conchoecia-acutimarginata.png`
     },
     conchoeciaAmetra: {
         id: 16,
@@ -147,7 +146,7 @@ const animals = {
         remarks: `The only species that might be confused with C. ametra is C. imbricata (Conchoecia imbricata). They are readily distinguished on size, the longer and more symmetrical rostral processes and the longer process at the postero-ventral corner in C. imbricata. It was placed in the imbricata group by Müller, 1906. Poulsen, 1973 attributed it to Claus' genus Conchoecissa`,
         distribution: `Widely distributed in all the major oceans. Its poleward limit 62°N 44°S seems to be related to the polar fronts in the various oceans. Its bathymetric range is 700-1500m in the North Atlantic i.e., deep mesopelagic/shallow bathypelagic. 1, 2, 3, 4 (R.R.S. Discovery Map).`,
         locality: `Original description based on material from several Atlantic and Indian Ocean stations between 31°N and 37°S.`,
-        img: `${baseURL}/img/crustaceans/img/ostracods/conchoeciaAmetra/conchoecia-ametra.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/ostracods/conchoeciaAmetra/conchoecia-ametra.png`
     }
 };
 

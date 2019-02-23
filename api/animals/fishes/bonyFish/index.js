@@ -1,4 +1,3 @@
-const baseURL = require('../../../baseURL');
 
 const animals = {
     abyssalSmoothHead: {
@@ -11,7 +10,7 @@ const animals = {
         food: `engybenthic crustaceans, worms, sponges.`,
         reproduction: `large ovarian eggs (to 4.5 mm in diameter) and few (20 in a fish of 18.3 cm).`,
         distribution: `scattered records off Morocco, the Azores and to the southwest of Ireland. Elsewhere, southward to 20° N; also, Gulf of Mexico.`,
-        img: `${baseURL}/img/fishes/img/bonyFish/abyssalSmoothHead/abyssal-smooth-head.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/abyssalSmoothHead/abyssal-smooth-head.jpg`
     },
     abyssalSpiderfish: {
         id: 2,
@@ -24,7 +23,7 @@ const animals = {
         food: `planktonic crustaceans.`,
         reproduction: `synchronously hermaphroditic. A larval Bathypterois described by Okiyama (1973) may pertain to this species.`,
         distribution: `probably circumglobal at tropical and temperate latitudes, but absent where bottom temperatures exceed 4 °C (e.g. the Mediterranean). Several captures in the eastern North Atlantic.`,
-        img: `${baseURL}/img/fishes/img/bonyFish/abyssalSpiderfish/abyssal-spiderfish.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/abyssalSpiderfish/abyssal-spiderfish.jpg`
     },
     adriaticSole: {
         id: 3,
@@ -36,7 +35,7 @@ const animals = {
         food: `mainly crustaceans (amphipods, mysids shrimps, decapods, isopods), also polychaete worms and bivalve molluscs.`,
         reproduction: `spnng and summer, with a peak in May (Mediterranean).`,
         distribution: `eastern Atlantic (Gibraltar southward) and Mediterranean (except Aegean Sea). Elsewhere, southward to Senegal.`,
-        img: `${baseURL}/img/fishes/img/bonyFish/adriaticSole/adriatic-sole.png`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/adriaticSole/adriatic-sole.png`
     },
     adriaticSturgeon: {
         id: 4,
@@ -48,7 +47,7 @@ const animals = {
         food: `bottom-living invertebrates of sand and mud, also small fishes`,
         reproduction: `enters rivers from March to May and presumably spawns then.`,
         distribution: `Adriatic, entering the Po and Adige rivers; very rare and probably verging on extinction (Bini, 1970).`,
-        img: `${baseURL}/img/fishes/img/bonyFish/adriaticSturgeon/adriatic-sturgeon.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/adriaticSturgeon/adriatic-sturgeon.jpg`
     },
     africanLookdown: {
         id: 5,
@@ -59,7 +58,7 @@ const animals = {
         habitat: `usually found near bottom in 20-100 m; young and juveniles occur in surface waters often near bays and river mouths; a schooling species.`,
         food: `crustaceans and small fishes.`,
         distribution: `rare in the area; literature records for Portugal and Madeira. Elsewhere, the Cape Verde Is. and African coast from Senega to Walvis Bay, (Namibia). A geminate species, Selene setapinnis, occurs in the western Atlantic.`,
-        img: `${baseURL}/img/fishes/img/bonyFish/africanLookdown/african-lookdown.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/africanLookdown/african-lookdown.jpg`
     },
     africanStripedGrunt: {
         id: 6,
@@ -70,7 +69,7 @@ const animals = {
         habitat: `shallow waters from the shoreline to about 50 m on sand or rocky bottoms`,
         food: `crustaceans and molluscs.`,
         distribution: `from the south of area along African coasts, including islands. northward to Portugal and Spain, also in western Mediterranean (uncommon). Elsewhere, African coast southward to Angola.`,
-        img: `${baseURL}/img/fishes/img/bonyFish/africanStripedGrunt/african-striped-grunt.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/africanStripedGrunt/african-striped-grunt.jpg`
     },
     agassizSmoothHead: {
         id: 7,
@@ -82,7 +81,7 @@ const animals = {
         food: `mostly ctenophores, but also crustaceans, echinoderms. polychaetes.`,
         reproduction: `a female of 64.2 cm had 9,150 eggs up to 2.8 mm in diameter.`,
         distribution: `isolated records between Iceland and Greenland and to the west of the British Isles. Elsewhere, in the eastern Atlantic southward to 21° 37.3' N, 18° 4.5' W (unpublished) and in the western Atlantic from Davis Strait southward to 15° N.`,
-        img: `${baseURL}/img/fishes/img/bonyFish/agassizSmoothHead/agassiz-smooth-head.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/agassizSmoothHead/agassiz-smooth-head.jpg`
     },
     agujonNeedlefish: {
         id: 8,
@@ -92,7 +91,7 @@ const animals = {
         habitat: `epipelagic, neritic`,
         food: `small fishes.`,
         distribution: `off Morocco and in the Mediterranean. Elsewhere, in tropical and subtropical seas.`,
-        img: `${baseURL}/img/fishes/img/bonyFish/agujonNeedlefish/agujon-needlefish.jpg` 
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/agujonNeedlefish/agujon-needlefish.jpg` 
     },
     albacore: {
         id: 9,
@@ -104,7 +103,7 @@ const animals = {
         food: `a variety of epipelagic and mesopelagic fishes, including anchovy, saury, lantern-fishes, and hatchet-fishes and also squids, and crustaceans`,
         reproduction: `spawns in the summer in the Mediterranean. Eggs and larvae planktonic.`,
         distribution: `found from the Azores and the Canaries north to Ireland. Occurs in the western Mediterranean and in the northern part of the eastern Mediterranean, including the Adriatic but not the Black Sea. Elsewhere, cosmopolitan, often extending into cooler waters than most tunas.`,
-        img: `${baseURL}/img/fishes/img/bonyFish/albacore/albacore.jpg` 
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/albacore/albacore.jpg` 
     },
     alexandriaPompano: {
         id: 10,
@@ -115,7 +114,7 @@ const animals = {
         habitat: `adults solitary in coastal waters near bottom to at least 50 m and strong swimmers; young usually pelagic and drifting.`,
         food: `squid and other fishes.`,
         distribution: `southern parts of Mediterranean (Syria, Israel, Malta, southern Spain, Morocco) and eastern Atlantic off Morocco. Elsewhere, African coast southward to Angola.`,
-        img: `${baseURL}/img/fishes/img/bonyFish/alexandriaPompano/alexandria-pompano.JPG`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/alexandriaPompano/alexandria-pompano.JPG`
     },
     alfonsino: {
         id: 11,
@@ -125,7 +124,7 @@ const animals = {
         size: `normally 25-40 cm SL. Sometimes, but very rarely, smaller specimens appear with one of the anterior soft dorsal rays greatly prolonged.`,
         habitat: `near bottom at 400-600 m depth. Appears on Funchal fish market together with B. splendens in quantities of about 10 to 100`,
         distribution: `mainly in the eastern North Atlantic as far south as the Azores and Madeira; western Mediterranean. It has also been taken in the western North Atlantic, Japan, Tasmania and Hawaii, but seems a rare species there.`,
-        img: `${baseURL}/img/fishes/img/bonyFish/alfonsino/alfonsino.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/alfonsino/alfonsino.jpg`
     },
     aliceShad: {
         id: 12,
@@ -137,7 +136,7 @@ const animals = {
         food: `zooplankton, mainly copepods, decapods, euphausiids, also young fishes`,
         reproduction: `anadromous, entering rivers in spring and spawning at the surface far upstream where the current is swift, the eggs sinking to the bottom; adults return to the sea immediately after.`,
         distribution: `Atlantic coasts, from Cape Blanc to Scandinavia, also western part of Mediterranean.`,
-        img: `${baseURL}/img/fishes/img/bonyFish/aliceShad/alice-shad.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/aliceShad/alice-shad.jpg`
     },
     almacoJack: {
         id: 13,
@@ -148,7 +147,7 @@ const animals = {
         habitat: `adults pelagic and epibenthic, possibly more oceanic than other Seriola species, and rarely found in inshore waters; juveniles pelagic and occurring offshore, under floating plants and debris when small.`,
         food: `primarily fishes, also invertebrates`,
         distribution: `eastern Atlantic distribution not well established; definitely known from Portugal, the Azores and Madeira. Elsewhere, circumtropical in marine waters, entering temperate waters in some areas.`,
-        img: `${baseURL}/img/fishes/img/bonyFish/almacoJack/almaco-jack.jpg`
+        img: `${process.env.BASE_ROUTE}/img/fishes/img/bonyFish/almacoJack/almaco-jack.jpg`
     }
 };
 

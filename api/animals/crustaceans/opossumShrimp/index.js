@@ -1,4 +1,3 @@
-const baseURL = require('../../../baseURL');
 
 const animals = {
     acanthomysisLongicornis: {
@@ -9,13 +8,13 @@ const animals = {
         size: `Adult up to 9 mm long.`,
         depthRange: `Hyperbenthic; from 8 to 150 m. Acanthomysis longicornis is a filter-feeder, living on very minute organisms and on detritus.`,
         distribution: `Southwestern North Sea. Atlantic < 26-55°N, Mediterranean, Indo-W Pacific; coastal to shelf. Widely distributed in the waters of the Mediterranean and off the shores of west Europe as far as north as the British Isles`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/acanthomysisLongicornis/acanthomysis-longicornis.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/acanthomysisLongicornis/acanthomysis-longicornis.png`
     },
     afromysisHansoni: {
         id: 2,
         name: `Afromysis hansoni`,
         description: `Outer margin of distal segment of endopod of maxilla extremely long. Exopod of male 4th pleopod more than twice as long as endopod, its last segment very long, more than 4 times as long as preceding segment. Lateral margin of telson with spines throughout.`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/afromysisHansoni/afromysis-hansoni.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/afromysisHansoni/afromysis-hansoni.png`
     },
     amblyopsAbbreviata: {
         id: 3,
@@ -26,7 +25,7 @@ const animals = {
         depthRange: `Hyperbenthic, bathypelagic; usually from 380 to 1425 m, with the greatest numbers occurring around depths of 600 m. Normally the species lives resting on the sea bottom making only short occasional excursions into the lower levels of water just above the floor.`,
         remarks: `Pleopods of the male very large and well developed, biramous, natatory.`,
         distribution: `Eastern northern North Sea, W off Norway, Skagerrak. N North Atlantic, N North Pacific; coastal to bathyal. N North Atlantic, N North Pacific; coastal to bathyal. Davis Strait, off west, south and east coasts of Greenland, south of Iceland, East Finmark, many records form Norwegian waters from Vardø to Oslofjord, Denmark, and from the Bay of Biscay.`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/amblyopsAbbreviata/amblyops-abbreviata.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/amblyopsAbbreviata/amblyops-abbreviata.png`
     },
     amblyopsKempi: {
        id: 4, 
@@ -37,13 +36,13 @@ const animals = {
        depthRange: `Hyperbenthic, bathypelagic. The species occurs just clear of the bottom in depths of 700-1500 m. It is most abundant between 1100-1500 m.`,
        remarks: `Amblyops kempi can be distinguished from Amblyops abbreviata by: the presence of spinules all over the eyeplates, the particularly large spine on the basal joint of the antenna, the long slender spines on the endopod of the uropod and,  the shape and armature of the telson. Amblyops kempi is evidently a deeper water form than Amblyops abbreviata, but there is still overlap in the distributions of the two species. Amblyops kempi lives close to the sea bottom making only short occasional excursions into the lower levels of water just above the floor.`,
        distribution: `Probably rarae in the northern North Sea. North Atlantic, 44 - 64°N; shelf. Coastal to bathyal; e.g. west coast of Ireland, west of the Hebrides, Faeroes.`,
-       img: `${baseURL}/img/crustaceans/img/opossumShrimp/amblyopsKempi/amblyops-kempi.png` 
+       img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/amblyopsKempi/amblyops-kempi.png` 
     },
     amblyopsoidesObtusa: {
         id: 5,
         name: `Amblyopsoides obtusa`,
         description: `Antennal scale with apical lobe very long, occupying nearly 1/2 of its length. Telson trapezoidal; apex 1/3 as broad as at base, with 2 pairs of long spines, a pair of minute spines and a pair of median plumose setae; lateral margin with dense row of spines.`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/amblyopsoidesObtusa/amblyopsoides-obtusa.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/amblyopsoidesObtusa/amblyopsoides-obtusa.png`
     },
     anchialinaAgilis: {
         id: 6,
@@ -53,43 +52,43 @@ const animals = {
         depthRange: `Hyperbenthic, coastal to upper slope. A. agilis is found as a rule at or near to the bottom during daylight but it is capable of very rapid movement from one layer of water to another and can also be taken at the surface and in varying depths during the day. It has not been taken in depths of more than 85 m, but has been collected at the surface and in mid-water over 150 m in Irish waters. It has been most frequently taken at the surface at midnight when it occurs in large numbers.`,
         remarks: `This species can easily be recognised by the robust compact form and large carapace with transverse posterior margin; the large serrated spine at the base of the antennal peduncle; the very small antennal scale; the swollen carpal segment in the second thoracic leg in the male; the peculiar appendages borne at the distal end of the endopod of the third thoracic limb in the male, the small epimeral plates of the first abdominal somite and the very unusual modified pleopods of the second to the fifth somites in the female; the armature and proportions of the uropods with the inward curve of the endopod and the large telson with its small cleft.`,
         distribution: `Eastern North Sea, maybe in the SW North Sea entering from the E English Channel. E North Atlantic: <26 - 56°N; Mediterranean.`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/anchialinaAgilis/anchialina-agilis.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/anchialinaAgilis/anchialina-agilis.png`
     },
     anchialinaTruncata: {
         id: 7,
         name: `Anchialina truncata`,
         description: `Rostrum abruptly truncate at tip. Exopod of 3rd pleopod with short and straight setae on several distal segments. Probably a coastal species.`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/anchialinaTruncata/anchialina-truncata.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/anchialinaTruncata/anchialina-truncata.png`
     },
     anchialinaTypica: {
         id: 8,
         name: `Anchialina typica`,
         description: `Frontal margin of carapace produced into short trapezoidal plate with rounded angles, plate bent strongly downwards, as a result of which true anterior margin is invisible from above. Exopod of male 3rd pleopod with L-shaped, naked setae on several middle segments.`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/anchialinaTypica/anchialina-typica.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/anchialinaTypica/anchialina-typica.png`
     },
     arachnomysisLeuckarti: {
         id: 9,
         name: `Arachnomysis leuckarti`,
         description: `Anterior margin of carapace and posterior margin of abdominal somites with acute spines. Antenna without scale. Eyes conical; number of facets across the largest diameter of eye 10-14. Telson very small; lateral margins smooth; apex narrow, with a pair of very small spines.`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/arachnomysisLeuckarti/arachnomysis-leuckarti.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/arachnomysisLeuckarti/arachnomysis-leuckarti.png`
     },
     arachnomysisMegalops: {
         id: 10,
         name: `Arachnomysis megalops`,
         description: `Anterior margin of carapace and posterior margin of abdominal somites with acute spines. Antenna without scale. Eyes conical; number of facets across the largest diameter of eye 18-25. Telson very small; lateral margins smooth; apex narrow, with a pair of very small spines.`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/arachnomysisMegalops/arachnomysis-megalops.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/arachnomysisMegalops/arachnomysis-megalops.png`
     },
     arthromysisMagellanica: {
         id: 11,
         name: `Arthromysis magellanica`,
         description: `Antennal scale long, setose all around. Pleopods: 3rd pleopod with multi-jointed exopod and unjointed endopod; 4th pleopod with extremely long, multi-jointed exopod which is armed with very long modified setae on distal segments, and unjointed endopod; 5th pleopod with both rami multi-jointed Lateral margin of telson with row of subequal spines.`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/arthromysisMagellanica/arthromysis-magellanica.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/arthromysisMagellanica/arthromysis-magellanica.png`
     },
     boreomysisAcuminata: {
         id: 12,
         name: `Boreomysis acuminata`,
         description: `Carapace with rostrum with narrow, very sharply pointed apex. Eyestalk expanded distally, forming large triangular projection; cornea small, restricted to distal outer area of eyestalk.`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/boreomysisAcuminata/boreomysis-acuminata.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/boreomysisAcuminata/boreomysis-acuminata.png`
     },
     boreomysisArctica: {
         id: 13,
@@ -99,24 +98,24 @@ const animals = {
         depthRange: `Benthopelagic. Recorded depths range from 380-2000 m.`,
         remarks: `Boreomysis arctica is closely related to Boreomysis tridens and the only obvious difference between them is in the form of the rostrum. Minor differences can be detected in the proportions of the antennal scale, 5 times as long as broad in Boreomysis arctic as against 4 times in Boreomysis tridens, in the relatively shorter unarmed portion of the outer margin of the exopod of the uropod, one-quarter of the entire length in Boreomysis arctica as against one-third in Boreomysis tridens.`,
         distribution: `Northern North Sea, off W Norway, Skagerrak, Oslofjorden. E North Atlantic: 28-79°N, Mediterranean, North Pacific; shelf, slope. Distribution includes the North Atlantic quite similar to that of Boreomysis tridens , namely, in boreal waters extending southwards on the eastern slope from Norway to the Bay of Biscay and on the American side from West Greenland to the coasts of New England. In addition, however, it is known from the Mediterranean and from the North Pacific in the Bering Sea, off Japan and off the Coasts of California. Its geographical range (E North Atlantic 28-79°N, Mediterranean, North Pacific; shelf, slope) is thus wider than that of Boreomysis tridens.`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/boreomysisArctica/boreomysis-arctica.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/boreomysisArctica/boreomysis-arctica.png`
     },
     boreomysisAtlantica: {
         id: 14,
         name: `Boreomysis atlantica`,
         description: `Anterior margin of carapace broadly rounded with median small triangular projection. Eyes with large cornea, somewhat flattened; eyestalks with small papilla on dorsal surface. `,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/boreomysisAtlantica/boreomysis-atlantica.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/boreomysisAtlantica/boreomysis-atlantica.png`
     },
     boreomysisBispinosa: {
         name: `Boreomysis bispinosa`,
         description: `Anterior margin of carapace rounded, with extremely short upturned projection. Endopod of 2nd pereopod with 2 spines on carpopropodus.`,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/boreomysisBispinosa/boreomysis-bispinosa.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/boreomysisBispinosa/boreomysis-bispinosa.png`
     },
     boreomysisIlligi: {
         id: 15,
         name: `Boreomysis illigi`,
         description: `Carapace with triangular rostrum, apex acutely pointed, lateral margins convex. Eyes large; papilla very long, extending forward beyond anterior margin of cornea. `,
-        img: `${baseURL}/img/crustaceans/img/opossumShrimp/boreomysisIlligi/boreomysis-illigi.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/opossumShrimp/boreomysisIlligi/boreomysis-illigi.png`
     }
 };
 

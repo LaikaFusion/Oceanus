@@ -1,4 +1,3 @@
-const baseURL = require('../../../baseURL');
 
 const animals = {
     darkMantis: {
@@ -10,7 +9,7 @@ const animals = {
         habitat: `Inhabit reefs. Forage in cracks and recesses.`,
         depthRange: `ranges from 8 m down to 40 m.`,
         distribution: `Occasional all throughout the Caribbean.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/darkMantis/dark-mantis.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/darkMantis/dark-mantis.jpg`
     },
     abludomelitaObtusata: {
         id: 2,
@@ -20,7 +19,7 @@ const animals = {
         color: `Pale brown mottled with reddish brown.`,
         habitat: `Depth range from 0 to 375 metres. Reported as commensal on the anemone Anemonia viridis .`,
         distribution: `North-East Atlantic; Atlantic coast of Europe from western Norway to the Mediterranean, and North Africa to Senegal; Azores.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/abludomelitaObtusata/abludomelita-obtusata.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/abludomelitaObtusata/abludomelita-obtusata.jpg`
     },
     acanthocythereisDunelmensis: {
         id: 3,
@@ -28,7 +27,7 @@ const animals = {
         description: `Carapace subquadrate, up to 0.8 mm. Surface strongly reticulate with scattered stout, castellate/multifurcate, conjunctive spines; conspicuous spines present posterodorsally, on subcentral tubercle, and anteroventrally of the subcentral tubercle. Anterior marginal area with somewhat clavate spines arranged in two concentric rows, one marginal and the other on a submarginal rim. Posteroventrally is a broad, non-reticulate rim bearing several large clavate spines. Distal process of male copulatory appendage subtriangular with a rounded distal corner (A. dunelmensis 3 ).`,
         habitat: `Sublittoral, recorded between depths of 50-100 metres.`,
         distribution: `NE England, Scotland, Norway and E Greenland.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/acanthocythereisDunelmensis/acanthocythereis-dunelmensis.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/acanthocythereisDunelmensis/acanthocythereis-dunelmensis.jpg`
     },
     acanthomysisLongicornis: {
         id: 4,
@@ -38,7 +37,7 @@ const animals = {
         size: `Adult up to 9 mm long`,
         habitat: `Hyperbenthic; from 8 to 150 metres. Acanthomysis longicornis is a filter-feeder, living on very minute organisms and on detritus.`,
         distribution: `South-western North Sea. Atlantic < 26-55°N, Mediterranean, Indo-W Pacific; coastal to shelf. Widely distributed in the waters of the Mediterranean and off the shores of west Europe as far as north as the British Isles.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/acanthomysisLongicornis/acanthomysis-longicornis.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/acanthomysisLongicornis/acanthomysis-longicornis.jpg`
     },
     acidostomaNodiferum: {
         id: 5,
@@ -48,7 +47,7 @@ const animals = {
         color: `Yellowish, sometimes with reddish markings.`,
         habitat: `Depth range from 0 to 200 metres. Often with Actinostola callosa`,
         distribution: `North-East Atlantic, North Sea, Öresund, Norway, north-west France; also recorded from south and west Africa.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/acidostomaNodiferum/acidostoma-nodiferum.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/acidostomaNodiferum/acidostoma-nodiferum.png`
     },
     acidostomaObesum: {
         id: 6,
@@ -58,7 +57,7 @@ const animals = {
         color: `Reddish pink.`,
         habitat: `Depth range from 0 to 75 metres.`,
         distribution: `Kattegat, North Sea; Celtic Sea, north-west France; Bay of Naples.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/acidostomaObesum/acidostoma-obesum.jpg` 
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/acidostomaObesum/acidostoma-obesum.jpg` 
     },
     aeginellaSpinosa: {
         id: 7,
@@ -66,7 +65,7 @@ const animals = {
         description: `Body rather robust, spinose. Length of largest male 20 mm, female 16 mm. Cephalon with an anterior projection, separated from pereionite 1 by a distinct suture. Setal formula for terminal article of mandibular palp 1-10-1 to 1-12-1. Left mandible with 5-toothed incisor, 5-toothed lacinia mobilis, setal row of 3 serrate setae, molar with a plumose seta. Right mandible with 5-toothed incisor, lacinia mobilis serrate on the cutting margin, setal row of 2 serrate setae, molar with a plumose seta. Palp of maxilla 1 usually with five robust apical spines and several setae; outer lobe with seven apical spines, usually bifid but sometimes more branches with increase in size of individual. Inner and outer lobes of maxilla 2 quite setose on the apical margin and spines occasionally present. Outer lobe of maxilliped with 2 apical setae, one long apical spine, and up to 12 smaller marginal spines; inner lobe with two small spines and up to 12 apical setae, as many as nine of which plumose; palp similar to that of species of the genus Caprella. Pereionite 1 with a dorsal anterior spine. Dorsal surface of pereionite 2 with a pair of spines at the mid-length of the pereionite and a single posterior spine, insertion of gnathopod 2 with a small spine, anterolateral margin produced into a triangular projection. Dorsal surface of pereionite 3 with a pair of anterior spines, sometimes reduced to small humps, a pair of mid-posterior spines, and a single posterior spine; anterolateral margin produced as in pereionite 2; lateral margin of pleura with anterior and posterior spines and a spine above the gills in males, females without a posterior spine. Pereionite 4 similar to pereionite 3 in males, female without a dorsal anterior spine. Dorsal surface of pereionite 5 similar to pereionite 3, pleura with only an anterior spine and a dorsally directed spine at the base of pereiopod 5. Pereionite 7 with a dorsally directed spine at the base of pereiopod 7. Propodus of gnathopod 1 triangular with 2 proximal grasping spines, grasping margin not distinctly serrate; grasping margin of dactylus serrate, particularly at the tip. Propodus of gnathopod 2 quite robust, palm heavily setose with a small proximal tooth, anterior margin with a distal projection; dactylus not serrate. Gills subelliptical. Pereiopods 3 and 4 absent. Pereiopods 5-7, six-segmented, palm of propodus with a pair of proximal grasping spines. Abdomen of male and female with 1 pair of appendages and a pair of setose lobes; in male appendage placed on a raised projection and uni-articulate; in female, appendage neither on projection nor articulated. This species appears to be quite constant in body spination with the exception of the first pair of spines on the dorsal surface of pereionite 4. These may be present as fully developed spines or as only small humps.`,
         habitat: `This is an Arctic species, usually found in deeper water, down to 1026 metres. It is reported from the asteroid, Brisinga , but the species has also been collected from red and brown algae and hydroids.`,
         distribution: `Murman coast to Haugesund on the Norwegian coast, Spitsbergen, Faeroe Islands, Iceland, east and west coasts of Greenland.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/aeginellaSpinosa/aeginella-spinosa.png` 
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/aeginellaSpinosa/aeginella-spinosa.png` 
     },
     aegininaLongicornis: {
         id: 8,
@@ -74,7 +73,7 @@ const animals = {
         description: `Body spination variable, smooth to quite spiny. Cephalon separated from pereionite 1 by suture. Length of largest male 54 mm, female 34 mm, smallest ovigerous female 9 mm. Antenna 1 usually longer than the body, flagellum with up to 26 articles. Antenna 2 setose and usually shorter than articles 1 and 2 of antenna 1. Mouthparts quite similar to those of typical species of the genus Caprella, lacinia mobilis of right mandible not distinctly 5-toothed but with several teeth and serrations. Propodus of gnathopod 1 with a pair of grasping spines, grasping margins of dactylus and propodus only slightly serrate. Propodus of gnathopod 2 with proximal a poison tooth and distal a notch, tooth and a rectangular projection, anterodistal margin with triangular projection; basis and ischium with anterodistal projections; carpus with posterodistal projection. Propodus of pereiopods 5-7 with pair of proximal grasping spines. Abdomen of male and female with 2 pairs of biarticulate appendages and a pair of lobes, medial margin of appendages with numerous minute knobs. The degree of spination of the body is variable. Spination seems to vary from spinose in northern waters to smooth in southern; however, spiny forms have been found infrequently in the southern part of the range of this species.`,
         habitat: `This Arctic species is generally found in deeper water (to 2258 m), but has also been collected frequently in shallow water. The habitat does not seem to be specific because it has been collected from green, red, and brown algae, sea grass, hydroids, bryozoans and from the gut of the sea bass, Centropristis.`,
         distribution: `Siberian Polar Sea; Kara Sea; Novaya Zemlya; Franz Josef Land; Spitsbergen; Murmansk; Barents Sea; Norway; Denmark; Faeroe Islands; Shetland Islands; Jan Mayen; Iceland; eastern and western coasts of Greenland; Baffin Bay; east coast of North America from Newfoundland to Oregon Inlet, North Carolina.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/aegininaLongicornis/aeginina-longicornis.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/aegininaLongicornis/aeginina-longicornis.png`
     },
     agathotanaisIngolfi: {
         id: 9,
@@ -82,7 +81,7 @@ const animals = {
         description: `Exoskeleton very brittle and completely pitted with minute round depressions. Chelipeds slender. Each pereionite bears a pair of rounded protuberances at the point of insertion of the pereiopods, thus giving the body a very characteristic shape. Pereiopods 3 to 6 each with their basis as long as the remainder of the pereiopod.`,
         size: `Body length up to 3 mm.`,
         distribution: `It is recorded from the Northumberland coast, the Davis Straits, Denmark Straits and south of Iceland.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/agathotanaisIngolfi/agathotanais-ingolfi.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/agathotanaisIngolfi/agathotanais-ingolfi.png`
     },
     allomelitaPellucida: {
         id: 10,
@@ -92,7 +91,7 @@ const animals = {
         color: `Whitish.`,
         habitat: `A brackish-water species, locally common, mostly found in harbours or brackish ditches.`,
         distribution: `British Isles, Southern Norway; northern France.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/allomelitaPellucida/allomelita-pellucida.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/allomelitaPellucida/allomelita-pellucida.png`
     },
     ampeliscaAequicornis: {
         id: 11,
@@ -101,7 +100,7 @@ const animals = {
         size: `Up to 15 mm.`,
         habitat: `Depth range from 30 to 835 metres.`,
         distribution: `North Atlantic; American and European coasts, Atlantic coast of Europe and the North Sea to the Canary Islands.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/ampeliscaAequicornis/ampelisca-aequicornis.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/ampeliscaAequicornis/ampelisca-aequicornis.png`
     },
     ampeliscaBrevicornis: {
         id: 12,
@@ -111,7 +110,7 @@ const animals = {
         color: `Whitish, speckled with dark brown; head and anterior pereiopods speckled with yellow.`,
         habitat: `Depth range from 0 to 200 metres, most common on fine sand mixed with shell, also on coarse sand and gravel.`,
         distribution: `North-East Atlantic, south and west Norway; Öresund, North Sea; Atlantic coast of Europe and North Africa; Mediterranean; Indian Ocean; Pacific Ocean.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/ampeliscaBrevicornis/ampelisca-brevicornis.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/ampeliscaBrevicornis/ampelisca-brevicornis.jpg`
     },
     ampeliscaDiadema: {
         id: 13,
@@ -121,7 +120,7 @@ const animals = {
         color: `Whitish, yellow-brown laterally with red markings on the margins of the pleon and pereiopods.`,
         habitat: `Depth range from 10 to 200 metres, usually on sandy or muddy sediments; often found with Ampelisca tenuicornis.`,
         distribution: `North-East Atlantic, from west Norway to North Africa; Mediterranean, Adriatic, Black Sea.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/ampeliscaDiadema/ampelisca-diadema.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/ampeliscaDiadema/ampelisca-diadema.jpg`
     },
     ampeliscaGibba: {
         id: 14,
@@ -131,7 +130,7 @@ const animals = {
         color: `Body rather colourless except for a few yellow speckles.`,
         habitat: `Deeper water; depth range from 60 to 3200 metres.`,
         distribution: `North Atlantic, Greenland, Iceland, north and west Norway; North Sea; Mediterranean, Adriatic.`,
-        img: `${baseURL}/img/crustaceans/img/otherCrustaceans/ampeliscaGibba/ampelisca-gibba.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/otherCrustaceans/ampeliscaGibba/ampelisca-gibba.png`
     }
 };
 

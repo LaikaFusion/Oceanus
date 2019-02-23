@@ -1,4 +1,3 @@
-const baseURL = require('../../../baseURL');
 
 const animals = {
     bosminaLongispina: {
@@ -11,7 +10,7 @@ const animals = {
         depthRange: `Surface to 5 m.`,
         distribution: `B. longispina forma maritima is endemic in the Baltic Sea, but occurs also in the Kattegat and rarely in the southern Skagerrak. B. longispina is distributed in the northern and middle holarctic, and inhabits oligotrophic and mesotrophic freshwater lakes etc., but also occurs in the marine littoral. The species contains various formae of which f. maritima is especially flourishing in the oligohaline parts of the Baltic.`,
         remarks: `B. longispina is a very variable species, with numerous local races that have no systematic importance. However, the various forms are dived into two major groups: an arctic-subarctic group and an alpine group; the present f. maritima belongs to the first group (Flößner, 1972).According to Costello and Emblow, 2000, the present f. maritima P.E. Müller, 1867 is recognised as a subspecies of Bosmina coregoni Baird, 1857. The apparent very similar species B. longispina and B. coregoni differ in the length of the antennula: almost half as long as the body in longispina and more than half as long as the body in coregioni. In maritima a mucro is always present, though sometimes reduced to a protruding corner of the carapace. In coregoni the mucro is more variable, either a long spine, or a pointed corner of the carapace (Flößner, 1972).`,
-        img: `${baseURL}/img/crustaceans/img/waterFleas/bosminaLongispina/bosmina-longispina.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/waterFleas/bosminaLongispina/bosmina-longispina.jpg`
     },
     evadneNordmanni: {
         id: 2,
@@ -22,7 +21,7 @@ const animals = {
         size: `Female 0.53-1.5 mm; male ca. 1 mm (including the posterior spine on the carapace).`,
         depthRange: `Surface.`,
         distribution: `Northern North Sea, Wadden Sea, Skagerrak, also Kattegat and Baltic. Present in the pelagic during the whole year, but in low densities during the winter. World-wide, including subpolar waters; but preferring temperate waters. Regarding the NE Atlantic: all European coasts, north as Iceland, North Cape, Barentsz Sea and Kara sea; Mediterranean, Black Sea.`,
-        img: `${baseURL}/img/crustaceans/img/waterFleas/evadneNordmanni/evadne-nordmanni.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/waterFleas/evadneNordmanni/evadne-nordmanni.jpg`
     },
     evadneSpinifera: {
         id: 3,
@@ -33,7 +32,7 @@ const animals = {
         size: `Female 0.9-1.35 mm; male ca. 1.1 mm (including distal spine of carapace).`,
         depthRange: `Surface to 2000 m.`,
         distribution: `Northern North Sea, might occur in the southern North Sea, Wadden Sea, Skagerrak, also in the Kattegat; absent from the Baltic Sea except for the most western part. World-wide, absent from (sub)polar waters. Regarding the NE Atlantic: from Faeroer to Mediterranean, also Black Sea.`,
-        img: `${baseURL}/img/crustaceans/img/waterFleas/evadneSpinifera/evadne-spinifera.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/waterFleas/evadneSpinifera/evadne-spinifera.jpg`
     },
     evadneTergestina: {
         id: 4,
@@ -42,7 +41,7 @@ const animals = {
         size: `Females 1.0 mm; males 0.8 mm.`,
         depthRange: `Epipelagic.`,
         distribution: `Southern species, reported from the southern North Sea. Coastal waters of the tropical oceans and warm, temperate regions generally between 45°N and 35°S.`,
-        img: `${baseURL}/img/crustaceans/img/waterFleas/evadneTergestina/evadne-tergestina.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/waterFleas/evadneTergestina/evadne-tergestina.jpg`
     },
     peniliaAvirostris: {
         id: 5,       
@@ -53,7 +52,7 @@ const animals = {
         ecology: `Coastal water species, rare in open oceans. Filter feeder on bacterio- and phytoplankton.`,
         distribution: `Southern North Sea, German Bight, Kattegat. Coastal waters of the tropical and subtropical oceans and warm, temperate regions.`,
         remarks: `P. avirostris has been reported from the North Sea as north as 52°N. The species has been found off Helgoland (ca. 54°N) since 1990 regularly.`,
-        img: `${baseURL}/img/crustaceans/img/waterFleas/peniliaAvirostris/penilia-avirostris.png`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/waterFleas/peniliaAvirostris/penilia-avirostris.png`
     },
     podonIntermedius: {
         id: 6,
@@ -64,7 +63,7 @@ const animals = {
         size: `Female 1-1.2, male 0.9 mm in length.`,
         depthRange: `Surface to 600 (2000) m.`,
         distribution: `Occurs in the northern North Sea, Skagerrak, Wadden Sea; inshore waters, but seems to avoid oligohaline conditions. North East Atlantic, north as Iceland (65°N) and SW Norway (62°N), North Sea, Baltic Sea, Mediterranean, Black Sea. In the North Atlantic bound to the coasts or the warmer parts.`,
-        img: `${baseURL}/img/crustaceans/img/waterFleas/podonIntermedius/podon-intermedius.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/waterFleas/podonIntermedius/podon-intermedius.jpg`
     },
     podonLeuckartii: {
         id: 7,
@@ -75,7 +74,7 @@ const animals = {
         size: `Both sexes about 1 mm long.`,
         depthRange: `Surface.`,
         distribution: `All North Sea, including the shallow inshore waters (e.g. Waddenzee). Also Skagerrak, Kattegat and Baltic. North Atlantic, north as Barents Sea, Iceland, South Greenland; North Sea and Baltic Sea; North Pacific. Marginal occurrence in the W Mediterranean, the Black Sea and the South Atlantic.`,
-        img: `${baseURL}/img/crustaceans/img/waterFleas/podonLeuckartii/podon-leuckartii.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/waterFleas/podonLeuckartii/podon-leuckartii.jpg`
     },
     podonPolyphemoides: {
         id: 8,
@@ -86,7 +85,7 @@ const animals = {
         size: `Female 0.6-0.65 mm; male 0.4-0.55 mm.`,
         depthRange: `Surface.`,
         distribution: `Northern North Sea, Skagerrak, Wadden Sea, also Baltic Sea. NE Atlantic: all European coasts from Lofoten (Norway) to Black Sea and Sea of Asov. Also in Caspian Sea by migration through the Volga-Don Canal. NW Atlantic: American East coast. South Atlantic: Argentinean East coast and West and South coasts of South Africa. Pacific: New Zealand coasts.`,
-        img: `${baseURL}/img/crustaceans/img/waterFleas/podonPolyphemoides/podon-polyphemoides.jpg`
+        img: `${process.env.BASE_ROUTE}/img/crustaceans/img/waterFleas/podonPolyphemoides/podon-polyphemoides.jpg`
     }
 };
 
