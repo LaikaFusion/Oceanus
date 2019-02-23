@@ -16,6 +16,7 @@ const lampreysAndHagfishesList = require('./fishes/lampreysAndHagFishes/index');
 const raysSkatesAndSharksList = require('./fishes/raysSkatesAndSharks/index');
 const hydrozoansList = require('./hydrozoans/index');
 const boxJellyfishAndSeaWaspsList = require('./jellyfishAndRelatedSpecies/boxJellyfishAndSeaWasps/index');
+const combJellyfishList =  require('./jellyfishAndRelatedSpecies/combJellyfish/index');
 
 const animals = {
         status: 'success',
@@ -119,6 +120,11 @@ const animals = {
                 id: 1,
                 speciesName: 'Box jellyfish and sea wasps',
                 animals: boxJellyfishAndSeaWaspsList
+            },
+            combJellyfish: {
+                id: 2,
+                speciesName: 'Comb jellyfish',
+                animals: combJellyfishList
             }
         },
         lancelets: {
