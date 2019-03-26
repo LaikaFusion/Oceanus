@@ -76,7 +76,7 @@ const animals = {
             },
             shrimpPrawnKrill: {
                 id: 8,
-                speciesName: 'Shimp, Prawn and Krill',
+                speciesName: 'Shrimp, Prawn and Krill',
                 animals: shrimpPrawnKrillList
             },
             waterFleas: {

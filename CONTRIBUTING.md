@@ -24,7 +24,7 @@ To ensure your pull request is accepted it needs to cover a certain criteria:
 2. Follow the same code pattern as previous species [example](api/animals/brachiopods/index.js)
 3. When adding a species or subspecies it needs to be added to the [list](api/animals/animals.js)
 4. The same pattern goes for species and subspecies images in the public folder.
-5. Make changes to the [documentation](DOCUMENTATION.md) found in this project.
+5. Make changes to the [documentation](DOCUMENTATION.md) found in this project when adding a new subspecies, species or a new item on the schema.
 
 ## Code of Conduct
 
