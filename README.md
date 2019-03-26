@@ -1,5 +1,8 @@
 # Oceanus
 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/TheGameFreak720/Oceanus/issues)
+[![HitCount](http://hits.dwyl.io/TheGameFreak720/Oceanus.svg)](http://hits.dwyl.io/TheGameFreak720/Oceanus)
+
 A public open-source API that delivers information of the creatures dwelling in the sea
 
 ## Getting Started
