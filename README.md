@@ -85,5 +85,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Thanks to [Lambda School](https://lambdaschool.com/?utm_medium=cpc&utm_source=google&utm_campaign=branded&utm_term=lambda%20school&gclid=CjwKCAjwm-fkBRBBEiwA966fZLQKD6-gkztYNzNLDK7_rjl-7T0nQxYkMO-VA4cduJJBklwUNgU91hoCXNsQAvD_BwE) for inspiration and allowing me to share my project with other students
