@@ -86,3 +86,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Hat tip to anyone whose code was used
 * Thanks to [Lambda School](https://lambdaschool.com/?utm_medium=cpc&utm_source=google&utm_campaign=branded&utm_term=lambda%20school&gclid=CjwKCAjwm-fkBRBBEiwA966fZLQKD6-gkztYNzNLDK7_rjl-7T0nQxYkMO-VA4cduJJBklwUNgU91hoCXNsQAvD_BwE) for inspiration and allowing me to share my project with other students
+* [Key to Nature](http://species-identification.org/index.php?groep=Animals&selectie=1&hoofdgroepen_pad=%2C1) for making their info public and letting me share it.
