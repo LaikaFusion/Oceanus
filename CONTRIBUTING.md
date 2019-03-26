@@ -16,6 +16,16 @@ Please note we have a code of conduct, please follow it in all your interactions
 4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
    do not have permission to do that, you may request the second reviewer to merge it for you.
 
+## Project Guidelines
+
+To ensure your pull request is accepted it needs to cover a certain criteria:
+
+1. The required schema needs to be present on each species added this includes adding it on the format is presented
+2. Follow the same code pattern as previous species [example](api/animals/brachiopods/index.js)
+3. When adding a species or subspecies it needs to be added to the [list](api/animals/animals.js)
+4. The same pattern goes for species and subspecies images in the public folder.
+5. Make changes to the [documentation](DOCUMENTATION.md) found in this project.
+
 ## Code of Conduct
 
 ### Our Pledge
