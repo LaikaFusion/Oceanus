@@ -44,7 +44,11 @@ BASE_ROUTE=http://localhost:3000
 
 ## Running the tests
 
-Coming soon...
+On the root of the project run the command
+
+```
+yarn test
+```
 
 ## Deployment
 
