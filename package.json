@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "description": "An API that recollects information of the creatures dwelling in the sea",
   "main": "app.js",
-  "license": "MIT",
   "scripts": {
     "server": "node app.js",
     "test-server": "nodemon",
-    "test": "jest --watch --verbose"
+    "test": "NODE_ENV=test jest --verbose --forceExit"
   },
   "author": "Luis Alvarez",
   "license": "MIT",
