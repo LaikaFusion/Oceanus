@@ -22,5 +22,11 @@ describe('Route Handlers', () => {
 
             expect(response.status).toBe(200);
         });
+
+        it('responds with an object', async () => {
+            const response = await request(app).get('/api/v1/animals/brachiopods');
+            
+            expect(typeof response.body).toBe('object');
+        });
     })
 });
