@@ -1,6 +1,6 @@
 {
   "name": "Oceanus",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An API that recollects information of the creatures dwelling in the sea",
   "main": "app.js",
   "license": "MIT",
