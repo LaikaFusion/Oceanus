@@ -2,10 +2,19 @@
 
 ## Endpoints 
 
-| Route                        | Description                        |
-| ---                          |---                                 |
-| /api/v1/animals              | Gets all animals                   |
-| /api/v1/animals/:species     | Gets all animals of a species      |
+| Route                                | Description                        |
+| ---                                  |---                                 |
+| /api/v1/animals                      | Gets all animals                   |
+| /api/v1/animals/:species             | Gets all animals of a species      |
+| /api/v1/animals/:species/:subspecies | Gets all subspecies of a species   |
+
+When making requests to species or subspecies use a camelCase format like so:
+
+```
+/api/v1/animals/crustaceans/crabsAndLobsters
+```
+
+camelCase format it has no spaces and each word after the first one is uppercase.
 
 ## Species List
 
