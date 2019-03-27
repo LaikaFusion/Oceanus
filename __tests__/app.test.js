@@ -28,5 +28,11 @@ describe('Route Handlers', () => {
             
             expect(typeof response.body).toBe('object');
         });
+
+        it(`responds with 404 if species doesn't exist`, async () => {
+            const response = await request(app).get('/api/v1/animals/foo');
+
+            expect(response.status).toBe(404);
+        });
     })
 });
