@@ -75,3 +75,5 @@ Schema of each animal. The ones required will always come up but the ones who ar
 * behavior
 * dangerous
 * juveniles
+* exploitation
+* confusedWith
