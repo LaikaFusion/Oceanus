@@ -44,6 +44,7 @@ List of current species incorporated on the API
     - Comb jellyfish
     - Jellyfish
 * Lancelets    
+* Reptiles
 
 ## Schema
 
