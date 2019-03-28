@@ -19,6 +19,7 @@ const boxJellyfishAndSeaWaspsList = require('./jellyfishAndRelatedSpecies/boxJel
 const combJellyfishList =  require('./jellyfishAndRelatedSpecies/combJellyfish/index');
 const jellyfishList = require('./jellyfishAndRelatedSpecies/jellyfish/index');
 const lanceletsList = require('./lancelets/index');
+const reptilesList = require('./reptiles/')
 
 const animals = {
         status: 'success',
@@ -149,7 +150,8 @@ const animals = {
         },
         reptiles: {
             id: 11,
-            speciesName: 'reptiles'
+            speciesName: 'reptiles',
+            animals: reptilesList
         },
         seaSpiders: {
             id: 12,
