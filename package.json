@@ -10,7 +10,6 @@
     "test": "jest --watch --verbose"
   },
   "author": "Luis Alvarez",
-  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^7.0.0",
