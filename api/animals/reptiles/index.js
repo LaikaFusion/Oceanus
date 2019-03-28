@@ -10,7 +10,7 @@ const animals = {
         distribution: `Once abundant in the Caribbean, but due to overharvesting quite rare.`,
         img: `${process.env.BASE_ROUTE}/img/reptiles/img/greenTurtle/green-turtle.jpg`
     },
-    greenTurtle: {
+    hawksbillTurtle: {
         id: 2,
         name: `Hawksbill turtle (Eretmochelys imbriocota)`,
         description: `Animal covered by a heavy shell that consists of an upper and lower part. Upper part with central, four costal and bordering plates. The first costal plate does not touch the nuchal. Shell yellow-brown with fan-like markings and overlapping plates. Rear border plates usually have a serrated edge. Head with an overhanging upper beak. One pair of plates between the eyes and three plates behind the eye.`,
