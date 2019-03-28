@@ -43,6 +43,7 @@ List of current species incorporated on the API
     - Box jellyfish and sea wasps
     - Comb jellyfish
     - Jellyfish
+* Lancelets    
 
 ## Schema
 
