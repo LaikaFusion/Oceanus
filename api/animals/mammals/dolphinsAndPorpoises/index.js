@@ -7,7 +7,8 @@ const animals = {
         size: `Adult size ranges to 2.3 m (females) or 2.8 m (males). Males can reach maximum weights of 160 kg. At birth, boto are about 80 cm long.`,
         distribution: `Boto are endemic to the Amazon and Orinoco drainage basins of South America. Their distribution extends to the upper reaches (impassible falls or rapids) of these rivers and their tributaries in Guyana, Colombia, Ecuador, Peru, and Bolivia, as well as the lower reaches in Brazil and Venezuela. They are found widely not only in the main river channels, but also in smaller tributaries, lakes, and (seasonally) the flooded forest.`,
         behavior: `Groups of up to 12 to 15 have been observed, but most boto are seen singly or in small groups. They generally move slowly, and surface at a shallow angle, showing the top of the head and the dorsal ridge. Their responses to humans can range from shyness to curiosity. In Brazil, births apparently occur in May to July, the season of peak flooding. These animals feed on a large variety of fishes, generally near the bottom. Some of their prey have hard outer shells, and dolphins have been observed breaking up their larger prey before swallowing. They sometimes feed in a coordinated manner, occasionally with Sotalia.`,
-        
+        exploitation: `Boto are threatened by various activities, among them are incidental catches in fisheries, damming of rivers associated with hydroelectric development, deforestation, and pollution from mercury mining operations. Significant numbers have been taken for the aquarium trade. Despite these problems, boto are still abundant in many parts of their range. Superstitions surrounding this species provide protection from hunting in many areas of its range.`,
+        img: `${process.env.BASE_ROUTE}/img/mammals/img/dolphinsAndPorpoises/AmazonRiverDolphin/amazon-river-dolphin.jpg`
     } 
 }
 
