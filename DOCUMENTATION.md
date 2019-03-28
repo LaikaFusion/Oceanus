@@ -48,7 +48,6 @@ List of current species incorporated on the API
 * Mammals
     - Dolphins and Porpoises
 
-
 ## Schema
 
 Schema of each animal. The ones required will always come up but the ones who aren't are optional.

@@ -25,6 +25,7 @@ To ensure your pull request is accepted it needs to cover a certain criteria:
 3. When adding a species or subspecies it needs to be added to the [list](api/animals/animals.js)
 4. The same pattern goes for species and subspecies images in the public folder.
 5. Make changes to the [documentation](DOCUMENTATION.md) found in this project when adding a new subspecies, species or a new item on the schema.
+6. When adding information unless the source is provided on the issue or you add extra info to a species add to the pull request description the URL of the source.
 
 ## Code of Conduct
 
